@@ -10,29 +10,59 @@ namespace CSharpClasses
 {
     internal class Student
     {
-        public string _firstName;
-        public string _lastName;
+        // auto-property : ფუნქცია
+        public string FirstName { get; set; }
 
-        /// <summary>
-        /// უნდა იყოს 18-დან 65 წლის ჩათვლით
-        /// </summary>
-        public uint _age;
+        public string LastName { get; set; }
 
-        /// <summary>
-        /// უნდა იყოს 0-დან 100-ის ჩათვლით
-        /// </summary>
-        public byte _score;
+        private uint _age;
+
+        //Full Property : ფუნქცია
+        public uint Age
+        {
+            get { return _age; }
+            set
+            {
+                if (value >= 18 && value <= 65)
+                {
+                    _age = value;
+                }
+            }
+        }
+
+        private byte _score;
+
+        //Full Property : ფუნქცია
+        public byte Score
+        {
+            get { return _score; }
+            set
+            {
+                if (value <= 100)
+                {
+                    _score = value;
+                }
+            }
+        }
+
+        // მეთოდი : ფუნქცია
+        public void Talk()
+        {
+            Console.WriteLine($"Hello, I am {FirstName} {LastName}. I am {Age} years old.");
+        }
     }
 
     internal class FileLogger
     {
         private string _fileName;
 
+        // კონსტრუქტორი : ფუნქცია
         public FileLogger(string fileName)
         {
             _fileName = fileName;
         }
 
+        // მეთოდი : ფუნქცია
         public void Log(string message)
         {
             File.AppendAllText(_fileName, message);
@@ -48,9 +78,16 @@ namespace CSharpClasses
             Student student = new Student();
             logger.Log("Student object created\n");
 
-            student._firstName = "Davit";
-            student._lastName = "Margvelashvili";
-            student._age = 26;
+            student.FirstName = "Davit";
+            student.LastName = "Margvelashvili";
+            student.Age = 26;
+            student.Age = 75;
+
+            uint studentAge = student.Age;
+
+            Console.WriteLine(student.Age);
+
+            student.Talk();
 
             logger.Log("Student object Initialized\n");
 
