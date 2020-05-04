@@ -20,9 +20,13 @@ namespace CSharpClasses
         //Full Property : ფუნქცია
         public uint Age
         {
+            // გამოიძახება მნიშნველობის ამოღების დროს
             get { return _age; }
+
+            // გამოიძახება მნიშნველობის მინიჟების დროს
             set
             {
+                // value ინახავს იმ მნიშვნელობას რომლის მინიჭებასაც ვცდილობთ
                 if (value >= 18 && value <= 65)
                 {
                     _age = value;
