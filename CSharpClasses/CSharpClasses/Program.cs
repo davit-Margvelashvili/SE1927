@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace CSharpClasses
 {
+    // https://www.w3schools.com/cs/cs_properties.asp
+    // https://www.c-sharpcorner.com/article/understanding-properties-in-C-Sharp/
+
     internal class Student
     {
         // auto-property : ფუნქცია
