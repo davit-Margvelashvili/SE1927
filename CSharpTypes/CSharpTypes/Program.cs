@@ -9,55 +9,59 @@ namespace CSharpTypes
     {
         private static void Main()
         {
-            Console.Write("Enter Number: ");
-            int number1 = int.Parse(Console.ReadLine());
+            string choice;
 
-            Console.Write("Enter Number: ");
-            int number2 = int.Parse(Console.ReadLine());
-
-            Console.Write("Choose Operation [+,-,*,/]: ");
-
-            string operation = Console.ReadLine();
-
-            Console.WriteLine(true);
-
-            if (operation == "+")
-                Console.WriteLine($"{number1} + {number2} = {number1 + number2}");
-            else if (operation == "-")
-                Console.WriteLine($"{number1} - {number2} = {number1 - number2}");
-            else if (operation == "*")
-                Console.WriteLine($"{number1} * {number2} = {number1 * number2}");
-            else if (operation == "/")
-                Console.WriteLine($"{number1} / {number2} = {number1 / number2}");
-            else
-                Console.WriteLine($"Invalid Operation '{operation}'");
-
-            switch (operation)
+            do
             {
-                case "+":
+                Console.Write("Enter Number: ");
+                int number1 = int.Parse(Console.ReadLine());
+
+                Console.Write("Enter Number: ");
+                int number2 = int.Parse(Console.ReadLine());
+
+                Console.Write("Choose Operation [+,-,*,/]: ");
+
+                string operation = Console.ReadLine();
+
+                Console.WriteLine(true);
+
+                if (operation == "+")
                     Console.WriteLine($"{number1} + {number2} = {number1 + number2}");
-                    break;
-
-                case "-":
+                else if (operation == "-")
                     Console.WriteLine($"{number1} - {number2} = {number1 - number2}");
-                    break;
-
-                case "*":
+                else if (operation == "*")
                     Console.WriteLine($"{number1} * {number2} = {number1 * number2}");
-                    break;
-
-                case "/":
+                else if (operation == "/")
                     Console.WriteLine($"{number1} / {number2} = {number1 / number2}");
-                    break;
-
-                default:
+                else
                     Console.WriteLine($"Invalid Operation '{operation}'");
-                    break;
-            }
 
-            // დავალება: გააკეთეთ კალკულატორი
+                switch (operation)
+                {
+                    case "+":
+                        Console.WriteLine($"{number1} + {number2} = {number1 + number2}");
+                        break;
 
-            Console.ReadLine();
+                    case "-":
+                        Console.WriteLine($"{number1} - {number2} = {number1 - number2}");
+                        break;
+
+                    case "*":
+                        Console.WriteLine($"{number1} * {number2} = {number1 * number2}");
+                        break;
+
+                    case "/":
+                        Console.WriteLine($"{number1} / {number2} = {number1 / number2}");
+                        break;
+
+                    default:
+                        Console.WriteLine($"Invalid Operation '{operation}'");
+                        break;
+                }
+
+                Console.Write("Try again? <y/n> ");
+                choice = Console.ReadLine();
+            } while (choice == "y" || choice == "Y");
         }
     }
 }
