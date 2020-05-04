@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -11,8 +12,16 @@ namespace CSharpClasses
     {
         public string _firstName;
         public string _lastName;
-        public int _age;
-        public int _score;
+
+        /// <summary>
+        /// უნდა იყოს 18-დან 65 წლის ჩათვლით
+        /// </summary>
+        public uint _age;
+
+        /// <summary>
+        /// უნდა იყოს 0-დან 100-ის ჩათვლით
+        /// </summary>
+        public byte _score;
     }
 
     internal class FileLogger
@@ -26,7 +35,7 @@ namespace CSharpClasses
 
         public void Log(string message)
         {
-            // write in file;
+            File.AppendAllText(_fileName, message);
         }
     }
 
@@ -34,15 +43,19 @@ namespace CSharpClasses
     {
         private static void Main(string[] args)
         {
+            FileLogger logger = new FileLogger("4.5.2020_log.txt");
+
             Student student = new Student();
+            logger.Log("Student object created\n");
+
             student._firstName = "Davit";
             student._lastName = "Margvelashvili";
             student._age = 26;
-            student._age = -26;
+            student._age =
 
-            FileLogger logger = new FileLogger("4/5/2020_log.txt");
+            logger.Log("Student object Initialized\n");
 
-            logger.Log("Student object created");
+            Console.ReadLine();
         }
     }
 }
