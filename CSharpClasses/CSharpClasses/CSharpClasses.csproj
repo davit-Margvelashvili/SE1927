@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{475ECD18-9EA5-435C-9AC2-42C3350F475B}</ProjectGuid>
+    <ProjectGuid>{5E474F9A-D734-4A5A-88E9-C4174A57FC1F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpTypes</RootNamespace>
-    <AssemblyName>CSharpTypes</AssemblyName>
+    <RootNamespace>CSharpClasses</RootNamespace>
+    <AssemblyName>CSharpClasses</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
