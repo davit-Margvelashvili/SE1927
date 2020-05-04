@@ -51,7 +51,6 @@ namespace CSharpClasses
             student._firstName = "Davit";
             student._lastName = "Margvelashvili";
             student._age = 26;
-            student._age =
 
             logger.Log("Student object Initialized\n");
 
