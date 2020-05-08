@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1FA43EA5-1688-4AAE-8AF2-99729DADDCEC}</ProjectGuid>
+    <ProjectGuid>{5913EE6A-1BA2-4DFD-AE06-9D52E543837A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CollectionsInCSharp</RootNamespace>
-    <AssemblyName>CollectionsInCSharp</AssemblyName>
+    <RootNamespace>Generics</RootNamespace>
+    <AssemblyName>Generics</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
