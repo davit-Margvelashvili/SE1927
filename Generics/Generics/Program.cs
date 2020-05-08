@@ -15,6 +15,10 @@ namespace Generics
         public int Score { get; set; }
     }
 
+    public delegate bool Predicate<T>(T arg);
+
+    internal delegate bool Predicate<T1, T2>(T1 x, T2 y);
+
     internal class StudentScoreComparer : IComparer<Student>
     {
         public int Compare(Student x, Student y)
@@ -32,7 +36,6 @@ namespace Generics
     }
 
     // დელეგატი არის ტიპი (ობიექტი) რომელსაც შეუძლია ფუნქციის დამახსოვრება
-    internal delegate bool Predicate<T>(T x, T y);
 
     internal class Program
     {
@@ -59,23 +62,57 @@ namespace Generics
 
             Student[] students =
             {
-                new Student {Score = 20,  Name = "Davit"},
                 new Student {Score = 10,  Name = "Gia"},
+                new Student {Score = 20,  Name = "Davit"},
                 new Student {Score = 30,  Name = "Avto"},
+                new Student {Score = 40,  Name = "Davit"},
                 new Student {Score = 15,  Name = "Malxazi"},
+                new Student {Score = 60,  Name = "Davit"},
             };
 
-            Sort(students, CompareName);
-            Sort(students, CompareScore);
-            Sort(students, CompareName2);
+            string name = Console.ReadLine();
 
-            Console.WriteLine(IndexOf(intNumbers, 7));
+            int index = FindIndex(students, s => s.Name == name);
+            index = FindIndex(students, s => s.Name == "Gio");
+            index = FindIndex(students, s => s.Name.StartsWith("Gi"));
+
+            Student student = Find(students, delegate (Student s) { return s.Name == "Davit"; });
+
+            //Predicate<Student> del = delegate (Student s) { return s.Name == "Davit"; };
+            //Predicate<Student> del =  (s) => { return s.Name == "Davit"; };
+            Predicate<Student> del = s => s.Name == "Davit";
+
+            //Sort(students, CompareName);
+            //Sort(students, CompareScore);
+            //Sort(students, CompareName2);
+
+            Student firtStudent = Array.Find(students, FindByName);
+            Student lastStudent = Array.FindLast(students, FindByName);
+            Student[] allStudents = Array.FindAll(students, FindByName);
+
+            int firstIndex = Array.FindIndex(students, FindByName);
+            int lastIndex = Array.FindLastIndex(students, FindByName);
+
+            Array.Sort(students, StudentCompare);
+
+            int number = 7;
+            Console.WriteLine(IndexOf(intNumbers, number));
 
             Console.WriteLine(IndexOf(intNumbers, 4));
 
             Console.WriteLine(IndexOf(doubleNumbers, 2.2));
 
             Console.ReadLine();
+        }
+
+        private static int StudentCompare(Student x, Student y)
+        {
+            return x.Name.CompareTo(y.Name);
+        }
+
+        private static bool FindByName(Student arg)
+        {
+            return arg.Name == "Davit";
         }
 
         private static int CompareDouble(double x, double y)
@@ -107,8 +144,33 @@ namespace Generics
 
         // დაწერეთ ძებნის ფუნქცია რომელიც პარამეტრად მიიღებს პრედიკატს (შერჩევის კრიტერიუმი) დაა დააბრუნებს
         // ნაპოვნი ობიექტის ინდესს
+        private static int FindIndex<T>(T[] collection, Predicate<T> predicate)
+        {
+            for (int i = 0; i < collection.Length; i++)
+            {
+                if (predicate(collection[i]))
+                {
+                    return i;
+                }
+            }
 
-        private static void Sort<T>(T[] collection, Predicate<T> comparer/*მჭირდება ობიექტი რომელსაც შეეძლება ფუნქციის დამარხსოვრება*/)
+            return -1;
+        }
+
+        private static T Find<T>(T[] collection, Predicate<T> predicate)
+        {
+            for (int i = 0; i < collection.Length; i++)
+            {
+                if (predicate(collection[i]))
+                {
+                    return collection[i];
+                }
+            }
+
+            return default;
+        }
+
+        private static void Sort<T>(T[] collection, Predicate<T, T> comparer/*მჭირდება ობიექტი რომელსაც შეეძლება ფუნქციის დამარხსოვრება*/)
         {
             for (int i = 0; i < collection.Length - 1; i++)
             {
