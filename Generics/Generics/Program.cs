@@ -3,10 +3,73 @@ using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Net.Mime;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+
+// delegate void Action();
+
+// delegate void Action<T>(T arg);
+
+// delegate void Action<T1, T2>(T1 arg1, T2 arg2);
+
+// delegate void Action<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3);
+
+// delegate TResult Func<TResult>();
+
+// delegate TResult Func<T, TResult>(T arg);
+
+// delegate TResult Func<T1, T2, TResult>(T1 arg1, T2 arg2);
+
+// delegate TResult Func<T1, T2, T3, TResult>(T1 arg1, T2 arg2, T3 arg3);
+
+internal class Vehicle
+{
+    public string Make { get; set; }
+    public string Model { get; set; }
+    public int Cylinders { get; set; }
+    public float Engine { get; set; }
+    public string Drive { get; set; }
+    public string Transmission { get; set; }
+    public int City { get; set; }
+    public int Combined { get; set; }
+    public int Highway { get; set; }
+
+    /// <summary>
+    /// Converts the string representation of a vehicle to Vehicle object
+    /// </summary>
+    /// <param name="s">A string containing a vehicle data to convert (make,model,cylinders,engine,drive,transmission,city,combined,highway)</param>
+    /// <returns></returns>
+    public static Vehicle Parse(string s)
+    {
+        // make,model,cylinders,engine,drive,trany,city,combined,highway
+        // Alfa Romeo, Spider Veloce 2000,4,2,Rear - Wheel Drive,Manual 5 - spd,19,21,25
+
+        string[] data = s.Split(',');
+
+        if (data.Length != 9)
+            throw new FormatException($"Invalid format string: {s}");
+
+        int idx = 0;
+        Vehicle newVehicle = new Vehicle
+        {
+            Make = data[idx++],
+            Model = data[idx++],
+            Cylinders = int.Parse(data[idx++]),
+            Engine = float.Parse(data[idx++]),
+            Drive = data[idx++],
+            Transmission = data[idx++],
+            City = int.Parse(data[idx++]),
+            Combined = int.Parse(data[idx++]),
+            Highway = int.Parse(data[idx]),
+        };
+
+        return newVehicle;
+    }
+}
+
+internal delegate bool Predicate<T>(T arg);
 
 namespace Generics
 {
@@ -16,8 +79,21 @@ namespace Generics
         {
             string[] data = File.ReadAllLines(@"..\..\vehicles.csv");
 
-            // data-ში მოთავსებულია მანქანების შესახებ მონაცემები ტექსტების სახით თქვენი მიზანია ეს მონაცემები აქციოთ ობიექტებად რომელსაც
+            Vehicle[] vehicles = Array.ConvertAll(data, Vehicle.Parse);
+
+            Vehicle[] BMWs = Array.FindAll(vehicles, v => v.Make.Contains("BMW"));
+
+            Vehicle[] fords = Array.FindAll(vehicles, v => v.Make.Contains("Ford"));
+            Vehicle[] mercedes = Array.FindAll(vehicles, v => v.Make.Contains("Mercedes"));
+
+            // input-ში მოთავსებულია მანქანების შესახებ მონაცემები ტექსტების სახით თქვენი მიზანია ეს მონაცემები აქციოთ ობიექტებად რომელსაც
             // დაამუშავებთ.
+
+            Array.Sort(vehicles, (x, y) => y.Combined.CompareTo(x.Combined));
+
+            Vehicle[] mostEfficient10 = new Vehicle[10];
+
+            Array.Copy(vehicles, mostEfficient10, mostEfficient10.Length);
 
             /*
              * 1. იპივეთ ყველა BMW
@@ -27,7 +103,40 @@ namespace Generics
              *
              */
 
+            Vehicle car = Vehicle.Parse("Alfa Romeo,Spider Veloce 2000,4,2,Rear-Wheel Drive,Manual 5-spd,19,21,25");
+
             Console.ReadLine();
+        }
+
+        private static int ConsumptionComparison(Vehicle x, Vehicle y)
+        {
+            return y.Combined.CompareTo(x.Combined);
+        }
+
+        // ზუსტად ესეთი ფუნქცია აქვს Array კლასს. Array.ConvertAll
+        private static TOutput[] ConvertAll<TInput, TOutput>(TInput[] input, Func<TInput, TOutput> converter)
+        {
+            TOutput[] output = new TOutput[input.Length];
+            for (int i = 0; i < input.Length; i++)
+            {
+                output[i] = converter(input[i]);
+            }
+
+            return output;
+        }
+
+        private void Sort<T>(T[] collection, Func<T, T, bool> comparer)
+        {
+            for (int i = 0; i < collection.Length - 1; i++)
+            {
+                for (int j = i + 1; j < collection.Length; j++)
+                {
+                    if (comparer(collection[i], collection[j]))
+                    {
+                        // Swap
+                    }
+                }
+            }
         }
     }
 }
