@@ -32,9 +32,20 @@ internal class Vehicle
     public float Engine { get; set; }
     public string Drive { get; set; }
     public string Transmission { get; set; }
-    public int City { get; set; }
-    public int Combined { get; set; }
-    public int Highway { get; set; }
+    public int CityMpg { get; set; }
+    public int CombinedMpg { get; set; }
+    public int HighwayMpg { get; set; }
+
+    public float CityKml => ConvertMpgToKml(CityMpg);
+
+    public float CombinedKml => ConvertMpgToKml(CombinedMpg);
+
+    public float HighwayKml => ConvertMpgToKml(HighwayMpg);
+
+    private static float ConvertMpgToKml(int consumption)
+    {
+        return (float)Math.Round(235.21f / consumption, 2);
+    }
 
     /// <summary>
     /// Converts the string representation of a vehicle to Vehicle object
@@ -60,16 +71,14 @@ internal class Vehicle
             Engine = float.Parse(data[idx++]),
             Drive = data[idx++],
             Transmission = data[idx++],
-            City = int.Parse(data[idx++]),
-            Combined = int.Parse(data[idx++]),
-            Highway = int.Parse(data[idx]),
+            CityMpg = int.Parse(data[idx++]),
+            CombinedMpg = int.Parse(data[idx++]),
+            HighwayMpg = int.Parse(data[idx]),
         };
 
         return newVehicle;
     }
 }
-
-internal delegate bool Predicate<T>(T arg);
 
 namespace Generics
 {
@@ -78,6 +87,8 @@ namespace Generics
         private static void Main()
         {
             string[] data = File.ReadAllLines(@"..\..\vehicles.csv");
+
+            // დავალება: რაც აქ გავაკეთეთ მასივის გამოყენებით გააკეთეთ List-ის გამოყენებით!!!!
 
             Vehicle[] vehicles = Array.ConvertAll(data, Vehicle.Parse);
 
@@ -89,7 +100,7 @@ namespace Generics
             // input-ში მოთავსებულია მანქანების შესახებ მონაცემები ტექსტების სახით თქვენი მიზანია ეს მონაცემები აქციოთ ობიექტებად რომელსაც
             // დაამუშავებთ.
 
-            Array.Sort(vehicles, (x, y) => y.Combined.CompareTo(x.Combined));
+            Array.Sort(vehicles, (x, y) => y.CombinedMpg.CompareTo(x.CombinedMpg));
 
             Vehicle[] mostEfficient10 = new Vehicle[10];
 
@@ -100,17 +111,20 @@ namespace Generics
              * 2. დაალაგეთ მანქანები წვის მიხედვით
              * 3. იპოვეთ 10 ყველაზე ეკონომიური მანქანა
              *
-             *
              */
 
+            Console.WriteLine();
+
             Vehicle car = Vehicle.Parse("Alfa Romeo,Spider Veloce 2000,4,2,Rear-Wheel Drive,Manual 5-spd,19,21,25");
+            Console.WriteLine($"MPG: City {car.CityMpg}, Combined {car.CombinedMpg}, Highway {car.HighwayMpg}");
+            Console.WriteLine($"Kml: City {car.CityKml}, Combined {car.CombinedKml}, Highway {car.HighwayKml}");
 
             Console.ReadLine();
         }
 
         private static int ConsumptionComparison(Vehicle x, Vehicle y)
         {
-            return y.Combined.CompareTo(x.Combined);
+            return y.CombinedMpg.CompareTo(x.CombinedMpg);
         }
 
         // ზუსტად ესეთი ფუნქცია აქვს Array კლასს. Array.ConvertAll
