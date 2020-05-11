@@ -1,4 +1,4 @@
-make,model,cylinders,engine,drive,trany,city,combined,highway
+make,model,cylinders,engine,drive,transmission,city,combined,highway
 Alfa Romeo,Spider Veloce 2000,4,2,Rear-Wheel Drive,Manual 5-spd,19,21,25
 Ferrari,Testarossa,12,4.9,Rear-Wheel Drive,Manual 5-spd,9,11,14
 Dodge,Charger,4,2.2,Front-Wheel Drive,Manual 5-spd,23,27,33
@@ -7137,8 +7137,6 @@ American Motors Corporation,Eagle 4DR Wagon,6,4.2,4-Wheel or All-Wheel Drive,Man
 Plymouth,Voyager/Grand Voyager 2WD,6,3.3,Front-Wheel Drive,Automatic 4-spd,16,19,23
 Dodge,Caravan/Grand Caravan 2WD,6,3.3,Front-Wheel Drive,Automatic 4-spd,16,19,23
 Chrysler,Town and Country/Voyager/Grand Voy. 2WD,6,3.3,Front-Wheel Drive,Automatic 4-spd,16,18,22
-Nissan,Altra EV,,,,,81,85,91
-Toyota,RAV4 EV,,,2-Wheel Drive,,81,72,64
 Acura,NSX,6,3,Rear-Wheel Drive,Automatic (S4),15,18,22
 Acura,NSX,6,3.2,Rear-Wheel Drive,Manual 6-spd,15,18,22
 Audi,TT Roadster,4,1.8,Front-Wheel Drive,Manual 5-spd,19,22,27
@@ -8142,11 +8140,7 @@ Mazda,B3000 (FFV) Ethanol 2WD,6,3,Rear-Wheel Drive,Automatic 5-spd,15,17,20
 Ford,Ranger 2WD FFV,6,3,Rear-Wheel Drive,Automatic 5-spd,15,17,20
 Chrysler,Town and Country/Voyager/Grand Voy. 2WD,6,3.3,Front-Wheel Drive,Automatic 4-spd,16,18,22
 Dodge,Caravan/Grand Caravan 2WD,6,3.3,Front-Wheel Drive,Automatic 4-spd,16,18,22
-Toyota,RAV4 EV,,,2-Wheel Drive,,81,72,64
-Ford,Th!nk,,,,,74,65,58
 Mazda,RX-7,2,1.3,Rear-Wheel Drive,Automatic 4-spd,15,18,22
-Ford,Explorer USPS Electric,,,2-Wheel Drive,,45,39,33
-Nissan,Hyper-Mini,,,,,84,75,66
 Acura,NSX,6,3,Rear-Wheel Drive,Automatic (S4),15,18,22
 Acura,NSX,6,3.2,Rear-Wheel Drive,Manual 6-spd,15,18,22
 Aston Martin,Vanquish,12,5.9,Rear-Wheel Drive,Automatic (S6),11,13,18
@@ -9211,8 +9205,6 @@ Ford,Ranger 2WD FFV,6,3,Rear-Wheel Drive,Automatic 5-spd,15,17,20
 Mazda,B3000 FFV 2WD,6,3,Rear-Wheel Drive,Automatic 5-spd,15,17,20
 Mercury,Mountaineer 2WD FFV,6,4,Rear-Wheel Drive,Automatic 5-spd,14,16,19
 Honda,Civic,4,1.3,Front-Wheel Drive,Manual 4-spd,31,34,39
-Toyota,RAV4 EV,,,2-Wheel Drive,,87,78,69
-Ford,Explorer USPS Electric,,,2-Wheel Drive,,45,39,33
 Acura,NSX,6,3,Rear-Wheel Drive,Automatic (S4),15,18,22
 Acura,NSX,6,3.2,Rear-Wheel Drive,Manual 6-spd,15,18,22
 BMW Alpina,Roadster V8,8,4.8,Rear-Wheel Drive,Automatic 5-spd,13,15,19
@@ -10328,7 +10320,6 @@ Honda,Civic CNG,4,1.7,Front-Wheel Drive,Automatic (variable gear ratios),26,28,3
 Ford,Crown Victoria CNG,8,4.6,Rear-Wheel Drive,Automatic 4-spd,12,14,17
 Ford,F150 Dual-fuel 2WD (CNG),8,5.4,Rear-Wheel Drive,Automatic 4-spd,11,13,15
 Ford,F150 Dual-fuel 4WD (CNG),8,5.4,4-Wheel or All-Wheel Drive,Automatic 4-spd,11,12,14
-Toyota,RAV4 EV,,,2-Wheel Drive,,87,78,69
 MINI,Cooper S,4,1.6,Front-Wheel Drive,Manual 6-spd,22,25,31
 MINI,Cooper,4,1.6,Front-Wheel Drive,Automatic (variable gear ratios),22,25,29
 MINI,Cooper,4,1.6,Front-Wheel Drive,Manual 5-spd,25,28,33
@@ -18216,719 +18207,83 @@ Volkswagen,Touareg,6,3,All-Wheel Drive,Automatic (S6),17,20,24
 BMW,335d,6,3,Rear-Wheel Drive,Automatic (S6),23,27,36
 BMW,X5 xDrive35d,6,3,All-Wheel Drive,Automatic (S6),19,22,26
 GMC,G15/25 Vandura 2WD,6,4.3,Rear-Wheel Drive,Manual 3-spd,14,15,17
-Alfa Romeo,Spider Veloce 2000,4,2,,Manual 5-spd,18,21,25
-Bertone,X1/9,4,1.5,,Manual 5-spd,20,22,26
-Chevrolet,Corvette,8,5.7,,Automatic 4-spd,13,15,20
-Chevrolet,Corvette,8,5.7,,Manual 4-spd,13,15,20
-Nissan,300ZX,6,3,,Automatic 4-spd,15,17,20
-Nissan,300ZX,6,3,,Automatic 4-spd,16,18,20
-Nissan,300ZX,6,3,,Manual 5-spd,16,18,22
-Nissan,300ZX,6,3,,Manual 5-spd,18,20,24
-Ford,EXP,4,1.6,,Automatic 3-spd,21,23,26
 GMC,G15/25 Vandura 2WD,6,4.3,Rear-Wheel Drive,Manual 3-spd,16,17,19
-Ford,EXP,4,1.6,,Manual 5-spd,21,24,29
-Ford,EXP,4,1.6,,Manual 5-spd,21,24,30
-Honda,Civic CRX,4,1.3,,Manual 5-spd,38,41,47
-Honda,Civic CRX,4,1.5,,Automatic 3-spd,25,27,30
-Honda,Civic CRX,4,1.5,,Manual 5-spd,28,30,35
-Kenyon Corporation Of America,Kenyon 5.0 Cabrio,8,5,,Automatic 3-spd,13,14,17
-Lamborghini,Countach Lp500s,12,4.8,,Manual 5-spd,10,11,13
-Lotus,Esprit,4,2.2,,Manual 5-spd,11,14,18
-Mazda,RX-7,2,1.1,,Automatic 4-spd,15,17,21
-Mazda,RX-7,2,1.1,,Manual 5-spd,15,17,21
 GMC,G15/25 Vandura 2WD,6,4.3,Rear-Wheel Drive,Manual 4-spd,15,16,18
-Mazda,RX-7,2,1.3,,Manual 5-spd,15,17,21
-Mercedes-Benz,380SL,8,3.8,,Automatic 4-spd,15,15,17
-Pininfarina,Spider,4,2,,Automatic 3-spd,18,19,21
-Pininfarina,Spider,4,2,,Manual 5-spd,20,22,26
-Pontiac,Fiero,4,2.5,,Automatic 3-spd,21,24,29
-Pontiac,Fiero,4,2.5,,Manual 4-spd,21,25,33
-Pontiac,Fiero,4,2.5,,Manual 4-spd,21,24,29
-Alfa Romeo,GT V6 2.5,6,2.5,,Manual 5-spd,17,20,24
-Avanti Motor Corporation,Avanti II,8,5,,Automatic 4-spd,14,16,21
-Maserati,Biturbo,6,2.5,,Manual 5-spd,12,14,18
 GMC,G15/25 Vandura 2WD,6,4.3,Rear-Wheel Drive,Manual 4-spd,15,17,20
-Porsche,911 SC,6,3.2,,Manual 5-spd,15,18,23
-Porsche,928 S,8,4.7,,Automatic 4-spd,14,15,18
-Porsche,928 S,8,4.7,,Manual 5-spd,13,15,20
-Porsche,944,4,2.5,,Automatic 3-spd,17,18,21
-Porsche,944,4,2.5,,Manual 5-spd,18,20,25
-Toyota,Starlet,4,1.3,,Manual 4-spd,32,34,38
-Toyota,Starlet,4,1.3,,Manual 5-spd,33,36,40
-Volkswagen,Rabbit Convertible,4,1.8,,Automatic 3-spd,20,21,23
-Volkswagen,Rabbit Convertible,4,1.8,,Manual 5-spd,21,23,26
-Aston Martin,Lagonda,8,5.3,,Automatic 3-spd,8,9,10
 Cadillac,Cimarron,4,2,Front-Wheel Drive,Automatic 3-spd,22,24,27
 GMC,G15/25 Vandura 2WD,8,5,Rear-Wheel Drive,Automatic 3-spd,14,15,17
-Aston Martin,Saloon/vantage/volante,8,5.3,,Automatic 3-spd,8,9,11
-Aston Martin,Saloon/vantage/volante,8,5.3,,Manual 5-spd,7,8,10
-Audi,Coupe GT,5,2.1,,Automatic 3-spd,15,17,20
-Audi,Coupe GT,5,2.1,,Manual 5-spd,18,20,24
-Audi,Coupe GT,5,2.2,,Automatic 3-spd,16,18,21
-Audi,Coupe GT,5,2.2,,Manual 5-spd,17,19,23
-Audi,Quattro,5,2.1,,Manual 5-spd,14,16,20
-Audi,4000,4,1.8,,Automatic 3-spd,19,21,24
-Audi,4000,4,1.8,,Manual 5-spd,21,24,29
-Audi,4000 S quattro,5,2.2,,Manual 5-spd,16,18,20
 GMC,G15/25 Vandura 2WD,8,5,Rear-Wheel Drive,Automatic 4-spd,14,15,17
-BMW,3 Series,4,1.8,,Automatic 3-spd,21,23,24
-BMW,3 Series,4,1.8,,Manual 5-spd,21,24,27
-BMW,3 Series,6,2.7,,Automatic 4-spd,18,20,25
-BMW,3 Series,6,2.7,,Manual 5-spd,18,21,26
-BMW,6 Series,6,3.2,,Automatic 4-spd,15,18,22
-Chevrolet,Camaro,4,2.5,,Automatic 4-spd,19,22,27
-Chevrolet,Camaro,4,2.5,,Manual 4-spd,19,22,26
-Chevrolet,Camaro,4,2.5,,Manual 5-spd,18,22,29
-Chevrolet,Camaro,6,2.8,,Automatic 4-spd,16,19,24
-Chevrolet,Camaro,6,2.8,,Manual 5-spd,16,18,22
 GMC,G15/25 Vandura 2WD,8,5,Rear-Wheel Drive,Automatic 4-spd,14,15,18
-Chevrolet,Camaro,8,5,,Automatic 4-spd,15,17,21
-Chevrolet,Camaro,8,5,,Manual 5-spd,13,15,20
-Chevrolet,Cavalier Convertible,4,2,,Automatic 3-spd,18,21,26
-Chevrolet,Cavalier Convertible,4,2,,Manual 4-spd,22,25,29
-Chevrolet,Cavalier Convertible,4,2,,Manual 5-spd,21,25,31
-Chevrolet,Chevette,4,1.6,,Automatic 3-spd,23,26,30
-Chevrolet,Chevette,4,1.6,,Manual 4-spd,24,27,31
-Chevrolet,Chevette,4,1.6,,Manual 5-spd,24,27,33
-Chevrolet,Chevette,4,1.8,,Automatic 3-spd,28,30,33
-Chevrolet,Chevette,4,1.8,,Manual 5-spd,33,36,42
 GMC,G15/25 Vandura 2WD,8,5,Rear-Wheel Drive,Manual 3-spd,14,15,17
-Chrysler,Laser/Daytona,4,2.2,,Automatic 3-spd,20,22,25
-Chrysler,Laser/Daytona,4,2.2,,Automatic 3-spd,18,19,22
-Chrysler,Laser/Daytona,4,2.2,,Manual 5-spd,19,22,29
-Chrysler,Laser/Daytona,4,2.2,,Manual 5-spd,18,20,25
-Chrysler,LeBaron Convertible,4,2.2,,Automatic 3-spd,19,21,24
-Chrysler,LeBaron Convertible,4,2.2,,Automatic 3-spd,20,22,25
-Chrysler,LeBaron Convertible,4,2.2,,Automatic 3-spd,18,19,22
-Chrysler,LeBaron Convertible,4,2.6,,Automatic 3-spd,18,20,22
-Nissan,Maxima,6,2.4,,Automatic 4-spd,18,21,24
-Nissan,Maxima,6,2.4,,Manual 5-spd,18,21,26
 GMC,G15/25 Vandura 2WD,8,5,Rear-Wheel Drive,Manual 4-spd,14,15,17
-Nissan,Pulsar/Pulsar-NX,4,1.6,,Automatic 3-spd,23,25,28
-Nissan,Pulsar/Pulsar-NX,4,1.6,,Manual 5-spd,27,30,35
-Nissan,Sentra,4,1.6,,Automatic 3-spd,23,25,28
-Nissan,Sentra,4,1.6,,Manual 5-spd,27,30,35
-Nissan,Sentra,4,1.7,,Automatic 3-spd,29,30,31
-Nissan,Sentra,4,1.7,,Manual 4-spd,37,41,46
-Nissan,Sentra,4,1.7,,Manual 5-spd,33,36,41
-Nissan,200SX,4,1.8,,Automatic 4-spd,19,21,24
-Nissan,200SX,4,1.8,,Manual 5-spd,20,22,26
-Nissan,200SX,4,2,,Automatic 4-spd,21,24,29
 GMC,G15/25 Vandura 2WD,8,6.2,Rear-Wheel Drive,Automatic 4-spd,17,19,22
-Nissan,200SX,4,2,,Manual 5-spd,22,25,29
-Nissan,300ZX 2x2,6,3,,Automatic 4-spd,15,17,20
-Nissan,300ZX 2x2,6,3,,Automatic 4-spd,15,17,20
-Nissan,300ZX 2x2,6,3,,Manual 5-spd,16,18,22
-Nissan,300ZX 2x2,6,3,,Manual 5-spd,17,19,24
-Dodge,Charger,4,1.6,,Manual 4-spd,26,30,35
-Dodge,Charger,4,2.2,,Automatic 3-spd,21,23,26
-Dodge,Charger,4,2.2,,Manual 5-spd,21,24,29
-Dodge,Colt,4,1.4,,Manual 4-spd,31,34,37
-Dodge,Colt,4,1.4,,Manual 4-spd Doubled,28,31,34
 GMC,G15/25 Vandura 2WD,8,6.2,Rear-Wheel Drive,Manual 4-spd,18,19,22
-Dodge,Colt,4,1.6,,Automatic 3-spd,24,26,29
-Dodge,Colt,4,1.6,,Manual 4-spd Doubled,23,25,28
-Dodge,Conquest,4,2.6,,Automatic 4-spd,17,19,23
-Dodge,Conquest,4,2.6,,Automatic 4-spd,17,19,23
-Dodge,Conquest,4,2.6,,Manual 5-spd,17,19,22
-Dodge,Conquest,4,2.6,,Manual 5-spd,17,19,22
-Dodge,Daytona,4,2.2,,Automatic 3-spd,20,22,25
-Dodge,Daytona,4,2.2,,Automatic 3-spd,18,19,22
-Dodge,Daytona,4,2.2,,Manual 5-spd,19,23,31
-Dodge,Daytona,4,2.2,,Manual 5-spd,18,20,25
 GMC,G35 Vandura 2WD,6,4.3,Rear-Wheel Drive,Automatic 4-spd,15,16,17
-Dodge,600 Convertible,4,2.2,,Automatic 3-spd,19,21,24
-Dodge,600 Convertible,4,2.2,,Automatic 3-spd,20,22,25
-Dodge,600 Convertible,4,2.2,,Automatic 3-spd,18,19,22
-Dodge,600 Convertible,4,2.6,,Automatic 3-spd,18,20,22
-Ford,Laser,4,1.5,,Automatic 3-spd,24,26,28
-Ford,Laser,4,1.5,,Manual 4-spd,26,27,29
-Ford,Mustang,4,2.3,,Automatic 3-spd,18,20,22
-Ford,Mustang,4,2.3,,Manual 4-spd,19,22,26
-Ford,Mustang,4,2.3,,Manual 5-spd,17,19,24
-Ford,Mustang,6,3.8,,Automatic 3-spd,17,18,20
 GMC,G35 Vandura 2WD,6,4.3,Rear-Wheel Drive,Manual 3-spd,14,15,17
-Ford,Mustang,8,5,,Manual 5-spd,13,16,21
-Ford,Mustang,8,5,,Automatic 4-spd,15,17,22
-Honda,Accord,4,1.8,,Automatic 4-spd,23,25,29
-Honda,Accord,4,1.8,,Manual 5-spd,25,28,32
-Honda,Civic,4,1.3,,Manual 4-spd,32,35,39
-Honda,Civic,4,1.5,,Automatic 3-spd,23,25,26
-Honda,Civic,4,1.5,,Manual 5-spd,27,29,32
-Honda,Prelude,4,1.8,,Automatic 4-spd,21,23,27
-Honda,Prelude,4,1.8,,Manual 5-spd,21,24,29
-Isuzu,I-Mark,4,1.8,,Automatic 3-spd,21,22,23
 GMC,Safari 2WD (cargo),4,2.5,Rear-Wheel Drive,Automatic 4-spd,18,20,24
-Isuzu,I-Mark,4,1.8,,Manual 5-spd,21,23,26
-Isuzu,I-Mark,4,1.8,,Automatic 3-spd,26,27,28
-Isuzu,I-Mark,4,1.8,,Manual 4-spd,33,35,38
-Isuzu,I-Mark,4,1.8,,Manual 5-spd,30,32,35
-Isuzu,Impulse,4,2,,Automatic 4-spd,19,21,23
-Isuzu,Impulse,4,2,,Manual 5-spd,19,22,26
-Jaguar,XJS,12,5.3,,Automatic 3-spd,11,13,16
-Jaguar,XJ,6,4.2,,Automatic 3-spd,14,15,17
-Mercury,Capri,4,2.3,,Automatic 3-spd,18,20,22
-Mercury,Capri,4,2.3,,Manual 4-spd,19,22,26
 Cadillac,Cimarron,4,2,Front-Wheel Drive,Manual 5-spd,21,24,30
 GMC,Safari 2WD (cargo),4,2.5,Rear-Wheel Drive,Manual 4-spd,18,20,24
-Mercury,Capri,4,2.3,,Manual 5-spd,17,19,24
-Mercury,Capri,6,3.8,,Automatic 3-spd,18,19,20
-Mercury,Capri,8,5,,Manual 5-spd,13,16,21
-Mercury,Capri,8,5,,Automatic 4-spd,15,17,22
-Mazda,GLC,4,1.5,,Automatic 3-spd,24,26,28
-Mazda,GLC,4,1.5,,Manual 4-spd,26,27,29
-Mazda,GLC,4,1.5,,Manual 5-spd,27,30,35
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.2,,Automatic 4-spd,27,29,31
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.2,,Automatic 4-spd,26,28,30
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.2,,Manual 5-spd,26,30,35
 GMC,Safari 2WD (cargo),4,2.5,Rear-Wheel Drive,Manual 5-spd,20,22,26
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.2,,Manual 5-spd,27,30,36
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.3,,Automatic 4-spd,18,20,22
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.3,,Manual 5-spd,18,21,26
-Mitsubishi,Cordia,4,1.8,,Manual 5-spd,20,23,27
-Mitsubishi,Cordia,4,2,,Automatic 3-spd,22,23,25
-Mitsubishi,Cordia,4,2,,Manual 5-spd,23,25,30
-Mitsubishi,Precis,4,1.4,,Manual 4-spd,31,34,37
-Mitsubishi,Precis,4,1.4,,Manual 4-spd Doubled,28,31,34
-Mitsubishi,Precis,4,1.6,,Automatic 3-spd,24,26,29
-Mitsubishi,Precis,4,1.6,,Manual 4-spd Doubled,23,25,28
 GMC,Safari 2WD (cargo),6,4.3,Rear-Wheel Drive,Automatic 4-spd,15,17,20
-Mitsubishi,Starion,4,2.6,,Automatic 4-spd,17,19,23
-Mitsubishi,Starion,4,2.6,,Automatic 4-spd,17,19,23
-Mitsubishi,Starion,4,2.6,,Manual 5-spd,17,19,22
-Mitsubishi,Starion,4,2.6,,Manual 5-spd,17,19,22
-Mitsubishi,Tredia,4,1.8,,Manual 5-spd,20,23,27
-Mitsubishi,Tredia,4,2,,Automatic 3-spd,22,23,25
-Mitsubishi,Tredia,4,2,,Manual 4-spd Doubled,23,25,27
-Mitsubishi,Tredia,4,2,,Manual 5-spd,23,26,31
-Plymouth,Colt,4,1.4,,Manual 4-spd,31,34,37
-Plymouth,Colt,4,1.4,,Manual 4-spd Doubled,28,31,34
 GMC,Safari 2WD (cargo),6,4.3,Rear-Wheel Drive,Manual 4-spd,16,18,20
-Plymouth,Colt,4,1.6,,Automatic 3-spd,24,26,29
-Plymouth,Colt,4,1.6,,Manual 4-spd Doubled,23,25,28
-Plymouth,Conquest,4,2.6,,Automatic 4-spd,17,19,23
-Plymouth,Conquest,4,2.6,,Automatic 4-spd,17,19,23
-Plymouth,Conquest,4,2.6,,Manual 5-spd,17,19,22
-Plymouth,Conquest,4,2.6,,Manual 5-spd,17,19,22
-Plymouth,Turismo,4,1.6,,Manual 4-spd,26,30,35
-Plymouth,Turismo,4,2.2,,Automatic 3-spd,21,23,26
-Plymouth,Turismo,4,2.2,,Manual 5-spd,21,25,31
-Pontiac,Firebird,4,2.5,,Automatic 4-spd,19,22,27
 GMC,Safari 2WD (cargo),6,4.3,Rear-Wheel Drive,Manual 5-spd,16,18,22
-Pontiac,Firebird,4,2.5,,Manual 4-spd,19,21,25
-Pontiac,Firebird,4,2.5,,Manual 5-spd,20,23,29
-Pontiac,Firebird,6,2.8,,Automatic 4-spd,16,19,24
-Pontiac,Firebird,6,2.8,,Manual 5-spd,16,18,22
-Pontiac,Firebird,8,5,,Automatic 4-spd,15,17,21
-Pontiac,Firebird,8,5,,Manual 5-spd,13,15,20
-Pontiac,1000,4,1.6,,Automatic 3-spd,23,26,30
-Pontiac,1000,4,1.6,,Manual 4-spd,24,27,31
-Pontiac,1000,4,1.6,,Manual 5-spd,24,27,33
-Pontiac,1000,4,1.8,,Automatic 3-spd,28,30,33
 Toyota,Cargo Van 2WD,4,2.2,Rear-Wheel Drive,Automatic 4-spd,19,20,22
-Pontiac,1000,4,1.8,,Manual 5-spd,33,36,42
-Pontiac,2000 Sunbird Convertible,4,1.8,,Automatic 3-spd,21,24,29
-Pontiac,2000 Sunbird Convertible,4,1.8,,Automatic 3-spd,18,20,24
-Pontiac,2000 Sunbird Convertible,4,1.8,,Manual 4-spd,19,22,26
-Pontiac,2000 Sunbird Convertible,4,1.8,,Manual 5-spd,23,26,33
-Renault,Fuego,4,1.6,,Manual 5-spd,21,24,29
-Renault,Fuego,4,2.2,,Automatic 3-spd,18,19,22
-Renault,Fuego,4,2.2,,Manual 5-spd,20,23,28
-Renault,18i,4,2.2,,Automatic 3-spd,18,19,22
-Renault,18i,4,2.2,,Manual 5-spd,20,23,28
 Toyota,Cargo Van 2WD,4,2.2,Rear-Wheel Drive,Manual 5-spd,19,20,22
-Rolls-Royce,Corniche,8,6.8,,Automatic 3-spd,7,8,10
-Subaru,Sedan,4,1.6,,Manual 4-spd,26,29,33
-Subaru,Sedan,4,1.6,,Manual 5-spd,25,28,33
-Subaru,Sedan,4,1.8,,Automatic 3-spd,21,23,25
-Subaru,Sedan,4,1.8,,Manual 5-spd,23,26,31
-Subaru,Sedan,4,1.8,,Automatic 3-spd,21,23,25
-Subaru,Sedan,4,1.8,,Manual 5-spd,23,26,31
-Toyota,Celica,4,2.4,,Automatic 4-spd,20,22,24
-Toyota,Celica,4,2.4,,Manual 5-spd,21,23,26
-Toyota,Celica Supra,6,2.8,,Automatic 4-spd,18,19,22
 Chevrolet,Astro 2WD (passenger),4,2.5,Rear-Wheel Drive,Automatic 4-spd,18,20,24
-Toyota,Celica Supra,6,2.8,,Manual 5-spd,17,18,21
-Toyota,Corolla Sport,4,1.6,,Automatic 4-spd,23,26,31
-Toyota,Corolla Sport,4,1.6,,Manual 5-spd,25,27,31
-Toyota,Cressida,6,2.8,,Automatic 4-spd,18,19,22
-Toyota,Cressida,6,2.8,,Manual 5-spd,17,18,21
-Toyota,Tercel,4,1.5,,Automatic 3-spd,26,27,30
-Toyota,Tercel,4,1.5,,Manual 4-spd,30,32,35
-Toyota,Tercel,4,1.5,,Manual 5-spd,26,29,34
-Volkswagen,Jetta,4,1.6,,Manual 5-spd,33,35,37
-Volkswagen,Jetta,4,1.6,,Manual 5-spd,31,34,38
 Chevrolet,Astro 2WD (passenger),4,2.5,Rear-Wheel Drive,Manual 4-spd,18,20,24
-Volkswagen,Jetta,4,1.7,,Automatic 3-spd,20,21,24
-Volkswagen,Jetta,4,1.7,,Automatic 3-spd,20,21,24
-Volkswagen,Jetta,4,1.7,,Manual 5-spd,23,26,30
-Volkswagen,Jetta,4,1.7,,Manual 5-spd,23,25,30
-Volkswagen,Jetta,4,1.8,,Manual 5-spd,21,23,26
-Volkswagen,Rabbit,4,1.6,,Automatic 3-spd,27,29,31
-Volkswagen,Rabbit,4,1.6,,Manual 4-spd,35,38,43
-Volkswagen,Rabbit,4,1.6,,Manual 5-spd,33,36,40
-Volkswagen,Rabbit,4,1.7,,Manual 4-spd,24,27,32
-Volkswagen,Rabbit,4,1.7,,Manual 4-spd,23,27,32
 Chevrolet,Astro 2WD (passenger),4,2.5,Rear-Wheel Drive,Manual 5-spd,20,22,26
-Volkswagen,Rabbit,4,1.7,,Automatic 3-spd,21,22,24
-Volkswagen,Rabbit,4,1.7,,Automatic 3-spd,21,22,24
-Volkswagen,Rabbit,4,1.7,,Manual 5-spd,24,27,31
-Volkswagen,Rabbit,4,1.7,,Manual 5-spd,23,26,31
-Volkswagen,Rabbit,4,1.8,,Manual 5-spd,21,23,26
-Volkswagen,Scirocco,4,1.8,,Automatic 3-spd,20,21,23
-Volkswagen,Scirocco,4,1.8,,Manual 5-spd,21,23,26
-BMW,5 Series,6,2.7,,Automatic 4-spd,18,20,24
-BMW,5 Series,6,3.2,,Automatic 4-spd,15,18,22
-BMW,7 Series,6,3.2,,Automatic 4-spd,15,18,22
 Cadillac,Cimarron,6,2.8,Front-Wheel Drive,Automatic 3-spd,18,20,24
 Chevrolet,Astro 2WD (passenger),6,4.3,Rear-Wheel Drive,Automatic 4-spd,15,17,20
-Buick,Riviera Convertible,6,3.8,,Automatic 4-spd,13,15,20
-Buick,Riviera Convertible,6,4.1,,Automatic 4-spd,13,15,20
-Buick,Riviera Convertible,8,5,,Automatic 4-spd,14,16,20
-Buick,Skyhawk,4,1.8,,Automatic 3-spd,21,24,29
-Buick,Skyhawk,4,1.8,,Automatic 3-spd,18,20,24
-Buick,Skyhawk,4,1.8,,Manual 4-spd,19,22,26
-Buick,Skyhawk,4,1.8,,Manual 5-spd,23,26,33
-Buick,Skyhawk,4,2,,Automatic 3-spd,22,25,29
-Buick,Skyhawk,4,2,,Manual 4-spd,22,25,29
-Buick,Skylark,4,2.5,,Automatic 3-spd,20,23,28
 Chevrolet,Astro 2WD (passenger),6,4.3,Rear-Wheel Drive,Manual 4-spd,15,17,19
-Buick,Skylark,4,2.5,,Manual 4-spd,20,23,29
-Buick,Skylark,6,2.8,,Automatic 3-spd,17,19,24
-Buick,Skylark,6,2.8,,Manual 4-spd,17,19,24
-Cadillac,Cimarron,4,2,,Automatic 3-spd,18,21,26
-Cadillac,Cimarron,4,2,,Manual 5-spd,21,25,31
-Cadillac,Eldorado Convertible,8,4.1,,Automatic 4-spd,14,16,20
-Chevrolet,Cavalier,4,2,,Automatic 3-spd,22,25,29
-Chevrolet,Cavalier,4,2,,Manual 4-spd,22,25,29
-Chevrolet,Cavalier,4,2,,Manual 4-spd,23,27,33
-Chevrolet,Cavalier,4,2,,Manual 5-spd,21,25,31
 Chevrolet,Astro 2WD (passenger),6,4.3,Rear-Wheel Drive,Manual 5-spd,15,17,21
-Bill Dovell Motor Car Company,Dovell 230CE,4,2.3,,Automatic 4-spd,17,18,19
-Bill Dovell Motor Car Company,Dovell 230E,4,2.3,,Automatic 4-spd,17,18,19
-Nissan,Stanza,4,2,,Automatic 3-spd,21,23,25
-Nissan,Stanza,4,2,,Manual 5-spd,24,27,31
-Dodge,Omni,4,1.6,,Manual 4-spd,26,30,35
-Dodge,Omni,4,2.2,,Automatic 3-spd,21,23,26
-Dodge,Omni,4,2.2,,Manual 5-spd,22,26,32
-Ford,Escort,4,1.6,,Automatic 3-spd,21,23,26
-Ford,Escort,4,1.6,,Manual 4-spd,28,32,39
-Ford,Escort,4,1.6,,Manual 4-spd,23,26,31
 Chevrolet,G10/20 Sport Van 2WD,6,4.3,Rear-Wheel Drive,Automatic 3-spd,14,15,16
-Ford,Escort,4,1.6,,Manual 5-spd,21,24,29
-Ford,Escort,4,1.6,,Automatic 3-spd,21,24,27
-Ford,Escort,4,1.6,,Manual 5-spd,22,25,30
-Ford,Escort,4,1.6,,Manual 5-spd,21,24,30
-Ford,Escort,4,2,,Manual 5-spd,35,39,47
-Ford,Escort,4,2,,Manual 5-spd,31,34,39
-Ford,Tempo,4,2,,Manual 5-spd,31,34,39
-Ford,Tempo,4,2.3,,Automatic 3-spd,21,23,26
-Ford,Tempo,4,2.3,,Automatic 3-spd,20,22,24
-Ford,Tempo,4,2.3,,Manual 5-spd,21,24,29
 Chevrolet,G10/20 Sport Van 2WD,6,4.3,Rear-Wheel Drive,Automatic 4-spd,15,16,17
-Ford,Thunderbird,4,2.3,,Automatic 3-spd,16,18,20
-Ford,Thunderbird,4,2.3,,Manual 5-spd,17,19,24
-Ford,Thunderbird,6,3.8,,Automatic 3-spd,16,17,20
-Ford,Thunderbird,6,3.8,,Automatic 4-spd,17,19,23
-Ford,Thunderbird,8,5,,Automatic 4-spd,15,17,22
-Kenyon Corporation Of America,Kenyon 5.0 Coupe,8,5,,Automatic 3-spd,13,14,17
-Kenyon Corporation Of America,Kenyon 5.0 Sp Sedan,8,5,,Automatic 3-spd,13,14,17
-Mercury,Cougar,4,2.3,,Automatic 3-spd,16,18,20
-Mercury,Cougar,4,2.3,,Manual 5-spd,17,19,24
-Mercury,Cougar,6,3.8,,Automatic 3-spd,16,17,20
 Chevrolet,G10/20 Sport Van 2WD,6,4.3,Rear-Wheel Drive,Automatic 4-spd,14,15,16
-Mercury,Cougar,6,3.8,,Automatic 4-spd,17,19,23
-Mercury,Cougar,8,5,,Automatic 4-spd,15,17,22
-Mercury,Lynx,4,1.6,,Automatic 3-spd,21,23,26
-Mercury,Lynx,4,1.6,,Manual 4-spd,28,32,39
-Mercury,Lynx,4,1.6,,Manual 4-spd,23,27,32
-Mercury,Lynx,4,1.6,,Manual 5-spd,21,24,29
-Mercury,Lynx,4,1.6,,Automatic 3-spd,21,24,27
-Mercury,Lynx,4,1.6,,Manual 5-spd,22,25,30
-Mercury,Lynx,4,1.6,,Manual 5-spd,21,24,30
-Mercury,Lynx,4,2,,Manual 5-spd,35,39,47
 Chevrolet,G10/20 Sport Van 2WD,6,4.3,Rear-Wheel Drive,Manual 3-spd,14,15,17
-Mercury,Lynx,4,2,,Manual 5-spd,31,34,39
-Mercury,Topaz,4,2,,Manual 5-spd,31,34,39
-Mercury,Topaz,4,2.3,,Automatic 3-spd,21,22,25
-Mercury,Topaz,4,2.3,,Automatic 3-spd,20,22,24
-Mercury,Topaz,4,2.3,,Manual 5-spd,21,24,29
-Mazda,626,4,2,,Automatic 3-spd,21,23,26
-Mazda,626,4,2,,Manual 5-spd,23,25,29
-Mazda,626,4,2,,Manual 5-spd,31,33,38
-Mercedes-Benz,300D/300CD,5,3,,Automatic 4-spd,21,22,23
-Mercedes-Benz,300D/300CD,5,3,,Automatic 4-spd,21,22,24
 Chevrolet,G10/20 Sport Van 2WD,6,4.3,Rear-Wheel Drive,Manual 3-spd,13,14,15
-Mercedes-Benz,300SD/380SE,5,3,,Automatic 4-spd,21,22,24
-Mercedes-Benz,300SD/380SE,5,3,,Automatic 4-spd,21,22,23
-Mercedes-Benz,300SD/380SE,8,3.8,,Automatic 4-spd,15,15,17
-Mercedes-Benz,500SEC,8,5,,Automatic 4-spd,12,13,15
-Oldsmobile,Firenza,4,1.8,,Automatic 3-spd,21,24,29
-Oldsmobile,Firenza,4,1.8,,Manual 5-spd,23,26,33
-Oldsmobile,Firenza,4,2,,Automatic 3-spd,22,25,29
-Oldsmobile,Firenza,4,2,,Manual 4-spd,22,25,29
-Oldsmobile,Firenza,4,2,,Manual 5-spd,21,25,31
-Oldsmobile,Omega,4,2.5,,Automatic 3-spd,20,23,28
 Chevrolet,G10/20 Sport Van 2WD,8,5,Rear-Wheel Drive,Automatic 3-spd,11,12,12
-Oldsmobile,Omega,4,2.5,,Manual 4-spd,21,24,30
-Oldsmobile,Omega,6,2.8,,Automatic 3-spd,17,19,24
-Oldsmobile,Omega,6,2.8,,Manual 4-spd,17,19,24
-Peugeot,505 Sedan,4,2,,Automatic 3-spd,17,17,18
-Peugeot,505 Sedan,4,2,,Manual 5-spd,18,19,22
-Peugeot,505 Sedan,4,2.3,,Automatic 3-spd,21,22,22
-Peugeot,505 Sedan,4,2.3,,Automatic 3-spd,21,22,23
-Peugeot,505 Sedan,4,2.3,,Manual 5-spd,23,25,27
-Peugeot,505 Sedan,4,2.3,,Manual 5-spd,22,24,26
-Peugeot,604 Sedan,4,2.3,,Automatic 3-spd,21,22,23
 Chevrolet,G10/20 Sport Van 2WD,8,5,Rear-Wheel Drive,Automatic 4-spd,12,14,16
-Peugeot,604 Sedan,4,2.3,,Manual 5-spd,22,24,26
-Plymouth,Horizon,4,1.6,,Manual 4-spd,26,30,35
-Plymouth,Horizon,4,2.2,,Automatic 3-spd,21,23,26
-Plymouth,Horizon,4,2.2,,Manual 5-spd,22,26,32
-Pontiac,2000 Sunbird,4,1.8,,Automatic 3-spd,21,24,29
-Pontiac,2000 Sunbird,4,1.8,,Automatic 3-spd,18,20,24
-Pontiac,2000 Sunbird,4,1.8,,Manual 4-spd,19,22,26
-Pontiac,2000 Sunbird,4,1.8,,Manual 5-spd,23,26,33
-Pontiac,2000 Sunbird,4,1.8,,Manual 5-spd,25,29,37
-Pontiac,2000 Sunbird,4,2,,Manual 4-spd,22,25,29
 Cadillac,Cimarron,6,2.8,Front-Wheel Drive,Manual 4-spd,16,18,22
 Chevrolet,G10/20 Sport Van 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,13,15
-Renault,Alliance/Encore,4,1.4,,Automatic 3-spd,22,24,26
-Renault,Alliance/Encore,4,1.4,,Manual 4-spd,29,32,37
-Renault,Alliance/Encore,4,1.4,,Manual 5-spd,26,29,34
-Rolls-Royce,Camargue,8,6.8,,Automatic 3-spd,7,8,10
-Saab,900,4,2,,Automatic 3-spd,17,18,21
-Saab,900,4,2,,Automatic 3-spd,16,18,20
-Saab,900,4,2,,Manual 5-spd,18,21,26
-Saab,900,4,2,,Manual 5-spd,17,20,24
-Toyota,Camry,4,1.8,,Manual 5-spd,29,32,37
-Toyota,Camry,4,2,,Automatic 4-spd,23,26,29
 Chevrolet,G10/20 Sport Van 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,13,16
-Toyota,Camry,4,2,,Manual 5-spd,25,27,31
-Toyota,Corolla,4,1.6,,Automatic 3-spd,25,27,31
-Toyota,Corolla,4,1.6,,Manual 5-spd,26,29,33
-Toyota,Corolla,4,1.8,,Automatic 3-spd,29,31,35
-Toyota,Corolla,4,1.8,,Manual 4-spd,35,38,41
-Toyota,Corolla,4,1.8,,Manual 5-spd,33,36,41
-Volkswagen,Quantum,4,1.6,,Automatic 3-spd,25,27,31
-Volkswagen,Quantum,4,1.6,,Automatic 3-spd,25,27,31
-Volkswagen,Quantum,4,1.6,,Manual 5-spd,32,33,35
-Volkswagen,Quantum,4,1.6,,Manual 5-spd,31,33,35
 Chevrolet,G10/20 Sport Van 2WD,8,6.2,Rear-Wheel Drive,Automatic 4-spd,16,18,22
-Volkswagen,Quantum,5,2.1,,Automatic 3-spd,16,18,21
-Volkswagen,Quantum,5,2.1,,Manual 5-spd,16,18,22
-Volvo,240 DL/GL/Turbo,4,2.1,,Automatic 4-spd,16,17,20
-Volvo,240 DL/GL/Turbo,4,2.1,,Manual 5-spd,16,18,21
-Volvo,240 DL/GL/Turbo,4,2.3,,Automatic 4-spd,18,20,23
-Volvo,240 DL/GL/Turbo,4,2.3,,Automatic 4-spd,18,19,22
-Volvo,240 DL/GL/Turbo,4,2.3,,Manual 5-spd,20,23,27
-Volvo,240 DL/GL/Turbo,4,2.3,,Manual 5-spd,20,22,26
-Volvo,240 DL/GL/Turbo,6,2.4,,Automatic 3-spd,22,24,26
-Volvo,240 DL/GL/Turbo,6,2.4,,Manual 5-spd,23,26,31
 Chevrolet,G10/20 Sport Van 2WD,8,6.2,Rear-Wheel Drive,Manual 4-spd,16,17,19
-Audi,5000S,5,2.1,,Automatic 3-spd,15,17,20
-Audi,5000S,5,2.1,,Automatic 3-spd,15,17,20
-Audi,5000S,5,2.1,,Manual 5-spd,17,19,23
-Bitter Gmbh and Co. Kg,SC,6,3,,Automatic 3-spd,11,13,16
-Bitter Gmbh and Co. Kg,SC,6,3,,Manual 5-spd,12,14,17
-Buick,Century,4,2.5,,Automatic 3-spd,20,23,28
-Buick,Century,6,3,,Automatic 3-spd,17,20,24
-Buick,Century,6,3.8,,Automatic 4-spd,16,19,23
-Buick,Century,6,4.3,,Automatic 3-spd,21,25,31
-Buick,Regal,6,3.8,,Automatic 3-spd,17,19,22
 Chevrolet,G30 Sport Van 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,10,11,13
-Buick,Regal,6,3.8,,Automatic 4-spd,14,16,20
-Buick,Regal,6,4.1,,Automatic 4-spd,15,17,21
-Buick,Regal,6,4.3,,Automatic 4-spd,20,23,29
-Buick,Regal,8,5.7,,Automatic 4-spd,18,21,27
-Buick,Riviera,6,3.8,,Automatic 4-spd,13,15,20
-Buick,Riviera,6,4.1,,Automatic 4-spd,13,15,20
-Buick,Riviera,8,5,,Automatic 4-spd,14,16,20
-Buick,Riviera,8,5.7,,Automatic 4-spd,18,21,26
-Cadillac,Eldorado,8,4.1,,Automatic 4-spd,15,17,20
-Cadillac,Eldorado,8,5.7,,Automatic 4-spd,18,21,26
 Chevrolet,G30 Sport Van 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,10,11,12
-Cadillac,Seville,8,4.1,,Automatic 4-spd,15,17,20
-Cadillac,Seville,8,5.7,,Automatic 4-spd,18,21,26
-Chevrolet,Celebrity,4,2.5,,Automatic 3-spd,20,23,28
-Chevrolet,Celebrity,4,2.5,,Manual 4-spd,20,23,27
-Chevrolet,Celebrity,6,2.8,,Automatic 3-spd,17,19,24
-Chevrolet,Celebrity,6,4.3,,Automatic 3-spd,21,25,31
-Chevrolet,Citation II,4,2.5,,Automatic 3-spd,20,23,28
-Chevrolet,Citation II,4,2.5,,Manual 4-spd,21,24,30
-Chevrolet,Citation II,6,2.8,,Automatic 3-spd,17,19,24
-Chevrolet,Citation II,6,2.8,,Manual 4-spd,17,19,24
 Dodge,B150/B250 Wagon 2WD,6,3.7,Rear-Wheel Drive,Automatic 3-spd,12,13,15
-Chevrolet,Monte Carlo,6,3.8,,Automatic 3-spd,16,18,20
-Chevrolet,Monte Carlo,6,3.8,,Automatic 4-spd,16,18,22
-Chevrolet,Monte Carlo,8,5,,Automatic 3-spd,14,15,18
-Chevrolet,Monte Carlo,8,5,,Automatic 4-spd,15,17,21
-Chevrolet,Monte Carlo,8,5.7,,Automatic 3-spd,18,21,25
-Chevrolet,Monte Carlo,8,5.7,,Automatic 4-spd,18,21,27
-Chrysler,E Class/New Yorker,4,2.2,,Automatic 3-spd,20,22,25
-Chrysler,E Class/New Yorker,4,2.2,,Automatic 3-spd,18,19,22
-Chrysler,E Class/New Yorker,4,2.6,,Automatic 3-spd,18,20,22
-Chrysler,Executive Sedan/Limousine,4,2.6,,Automatic 3-spd,17,18,21
 Dodge,B150/B250 Wagon 2WD,6,3.7,Rear-Wheel Drive,Automatic 3-spd,14,15,16
-Chrysler,LeBaron,4,2.2,,Automatic 3-spd,20,22,24
-Chrysler,LeBaron,4,2.2,,Manual 5-spd,21,24,29
-Chrysler,LeBaron,4,2.2,,Automatic 3-spd,20,22,24
-Chrysler,LeBaron,4,2.2,,Automatic 3-spd,18,19,22
-Chrysler,LeBaron,4,2.2,,Manual 5-spd,19,23,31
-Chrysler,LeBaron,4,2.6,,Automatic 3-spd,18,20,22
-Chrysler,Newport/Fifth Avenue,8,5.2,,Automatic 3-spd,14,15,18
-Dodge,Aries,4,2.2,,Automatic 3-spd,21,23,26
-Dodge,Aries,4,2.2,,Manual 4-spd,23,25,29
-Dodge,Aries,4,2.2,,Manual 5-spd,21,24,30
 Dodge,B150/B250 Wagon 2WD,6,3.7,Rear-Wheel Drive,Manual 4-spd,14,15,17
-Dodge,Aries,4,2.6,,Automatic 3-spd,18,20,22
-Dodge,Diplomat,8,5.2,,Automatic 3-spd,14,15,18
-Dodge,Diplomat,8,5.2,,Automatic 3-spd,12,13,15
-Dodge,600,4,2.2,,Automatic 3-spd,21,23,26
-Dodge,600,4,2.2,,Manual 5-spd,21,24,29
-Dodge,600,4,2.2,,Automatic 3-spd,20,22,25
-Dodge,600,4,2.2,,Automatic 3-spd,18,19,22
-Dodge,600,4,2.2,,Manual 5-spd,19,22,28
-Dodge,600,4,2.2,,Manual 5-spd,18,20,25
-Dodge,600,4,2.6,,Automatic 3-spd,18,20,22
 Dodge,B150/B250 Wagon 2WD,8,5.2,Rear-Wheel Drive,Automatic 3-spd,11,12,13
-Ford,LTD,4,2.3,,Automatic 3-spd,18,20,22
-Ford,LTD,6,3.8,,Automatic 3-spd,16,17,20
-Ford,LTD,6,3.8,,Automatic 4-spd,17,19,23
-Ford,LTD,6,3.8,,Automatic 3-spd,16,18,20
-Ford,LTD,8,5,,Automatic 4-spd,15,17,22
-Kenyon Corporation Of America,Kenyon 5.0 Sedan,8,5,,Automatic 3-spd,13,14,17
-Lincoln,Continental,6,2.4,,Automatic 4-spd,20,23,28
-Lincoln,Continental,8,5,,Automatic 4-spd,14,16,20
-Lincoln,Mark VII,6,2.4,,Automatic 4-spd,20,23,28
-Lincoln,Mark VII,8,5,,Automatic 4-spd,14,16,20
 Pontiac,Fiero,4,2.5,Rear-Wheel Drive,Automatic 3-spd,22,25,29
 Cadillac,Eldorado Convertible,8,4.1,Front-Wheel Drive,Automatic 4-spd,15,17,20
 Dodge,B150/B250 Wagon 2WD,8,5.2,Rear-Wheel Drive,Automatic 3-spd,11,12,13
-Mercury,Marquis,4,2.3,,Automatic 3-spd,18,20,22
-Mercury,Marquis,6,3.8,,Automatic 3-spd,16,17,20
-Mercury,Marquis,6,3.8,,Automatic 4-spd,17,19,23
-Mercury,Marquis,6,3.8,,Automatic 3-spd,16,18,20
-Mercury,Marquis,8,5,,Automatic 4-spd,15,17,22
-Maserati,Quattroporte,8,4.9,,Automatic 3-spd,7,8,10
-Mercedes-Benz,500SEL,8,5,,Automatic 4-spd,12,13,15
-Oldsmobile,Cutlass Ciera,4,2.5,,Automatic 3-spd,20,23,28
-Oldsmobile,Cutlass Ciera,6,3,,Automatic 3-spd,17,20,24
-Oldsmobile,Cutlass Ciera,6,3.8,,Automatic 4-spd,16,19,23
 Dodge,B150/B250 Wagon 2WD,8,5.2,Rear-Wheel Drive,Automatic 3-spd,11,13,15
-Oldsmobile,Cutlass Ciera,6,4.3,,Automatic 3-spd,22,25,31
-Oldsmobile,Cutlass Supreme,6,3.8,,Automatic 3-spd,17,19,22
-Oldsmobile,Cutlass Supreme,6,4.3,,Automatic 3-spd,21,23,28
-Oldsmobile,Cutlass Supreme,6,4.3,,Automatic 4-spd,20,23,29
-Oldsmobile,Cutlass Supreme,8,5,,Automatic 3-spd,15,16,20
-Oldsmobile,Cutlass Supreme,8,5,,Automatic 4-spd,15,17,22
-Oldsmobile,Cutlass Supreme,8,5.7,,Automatic 3-spd,18,21,25
-Oldsmobile,Cutlass Supreme,8,5.7,,Automatic 4-spd,18,21,27
-Oldsmobile,Toronado,6,4.1,,Automatic 4-spd,13,15,20
-Oldsmobile,Toronado,8,5,,Automatic 4-spd,14,16,20
 Dodge,B150/B250 Wagon 2WD,8,5.2,Rear-Wheel Drive,Manual 4-spd,12,14,16
-Oldsmobile,Toronado,8,5.7,,Automatic 4-spd,18,21,26
-Plymouth,Gran Fury,8,5.2,,Automatic 3-spd,14,15,18
-Plymouth,Gran Fury,8,5.2,,Automatic 3-spd,12,13,15
-Plymouth,Reliant,4,2.2,,Automatic 3-spd,21,23,26
-Plymouth,Reliant,4,2.2,,Manual 4-spd,23,25,29
-Plymouth,Reliant,4,2.2,,Manual 5-spd,21,24,30
-Plymouth,Reliant,4,2.6,,Automatic 3-spd,18,20,22
-Pontiac,Bonneville,6,3.8,,Automatic 3-spd,17,19,22
-Pontiac,Bonneville,8,5,,Automatic 3-spd,14,15,18
-Pontiac,Bonneville,8,5,,Automatic 4-spd,15,17,21
 Dodge,B150/B250 Wagon 2WD,8,5.2,Rear-Wheel Drive,Manual 4-spd,11,13,17
-Pontiac,Bonneville,8,5.7,,Automatic 3-spd,18,21,25
-Pontiac,Bonneville,8,5.7,,Automatic 4-spd,18,21,27
-Pontiac,Grand Prix,6,3.8,,Automatic 3-spd,17,19,22
-Pontiac,Grand Prix,8,5,,Automatic 3-spd,14,15,18
-Pontiac,Grand Prix,8,5,,Automatic 4-spd,15,17,21
-Pontiac,Grand Prix,8,5.7,,Automatic 3-spd,18,21,25
-Pontiac,Grand Prix,8,5.7,,Automatic 4-spd,18,21,27
-Pontiac,Phoenix,4,2.5,,Automatic 3-spd,20,23,28
-Pontiac,Phoenix,6,2.8,,Automatic 3-spd,17,19,24
-Pontiac,Phoenix,6,2.8,,Manual 4-spd,17,19,24
 Dodge,B150/B250 Wagon 2WD,8,5.9,Rear-Wheel Drive,Automatic 3-spd,10,11,12
-Pontiac,6000,4,2.5,,Automatic 3-spd,20,23,28
-Pontiac,6000,6,2.8,,Automatic 3-spd,17,19,23
-Pontiac,6000,6,4.3,,Automatic 3-spd,21,25,31
-Rolls-Royce,Silver Spirit/Spur/Mulsanne,8,6.8,,Automatic 3-spd,8,9,10
-Volvo,760 GLE,4,2.3,,Automatic 4-spd,17,18,21
-Volvo,760 GLE,4,2.3,,Manual 5-spd,18,19,22
-Volvo,760 GLE,6,2.4,,Automatic 4-spd,21,23,26
-Volvo,760 GLE,6,2.4,,Manual 5-spd,22,25,29
-Volvo,760 GLE,6,2.9,,Automatic 4-spd,16,18,21
 Buick,Electra/Park Avenue,6,4.1,2-Wheel Drive,Automatic 4-spd,14,16,19
 Dodge,B350 Wagon 2WD,8,5.2,Rear-Wheel Drive,Automatic 3-spd,11,12,13
 Buick,Electra/Park Avenue,8,5,2-Wheel Drive,Automatic 4-spd,14,16,20
 Buick,Electra/Park Avenue,8,5.7,2-Wheel Drive,Automatic 4-spd,18,21,26
-Buick,LeSabre,6,3.8,,Automatic 3-spd,15,17,20
-Buick,LeSabre,6,4.1,,Automatic 4-spd,14,16,19
-Buick,LeSabre,8,5,,Automatic 3-spd,14,16,19
-Buick,LeSabre,8,5,,Automatic 4-spd,14,16,21
-Buick,LeSabre,8,5.7,,Automatic 4-spd,18,21,26
 Cadillac,Brougham/DeVille (RWD),8,4.1,Rear-Wheel Drive,Automatic 4-spd,14,16,19
 Cadillac,Brougham/DeVille (RWD),8,5.7,Rear-Wheel Drive,Automatic 4-spd,18,21,26
-Cadillac,Limousine,8,6,,Automatic 3-spd,8,9,10
 Dodge,B350 Wagon 2WD,8,5.2,Rear-Wheel Drive,Automatic 3-spd,11,12,13
-Chevrolet,Impala/Caprice,6,3.8,,Automatic 3-spd,15,17,19
-Chevrolet,Impala/Caprice,8,5,,Automatic 3-spd,14,16,19
-Chevrolet,Impala/Caprice,8,5,,Automatic 4-spd,14,16,20
-Chevrolet,Impala/Caprice,8,5.7,,Automatic 4-spd,12,14,17
-Chevrolet,Impala/Caprice,8,5.7,,Automatic 3-spd,18,21,25
-Chevrolet,Impala/Caprice,8,5.7,,Automatic 4-spd,18,21,27
-Ford,LTD Crown Victoria,8,5,,Automatic 4-spd,14,16,20
-Ford,LTD Crown Victoria,8,5.8,,Automatic 4-spd,11,14,17
-Mercury,Grand Marquis,8,5,,Automatic 4-spd,14,16,20
-Lincoln,Town Car,8,5,,Automatic 4-spd,14,16,20
 Dodge,B350 Wagon 2WD,8,5.9,Rear-Wheel Drive,Automatic 3-spd,9,10,11
-Oldsmobile,Delta 88,6,3.8,,Automatic 3-spd,15,17,20
-Oldsmobile,Delta 88,8,5,,Automatic 3-spd,14,16,19
-Oldsmobile,Delta 88,8,5,,Automatic 4-spd,14,16,21
-Oldsmobile,Delta 88,8,5.7,,Automatic 3-spd,18,21,25
-Oldsmobile,Delta 88,8,5.7,,Automatic 4-spd,18,21,27
-Oldsmobile,Ninety-Eight,8,5,,Automatic 4-spd,14,16,21
-Oldsmobile,Ninety-Eight,8,5.7,,Automatic 4-spd,18,21,26
-Pontiac,Parisienne,6,3.8,,Automatic 3-spd,15,17,20
-Pontiac,Parisienne,8,5,,Automatic 4-spd,14,16,20
-Pontiac,Parisienne,8,5.7,,Automatic 3-spd,18,21,25
 Ford,Aerostar Wagon,4,2.3,Rear-Wheel Drive,Manual 5-spd,20,22,25
-Pontiac,Parisienne,8,5.7,,Automatic 4-spd,18,21,27
-Rolls-Royce,Silver Spur Limousine,8,6.8,,Automatic 3-spd,7,8,9
-Buick,Skyhawk Wagon,4,1.8,,Automatic 3-spd,21,24,29
-Buick,Skyhawk Wagon,4,1.8,,Manual 5-spd,23,26,33
-Buick,Skyhawk Wagon,4,2,,Automatic 3-spd,18,21,26
-Buick,Skyhawk Wagon,4,2,,Manual 4-spd,21,23,28
-Chevrolet,Cavalier Wagon,4,2,,Automatic 3-spd,22,25,29
-Chevrolet,Cavalier Wagon,4,2,,Manual 4-spd,22,25,29
-Chevrolet,Cavalier Wagon,4,2,,Manual 5-spd,21,25,31
-Nissan,Maxima Wagon,6,2.4,,Automatic 4-spd,18,20,24
 Ford,Aerostar Wagon,6,2.8,Rear-Wheel Drive,Automatic 4-spd,15,16,20
-Nissan,Sentra Wagon,4,1.6,,Automatic 3-spd,23,25,28
-Nissan,Sentra Wagon,4,1.6,,Manual 5-spd,27,30,35
-Nissan,Sentra Wagon,4,1.7,,Automatic 3-spd,29,30,31
-Nissan,Sentra Wagon,4,1.7,,Manual 5-spd,32,35,40
-Dodge,Colt Vista,4,2,,Automatic 3-spd,21,23,24
-Dodge,Colt Vista,4,2,,Manual 4-spd Doubled,22,24,26
-Dodge,Colt Vista,4,2,,Manual 5-spd,22,25,29
-Ford,Escort Wagon,4,1.6,,Automatic 3-spd,21,23,26
-Ford,Escort Wagon,4,1.6,,Manual 4-spd,23,26,31
-Ford,Escort Wagon,4,1.6,,Manual 5-spd,21,24,29
 Chevrolet,Cavalier,4,2,Front-Wheel Drive,Automatic 3-spd,22,24,27
 Ford,Aerostar Wagon,6,2.8,Rear-Wheel Drive,Manual 5-spd,15,17,20
-Ford,Escort Wagon,4,1.6,,Automatic 3-spd,21,23,27
-Ford,Escort Wagon,4,1.6,,Manual 5-spd,22,25,30
-Ford,Escort Wagon,4,2,,Manual 5-spd,31,34,39
-Honda,Civic Wagon,4,1.5,,Automatic 3-spd,23,25,26
-Honda,Civic Wagon,4,1.5,,Manual 5-spd,26,29,32
-Mercury,Lynx Wagon,4,1.6,,Automatic 3-spd,21,23,26
-Mercury,Lynx Wagon,4,1.6,,Manual 4-spd,23,26,31
-Mercury,Lynx Wagon,4,1.6,,Manual 5-spd,21,24,29
-Mercury,Lynx Wagon,4,2,,Manual 5-spd,31,34,39
-Mazda,GLC Wagon,4,1.5,,Automatic 3-spd,20,20,21
 Ford,Aerostar Wagon,6,3,Rear-Wheel Drive,Manual 5-spd,15,18,22
-Mazda,GLC Wagon,4,1.5,,Manual 4-spd,22,24,26
-Mazda,GLC Wagon,4,1.5,,Manual 5-spd,22,24,27
-Mitsubishi,Space Wagon,4,2,,Automatic 3-spd,21,22,24
-Mitsubishi,Space Wagon,4,2,,Manual 4-spd Doubled,22,24,26
-Mitsubishi,Space Wagon,4,2,,Manual 5-spd,21,23,28
-Oldsmobile,Firenza Cruiser Wagon,4,1.8,,Automatic 3-spd,21,24,29
-Oldsmobile,Firenza Cruiser Wagon,4,1.8,,Manual 5-spd,23,26,33
-Oldsmobile,Firenza Cruiser Wagon,4,2,,Automatic 3-spd,18,21,26
-Oldsmobile,Firenza Cruiser Wagon,4,2,,Manual 4-spd,22,25,29
-Oldsmobile,Firenza Cruiser Wagon,4,2,,Manual 5-spd,21,25,31
 Ford,Aerostar Wagon,6,3,Rear-Wheel Drive,Automatic 4-spd,15,17,21
-Plymouth,Colt Vista,4,2,,Automatic 3-spd,21,23,24
-Plymouth,Colt Vista,4,2,,Manual 4-spd Doubled,22,24,26
-Plymouth,Colt Vista,4,2,,Manual 5-spd,22,25,29
-Pontiac,2000 Sunbird Wagon,4,1.8,,Automatic 3-spd,21,24,29
-Pontiac,2000 Sunbird Wagon,4,1.8,,Manual 5-spd,23,26,33
-Pontiac,2000 Sunbird Wagon,4,2,,Manual 4-spd,22,25,29
-Renault,Sportwagon,4,2.2,,Automatic 3-spd,18,19,22
-Renault,Sportwagon,4,2.2,,Manual 5-spd,20,23,28
-Subaru,Wagon,4,1.8,,Automatic 3-spd,21,22,24
-Subaru,Wagon,4,1.8,,Manual 5-spd,23,25,30
 Ford,E150 Club Wagon,6,4.9,Rear-Wheel Drive,Automatic 3-spd,12,13,15
-Subaru,Wagon,4,1.8,,Automatic 3-spd,21,22,24
-Subaru,Wagon,4,1.8,,Manual 5-spd,23,25,30
-Toyota,Cressida Wagon,6,2.8,,Automatic 4-spd,18,19,22
-Toyota,Tercel Wagon,4,1.5,,Automatic 3-spd,25,26,29
-Toyota,Tercel Wagon,4,1.5,,Manual 5-spd,26,29,33
-Toyota,Tercel Wagon 4WD,4,1.5,,Automatic 3-spd,22,23,24
-Toyota,Tercel Wagon 4WD,4,1.5,,Manual 5-spd,24,26,29
-Volkswagen,Quantum Wagon,4,1.6,,Automatic 3-spd,25,27,31
-Volkswagen,Quantum Wagon,4,1.6,,Automatic 3-spd,25,27,31
-Volkswagen,Quantum Wagon,4,1.6,,Manual 5-spd,32,33,35
 Ford,E150 Club Wagon,6,4.9,Rear-Wheel Drive,Automatic 4-spd,13,14,17
-Volkswagen,Quantum Wagon,4,1.6,,Manual 5-spd,31,33,35
-Volkswagen,Quantum Wagon,5,2.1,,Automatic 3-spd,16,18,21
-Volkswagen,Quantum Wagon,5,2.1,,Manual 5-spd,16,18,21
-Audi,5000S Wagon,5,2.1,,Automatic 3-spd,15,17,20
-Audi,5000S Wagon,5,2.1,,Manual 5-spd,16,19,23
-Buick,Century Estate Wagon,4,2.5,,Automatic 3-spd,19,22,26
-Buick,Century Estate Wagon,6,3,,Automatic 3-spd,15,17,21
-Buick,Century Estate Wagon,6,3.8,,Automatic 4-spd,16,19,23
-Buick,Century Estate Wagon,6,4.3,,Automatic 3-spd,21,25,31
-Chevrolet,Celebrity Wagon,4,2.5,,Automatic 3-spd,20,23,28
 Ford,E150 Club Wagon,6,4.9,Rear-Wheel Drive,Manual 4-spd,13,14,17
-Chevrolet,Celebrity Wagon,4,2.5,,Manual 4-spd,20,23,27
-Chevrolet,Celebrity Wagon,6,2.8,,Automatic 3-spd,16,18,22
-Chevrolet,Celebrity Wagon,6,2.8,,Automatic 4-spd,16,19,23
-Chevrolet,Celebrity Wagon,6,4.3,,Automatic 3-spd,21,25,31
-Chrysler,Town and Country Wagon,4,2.2,,Automatic 3-spd,19,21,24
-Chrysler,Town and Country Wagon,4,2.6,,Automatic 3-spd,18,20,22
-Dodge,Aries Wagon,4,2.2,,Automatic 3-spd,21,23,26
-Dodge,Aries Wagon,4,2.2,,Manual 4-spd,22,25,29
-Dodge,Aries Wagon,4,2.2,,Manual 5-spd,21,24,29
-Dodge,Aries Wagon,4,2.6,,Automatic 3-spd,18,20,22
 Ford,E150 Club Wagon,8,5,Rear-Wheel Drive,Automatic 4-spd,12,14,16
-Ford,LTD Wagon,6,3.8,,Automatic 3-spd,16,17,20
-Ford,LTD Wagon,6,3.8,,Automatic 4-spd,17,19,23
-Ford,LTD Wagon,6,3.8,,Automatic 3-spd,16,18,20
-Mercury,Marquis Wagon,6,3.8,,Automatic 3-spd,16,17,20
-Mercury,Marquis Wagon,6,3.8,,Automatic 4-spd,17,19,23
-Mercury,Marquis Wagon,6,3.8,,Automatic 3-spd,16,18,20
-Mercedes-Benz,300TD,5,3,,Automatic 4-spd,21,22,24
-Mercedes-Benz,300TD,5,3,,Automatic 4-spd,21,22,23
-Oldsmobile,Cutlass Cruiser Wagon,4,2.5,,Automatic 3-spd,20,23,28
-Oldsmobile,Cutlass Cruiser Wagon,6,3,,Automatic 3-spd,15,17,21
 Ford,E150 Club Wagon,8,5.8,Rear-Wheel Drive,Automatic 3-spd,11,11,12
-Oldsmobile,Cutlass Cruiser Wagon,6,3.8,,Automatic 4-spd,16,19,23
-Oldsmobile,Cutlass Cruiser Wagon,6,4.3,,Automatic 3-spd,21,25,31
-Peugeot,505 Station Wagon,4,2,,Automatic 3-spd,17,17,18
-Peugeot,505 Station Wagon,4,2,,Manual 5-spd,18,19,22
-Peugeot,505 Station Wagon,4,2.3,,Automatic 3-spd,21,22,22
-Peugeot,505 Station Wagon,4,2.3,,Automatic 3-spd,21,22,23
-Plymouth,Reliant Wagon,4,2.2,,Automatic 3-spd,21,23,26
-Plymouth,Reliant Wagon,4,2.2,,Manual 4-spd,22,25,29
-Plymouth,Reliant Wagon,4,2.2,,Manual 5-spd,21,24,29
-Plymouth,Reliant Wagon,4,2.6,,Automatic 3-spd,18,20,22
 GMC,G15/25 Rally 2WD,6,4.3,Rear-Wheel Drive,Automatic 3-spd,14,15,16
-Pontiac,6000 Wagon,4,2.5,,Automatic 3-spd,20,23,28
-Pontiac,6000 Wagon,6,2.8,,Automatic 3-spd,16,18,22
-Pontiac,6000 Wagon,6,2.8,,Automatic 4-spd,16,19,23
-Pontiac,6000 Wagon,6,4.3,,Automatic 3-spd,21,25,31
-Volvo,240 DL/GL/Turbo Wagon,4,2.1,,Automatic 4-spd,16,17,20
-Volvo,240 DL/GL/Turbo Wagon,4,2.1,,Manual 5-spd,16,18,21
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Automatic 4-spd,18,20,22
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Automatic 4-spd,18,19,22
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Manual 5-spd,19,21,25
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Manual 5-spd,20,22,24
 GMC,G15/25 Rally 2WD,6,4.3,Rear-Wheel Drive,Automatic 4-spd,15,16,17
-Volvo,240 DL/GL/Turbo Wagon,6,2.4,,Automatic 3-spd,22,24,26
-Volvo,240 DL/GL/Turbo Wagon,6,2.4,,Manual 5-spd,23,26,31
-Buick,Electra Estate Wagon,8,5,,Automatic 4-spd,14,16,20
-Buick,Electra Estate Wagon,8,5.7,,Automatic 4-spd,18,21,26
-Chevrolet,Caprice Wagon,8,5,,Automatic 4-spd,13,15,18
-Chevrolet,Caprice Wagon,8,5.7,,Automatic 4-spd,18,21,26
-Ford,LTD Crown Victoria Wagon,8,5,,Automatic 4-spd,14,16,20
-Mercury,Grand Marquis Wagon,8,5,,Automatic 4-spd,14,16,20
-Oldsmobile,Custom Cruiser Wagon,8,5,,Automatic 4-spd,14,16,20
-Oldsmobile,Custom Cruiser Wagon,8,5.7,,Automatic 4-spd,18,21,26
 Chevrolet,Cavalier,4,2,Front-Wheel Drive,Manual 4-spd,23,26,32
 GMC,G15/25 Rally 2WD,6,4.3,Rear-Wheel Drive,Automatic 4-spd,14,15,16
-Pontiac,Parisienne Wagon,8,5,,Automatic 4-spd,13,15,18
-Pontiac,Parisienne Wagon,8,5.7,,Automatic 4-spd,18,21,26
 Chevrolet,S10 Pickup 2WD,4,2,2-Wheel Drive,Manual 4-spd,21,24,29
 Chevrolet,S10 Pickup 2WD,4,2,2-Wheel Drive,Manual 5-spd,23,26,31
 Chevrolet,S10 Pickup 2WD,4,2,2-Wheel Drive,Automatic 4-spd,18,20,24
@@ -19096,7 +18451,6 @@ GMC,Safari 2WD (passenger),6,4.3,Rear-Wheel Drive,Manual 4-spd,15,17,19
 Ford,F150 Pickup 2WD,8,5,2-Wheel Drive,Manual 4-spd,13,15,17
 Ford,F150 Pickup 2WD,8,5.8,2-Wheel Drive,Automatic 3-spd,11,11,12
 Ford,F150 Pickup 2WD,8,5.8,2-Wheel Drive,Manual 4-spd,11,12,15
-Ford,F150 Pickup 2WD,8,5.8,2-Wheel Drive,,11,11,12
 Ford,F150 Pickup 2WD,8,5.8,2-Wheel Drive,Automatic 3-spd,11,11,12
 Ford,F250 Pickup 2WD,6,4.9,2-Wheel Drive,Automatic 3-spd,12,13,15
 Ford,F250 Pickup 2WD,6,4.9,2-Wheel Drive,Manual 3-spd,14,14,15
@@ -19127,7 +18481,6 @@ GMC,C15 Pickup 2WD,8,6.2,2-Wheel Drive,Manual 4-spd,18,20,22
 GMC,C15 Pickup 2WD,8,6.2,2-Wheel Drive,Manual 4-spd,18,19,20
 Toyota,Van 2WD,4,2.2,Rear-Wheel Drive,Manual 5-spd,19,20,22
 GMC,C25 Pickup 2WD,6,4.1,2-Wheel Drive,Automatic 4-spd,13,14,17
-GMC,C25 Pickup 2WD,6,4.1,2-Wheel Drive,,13,14,15
 GMC,C25 Pickup 2WD,8,5,2-Wheel Drive,Automatic 4-spd,13,14,17
 GMC,C25 Pickup 2WD,8,5,2-Wheel Drive,Manual 4-spd,12,13,15
 GMC,C25 Pickup 2WD,8,6.2,2-Wheel Drive,Automatic 4-spd,17,19,22
@@ -19449,7 +18802,6 @@ Chevrolet,S10 Cab Chassis 2WD,4,2,2-Wheel Drive,Manual 4-spd,15,15,16
 Chevrolet,S10 Cab Chassis 2WD,6,2.8,2-Wheel Drive,Automatic 4-spd,13,13,13
 GMC,C15 Suburban 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,13,15
 Chevrolet,S10 Cab Chassis 2WD,6,2.8,2-Wheel Drive,Manual 4-spd,13,13,14
-Nissan,Pickup Cab Chassis,4,2.4,,Manual 5-spd,13,13,13
 Dodge,D250 Pickup Cab Chassis 2WD,8,5.9,2-Wheel Drive,Automatic 3-spd,9,10,11
 Ford,F250 Pickup Cab Chassis 2WD,8,5,2-Wheel Drive,Automatic 3-spd,11,11,12
 Ford,F250 Pickup Cab Chassis 2WD,8,5,2-Wheel Drive,Manual 4-spd,11,12,13
@@ -19460,611 +18812,69 @@ GMC,S15 Cab Chassis 2WD,6,2.8,2-Wheel Drive,Automatic 4-spd,13,13,13
 GMC,S15 Cab Chassis 2WD,6,2.8,2-Wheel Drive,Manual 4-spd,13,13,14
 GMC,C15 Suburban 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,13,16
 Toyota,Cab Chassis 2WD,4,2.4,2-Wheel Drive,Manual 4-spd,15,15,15
-Alfa Romeo,Spider Veloce 2000,4,2,,Manual 5-spd,18,21,25
-Bertone,X1/9,4,1.5,,Manual 5-spd,20,22,26
-Chevrolet,Corvette,8,5.7,,Automatic 4-spd,13,15,20
-Chevrolet,Corvette,8,5.7,,Manual 4-spd,13,15,20
-Nissan,300ZX,6,3,,Automatic 4-spd,15,17,20
-Nissan,300ZX,6,3,,Automatic 4-spd,16,18,20
-Nissan,300ZX,6,3,,Manual 5-spd,18,20,24
-Nissan,300ZX,6,3,,Manual 5-spd,16,18,22
-Ford,EXP,4,1.6,,Automatic 3-spd,21,23,26
 GMC,C15 Suburban 2WD,8,6.2,Rear-Wheel Drive,Automatic 4-spd,16,18,22
-Ford,EXP,4,1.6,,Manual 5-spd,21,25,31
-Ford,EXP,4,1.6,,Manual 5-spd,21,24,30
-Honda,Civic CRX,4,1.3,,Manual 5-spd,36,39,45
-Honda,Civic CRX,4,1.5,,Automatic 3-spd,24,26,29
-Honda,Civic CRX,4,1.5,,Manual 5-spd,28,30,35
-Lamborghini,Countach Lp500s,12,4.8,,Manual 5-spd,10,11,13
-Lotus,Esprit,4,2.2,,Manual 5-spd,11,14,18
-Mazda,RX-7,2,1.1,,Automatic 4-spd,15,17,21
-Mazda,RX-7,2,1.1,,Manual 5-spd,15,17,21
-Mazda,RX-7,2,1.3,,Manual 5-spd,15,17,21
 Chevrolet,Nova,4,1.6,Front-Wheel Drive,Manual 5-spd,26,29,34
 GMC,S15 Jimmy 2WD,4,2.5,Rear-Wheel Drive,Automatic 4-spd,18,20,24
-Mercedes-Benz,380SL,8,3.8,,Automatic 4-spd,15,15,17
-Pininfarina,Spider,4,2,,Automatic 3-spd,18,19,21
-Pininfarina,Spider,4,2,,Manual 5-spd,20,22,26
-Pontiac,Fiero,4,2.5,,Automatic 3-spd,21,24,29
-Pontiac,Fiero,4,2.5,,Manual 4-spd,21,24,29
-Alfa Romeo,GT V6 2.5,6,2.5,,Manual 5-spd,17,20,24
-Avanti Motor Corporation,Avanti II,8,5,,Automatic 4-spd,15,17,21
-Maserati,Biturbo,6,2.5,,Manual 5-spd,12,14,18
-Porsche,911 SC,6,3.2,,Manual 5-spd,15,18,23
-Porsche,928 S,8,4.7,,Automatic 4-spd,14,15,18
 GMC,S15 Jimmy 2WD,4,2.5,Rear-Wheel Drive,Manual 4-spd,18,20,24
-Porsche,928 S,8,4.7,,Manual 5-spd,13,15,20
-Porsche,944,4,2.5,,Automatic 3-spd,16,17,20
-Porsche,944,4,2.5,,Manual 5-spd,17,20,24
-Toyota,Starlet,4,1.3,,Manual 4-spd,32,34,38
-Volkswagen,Rabbit Convertible,4,1.8,,Automatic 3-spd,20,21,23
-Volkswagen,Rabbit Convertible,4,1.8,,Manual 5-spd,21,23,26
-Aston Martin,Lagonda,8,5.3,,Automatic 3-spd,8,9,10
-Aston Martin,Saloon/Vantage/Volante,8,5.3,,Automatic 3-spd,8,9,11
-Aston Martin,Saloon/Vantage/Volante,8,5.3,,Manual 5-spd,7,8,10
-Audi,Coupe GT,5,2.1,,Automatic 3-spd,15,17,20
 GMC,S15 Jimmy 2WD,4,2.5,Rear-Wheel Drive,Manual 5-spd,20,22,26
-Audi,Coupe GT,5,2.1,,Manual 5-spd,18,20,24
-Audi,Coupe GT,5,2.2,,Automatic 3-spd,16,18,21
-Audi,Coupe GT,5,2.2,,Manual 5-spd,17,19,23
-Audi,Quattro,5,2.1,,Manual 5-spd,14,16,20
-Audi,4000,4,1.8,,Automatic 3-spd,19,21,24
-Audi,4000,4,1.8,,Manual 5-spd,21,24,29
-Audi,4000 S quattro,5,2.2,,Manual 5-spd,16,18,20
-BMW,3 Series,4,1.8,,Automatic 3-spd,21,23,24
-BMW,3 Series,4,1.8,,Manual 5-spd,21,24,27
-BMW,3 Series,6,2.7,,Automatic 4-spd,18,20,25
 GMC,S15 Jimmy 2WD,6,2.8,Rear-Wheel Drive,Automatic 4-spd,15,17,19
-BMW,3 Series,6,2.7,,Manual 5-spd,18,21,26
-BMW,6 Series,6,3.2,,Automatic 4-spd,15,18,22
-Chevrolet,Camaro,4,2.5,,Automatic 4-spd,19,22,27
-Chevrolet,Camaro,4,2.5,,Manual 4-spd,19,22,26
-Chevrolet,Camaro,4,2.5,,Manual 5-spd,18,22,29
-Chevrolet,Camaro,6,2.8,,Automatic 4-spd,16,19,24
-Chevrolet,Camaro,6,2.8,,Manual 5-spd,16,18,22
-Chevrolet,Camaro,8,5,,Automatic 4-spd,15,17,21
-Chevrolet,Camaro,8,5,,Manual 5-spd,13,15,20
-Chevrolet,Cavalier Convertible,4,2,,Automatic 3-spd,18,21,26
 GMC,S15 Jimmy 2WD,6,2.8,Rear-Wheel Drive,Manual 4-spd,15,17,20
-Chevrolet,Cavalier Convertible,4,2,,Manual 4-spd,21,24,30
-Chevrolet,Cavalier Convertible,4,2,,Manual 5-spd,21,25,31
-Chevrolet,Chevette,4,1.6,,Automatic 3-spd,22,24,27
-Chevrolet,Chevette,4,1.6,,Manual 4-spd,23,25,30
-Chevrolet,Chevette,4,1.8,,Manual 5-spd,33,36,41
-Chrysler,Laser/Daytona,4,2.2,,Automatic 3-spd,19,21,24
-Chrysler,Laser/Daytona,4,2.2,,Automatic 3-spd,18,19,22
-Chrysler,Laser/Daytona,4,2.2,,Manual 5-spd,19,23,29
-Chrysler,Laser/Daytona,4,2.2,,Manual 5-spd,18,20,25
-Chrysler,LeBaron Convertible,4,2.2,,Automatic 3-spd,20,21,24
 GMC,S15 Jimmy 2WD,6,2.8,Rear-Wheel Drive,Manual 5-spd,15,17,21
-Chrysler,LeBaron Convertible,4,2.2,,Automatic 3-spd,18,19,22
-Chrysler,LeBaron Convertible,4,2.2,,Automatic 3-spd,19,21,24
-Chrysler,LeBaron Convertible,4,2.6,,Automatic 3-spd,18,19,21
-Nissan,Maxima,6,2.4,,Automatic 4-spd,18,21,26
-Nissan,Maxima,6,2.4,,Manual 5-spd,18,21,26
-Nissan,Pulsar/Pulsar-NX,4,1.6,,Automatic 3-spd,23,25,28
-Nissan,Pulsar/Pulsar-NX,4,1.6,,Manual 5-spd,27,30,35
-Nissan,Sentra,4,1.6,,Automatic 3-spd,23,25,28
-Nissan,Sentra,4,1.6,,Manual 5-spd,27,30,35
-Nissan,Sentra,4,1.7,,Manual 4-spd,38,40,44
 Jeep,Cherokee/Wagoneer 2WD,4,2.1,Rear-Wheel Drive,Manual 5-spd,24,26,29
-Nissan,Sentra,4,1.7,,Manual 5-spd,33,37,42
-Nissan,200SX,4,1.8,,Automatic 4-spd,19,21,24
-Nissan,200SX,4,1.8,,Manual 5-spd,20,22,26
-Nissan,200SX,4,2,,Automatic 4-spd,23,26,30
-Nissan,200SX,4,2,,Manual 5-spd,23,25,30
-Nissan,300ZX 2x2,6,3,,Automatic 4-spd,15,17,20
-Nissan,300ZX 2x2,6,3,,Automatic 4-spd,16,18,20
-Nissan,300ZX 2x2,6,3,,Manual 5-spd,18,20,24
-Nissan,300ZX 2x2,6,3,,Manual 5-spd,16,18,22
-Dodge,Charger,4,1.6,,Manual 4-spd,25,29,35
 Jeep,Cherokee/Wagoneer 2WD,4,2.5,Rear-Wheel Drive,Automatic 3-spd,18,19,21
-Dodge,Charger,4,2.2,,Automatic 3-spd,20,21,24
-Dodge,Charger,4,2.2,,Manual 5-spd,21,25,31
-Dodge,Colt,4,1.4,,Manual 4-spd,30,33,37
-Dodge,Colt,4,1.4,,Manual 4-spd Doubled,28,30,34
-Dodge,Colt,4,1.6,,Automatic 3-spd,24,26,29
-Dodge,Colt,4,1.6,,Manual 4-spd Doubled,23,25,28
-Dodge,Conquest,4,2.6,,Automatic 4-spd,17,19,23
-Dodge,Conquest,4,2.6,,Manual 5-spd,17,19,22
-Dodge,Daytona,4,2.2,,Automatic 3-spd,19,21,24
-Dodge,Daytona,4,2.2,,Automatic 3-spd,18,19,22
 Jeep,Cherokee/Wagoneer 2WD,4,2.5,Rear-Wheel Drive,Manual 4-spd,21,23,25
-Dodge,Daytona,4,2.2,,Manual 5-spd,18,22,30
-Dodge,Daytona,4,2.2,,Manual 5-spd,18,20,25
-Dodge,600 Convertible,4,2.2,,Automatic 3-spd,20,21,24
-Dodge,600 Convertible,4,2.2,,Automatic 3-spd,18,19,22
-Dodge,600 Convertible,4,2.2,,Automatic 3-spd,19,21,24
-Dodge,600 Convertible,4,2.6,,Automatic 3-spd,18,19,21
-Ford,Mustang,4,2.3,,Automatic 3-spd,17,19,22
-Ford,Mustang,4,2.3,,Manual 4-spd,18,21,25
-Ford,Mustang,4,2.3,,Manual 5-spd,17,19,24
-Ford,Mustang,6,3.8,,Automatic 3-spd,17,18,20
 Jeep,Cherokee/Wagoneer 2WD,4,2.5,Rear-Wheel Drive,Manual 4-spd,18,19,22
-Ford,Mustang,8,5,,Manual 5-spd,13,15,20
-Ford,Mustang,8,5,,Automatic 4-spd,14,16,20
-Honda,Accord,4,1.8,,Automatic 4-spd,22,24,28
-Honda,Accord,4,1.8,,Manual 5-spd,23,26,30
-Honda,Civic,4,1.3,,Manual 4-spd,31,33,37
-Honda,Civic,4,1.5,,Automatic 3-spd,23,25,27
-Honda,Civic,4,1.5,,Manual 5-spd,26,29,33
-Honda,Prelude,4,1.8,,Automatic 4-spd,21,23,27
-Honda,Prelude,4,1.8,,Manual 5-spd,22,25,29
-Isuzu,I-Mark,4,1.8,,Automatic 3-spd,19,20,22
 Bill Dovell Motor Car Company,Dovell 230CE,4,2.3,Rear-Wheel Drive,Automatic 4-spd,17,17,18
 Jeep,Cherokee/Wagoneer 2WD,4,2.5,Rear-Wheel Drive,Manual 5-spd,19,21,24
-Isuzu,I-Mark,4,1.8,,Manual 5-spd,21,23,26
-Isuzu,I-Mark,4,1.8,,Automatic 3-spd,26,27,28
-Isuzu,I-Mark,4,1.8,,Manual 5-spd,30,32,35
-Isuzu,Impulse,4,2,,Automatic 4-spd,19,21,23
-Isuzu,Impulse,4,2,,Manual 5-spd,19,22,26
-Jaguar,XJ,6,4.2,,Automatic 3-spd,14,15,17
-Mercury,Capri,4,2.3,,Automatic 3-spd,17,19,22
-Mercury,Capri,4,2.3,,Manual 4-spd,18,21,25
-Mercury,Capri,4,2.3,,Manual 5-spd,17,19,24
-Mercury,Capri,6,3.8,,Automatic 3-spd,18,19,20
 Jeep,Cherokee/Wagoneer 2WD,6,2.8,Rear-Wheel Drive,Automatic 3-spd,15,16,18
-Mercury,Capri,8,5,,Manual 5-spd,13,15,20
-Mercury,Capri,8,5,,Automatic 4-spd,14,16,20
-Mazda,GLC,4,1.5,,Automatic 3-spd,24,26,28
-Mazda,GLC,4,1.5,,Manual 4-spd,26,27,29
-Mazda,GLC,4,1.5,,Manual 5-spd,27,30,34
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.2,,Automatic 4-spd,26,28,30
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.2,,Manual 5-spd,26,30,35
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.3,,Automatic 4-spd,18,20,22
-Mercedes-Benz,190 D 2.2/190 E 2.3,4,2.3,,Manual 5-spd,18,21,26
-Mitsubishi,Cordia,4,1.8,,Manual 5-spd,20,23,27
 Jeep,Cherokee/Wagoneer 2WD,6,2.8,Rear-Wheel Drive,Manual 5-spd,15,17,20
-Mitsubishi,Cordia,4,2,,Automatic 3-spd,21,23,24
-Mitsubishi,Cordia,4,2,,Manual 5-spd,22,25,30
-Mitsubishi,Starion,4,2.6,,Automatic 4-spd,17,19,23
-Mitsubishi,Starion,4,2.6,,Manual 5-spd,17,19,22
-Mitsubishi,Tredia,4,1.8,,Manual 5-spd,20,23,27
-Mitsubishi,Tredia,4,2,,Automatic 3-spd,21,23,24
-Mitsubishi,Tredia,4,2,,Manual 4-spd Doubled,21,23,26
-Mitsubishi,Tredia,4,2,,Manual 5-spd,22,25,31
-Plymouth,Colt,4,1.4,,Manual 4-spd,30,33,37
-Plymouth,Colt,4,1.4,,Manual 4-spd Doubled,28,30,34
 Plymouth,Voyager 2WD,4,2.2,Front-Wheel Drive,Automatic 3-spd,18,19,21
-Plymouth,Colt,4,1.6,,Automatic 3-spd,24,26,29
-Plymouth,Colt,4,1.6,,Manual 4-spd Doubled,23,25,28
-Plymouth,Conquest,4,2.6,,Automatic 4-spd,17,19,23
-Plymouth,Conquest,4,2.6,,Manual 5-spd,17,19,22
-Plymouth,Turismo,4,1.6,,Manual 4-spd,25,29,35
-Plymouth,Turismo,4,2.2,,Automatic 3-spd,20,21,24
-Plymouth,Turismo,4,2.2,,Manual 5-spd,21,25,31
-Pontiac,Firebird,4,2.5,,Automatic 4-spd,19,22,27
-Pontiac,Firebird,4,2.5,,Manual 4-spd,19,21,25
-Pontiac,Firebird,4,2.5,,Manual 5-spd,20,23,29
 Plymouth,Voyager 2WD,4,2.2,Front-Wheel Drive,Manual 5-spd,18,21,25
-Pontiac,Firebird,6,2.8,,Automatic 4-spd,16,19,24
-Pontiac,Firebird,6,2.8,,Manual 5-spd,16,18,22
-Pontiac,Firebird,8,5,,Automatic 4-spd,15,17,21
-Pontiac,Firebird,8,5,,Manual 5-spd,13,15,20
-Pontiac,1000,4,1.6,,Automatic 3-spd,22,24,27
-Pontiac,1000,4,1.6,,Manual 4-spd,23,25,30
-Pontiac,1000,4,1.8,,Manual 5-spd,33,36,41
-Pontiac,2000 Sunbird Convertible,4,1.8,,Automatic 3-spd,21,24,29
-Pontiac,2000 Sunbird Convertible,4,1.8,,Automatic 3-spd,18,20,23
-Pontiac,2000 Sunbird Convertible,4,1.8,,Manual 4-spd,20,22,26
 Plymouth,Voyager 2WD,4,2.2,Front-Wheel Drive,Manual 5-spd,18,21,25
-Pontiac,2000 Sunbird Convertible,4,1.8,,Manual 5-spd,23,26,32
-Renault,Fuego,4,1.6,,Manual 5-spd,21,24,29
-Renault,Fuego,4,2.2,,Automatic 3-spd,18,19,22
-Renault,Fuego,4,2.2,,Manual 5-spd,20,23,28
-Renault,18i,4,2.2,,Automatic 3-spd,18,19,22
-Renault,18i,4,2.2,,Manual 5-spd,20,23,28
-Rolls-Royce,Corniche,8,6.8,,Automatic 3-spd,7,8,10
-Subaru,Sedan,4,1.6,,Manual 4-spd,26,29,33
-Subaru,Sedan,4,1.6,,Manual 5-spd,25,28,33
-Subaru,Sedan,4,1.8,,Automatic 3-spd,21,23,25
 Plymouth,Voyager 2WD,4,2.6,Front-Wheel Drive,Automatic 3-spd,17,18,20
-Subaru,Sedan,4,1.8,,Manual 5-spd,23,26,31
-Toyota,Celica,4,2.4,,Automatic 4-spd,20,22,24
-Toyota,Celica,4,2.4,,Manual 5-spd,21,23,26
-Toyota,Celica Supra,6,2.8,,Automatic 4-spd,18,19,22
-Toyota,Celica Supra,6,2.8,,Manual 5-spd,17,18,21
-Toyota,Corolla Sport,4,1.6,,Automatic 4-spd,23,26,30
-Toyota,Corolla Sport,4,1.6,,Manual 5-spd,25,27,31
-Toyota,Cressida,6,2.8,,Automatic 4-spd,18,19,22
-Toyota,Cressida,6,2.8,,Manual 5-spd,17,18,21
-Toyota,Tercel,4,1.5,,Automatic 3-spd,26,27,29
 Vixen Motor Company,21 TD,6,2.4,Rear-Wheel Drive,Manual 5-spd,15,16,16
-Toyota,Tercel,4,1.5,,Manual 4-spd,30,32,35
-Toyota,Tercel,4,1.5,,Manual 5-spd,26,29,34
-Volkswagen,Jetta,4,1.6,,Manual 4-spd,35,37,41
-Volkswagen,Jetta,4,1.6,,Manual 5-spd,31,34,38
-Volkswagen,Jetta,4,1.6,,Manual 5-spd,31,33,38
-Volkswagen,Jetta,4,1.7,,Automatic 3-spd,20,21,24
-Volkswagen,Jetta,4,1.7,,Automatic 3-spd,20,21,24
-Volkswagen,Jetta,4,1.7,,Manual 5-spd,22,25,29
-Volkswagen,Jetta,4,1.7,,Manual 5-spd,22,25,29
-Volkswagen,Jetta,4,1.8,,Manual 5-spd,21,23,26
 American Motors Corporation,Eagle,6,4.2,4-Wheel or All-Wheel Drive,Automatic 3-spd,15,16,17
-Volkswagen,Rabbit,4,1.6,,Manual 4-spd,35,38,43
-Volkswagen,Rabbit,4,1.7,,Automatic 3-spd,20,21,24
-Volkswagen,Rabbit,4,1.7,,Automatic 3-spd,20,21,24
-Volkswagen,Rabbit,4,1.7,,Manual 5-spd,23,25,30
-Volkswagen,Rabbit,4,1.7,,Manual 5-spd,23,25,30
-Volkswagen,Rabbit,4,1.8,,Manual 5-spd,21,23,26
-Volkswagen,Scirocco,4,1.8,,Automatic 3-spd,20,21,23
-Volkswagen,Scirocco,4,1.8,,Manual 5-spd,21,23,26
-BMW,5 Series,6,2.7,,Automatic 4-spd,18,20,24
-BMW,5 Series,6,3.2,,Automatic 4-spd,15,18,22
 American Motors Corporation,Eagle,6,4.2,4-Wheel or All-Wheel Drive,Manual 5-spd,15,17,20
-BMW,7 Series,6,3.2,,Automatic 4-spd,15,18,22
-Buick,Riviera Convertible,6,4.1,,Automatic 4-spd,13,15,19
-Buick,Riviera Convertible,8,5,,Automatic 4-spd,14,16,20
-Buick,Skyhawk,4,1.8,,Automatic 3-spd,21,24,29
-Buick,Skyhawk,4,1.8,,Automatic 3-spd,18,20,23
-Buick,Skyhawk,4,1.8,,Manual 4-spd,20,22,26
-Buick,Skyhawk,4,1.8,,Manual 5-spd,23,26,32
-Buick,Skyhawk,4,2,,Automatic 3-spd,19,22,26
-Buick,Skyhawk,4,2,,Manual 4-spd,21,24,30
-Buick,Skylark,4,2.5,,Automatic 3-spd,20,23,28
 Bill Dovell Motor Car Company,Dovell 230E,4,2.3,Rear-Wheel Drive,Automatic 4-spd,17,17,18
 Chevrolet,K10 Blazer 4WD,8,5,4-Wheel or All-Wheel Drive,Automatic 4-spd,12,13,16
-Buick,Skylark,4,2.5,,Manual 4-spd,20,23,29
-Buick,Skylark,6,2.8,,Automatic 3-spd,17,19,23
-Buick,Skylark,6,2.8,,Manual 4-spd,17,20,24
-Cadillac,Cimarron,4,2,,Automatic 3-spd,18,21,26
-Cadillac,Cimarron,4,2,,Manual 5-spd,21,25,31
-Cadillac,Eldorado Convertible,8,4.1,,Automatic 4-spd,14,16,20
-Chevrolet,Cavalier,4,2,,Automatic 3-spd,19,22,26
-Chevrolet,Cavalier,4,2,,Manual 4-spd,21,24,30
-Chevrolet,Cavalier,4,2,,Manual 5-spd,21,25,31
-Nissan,Stanza,4,2,,Automatic 3-spd,21,23,25
 Chevrolet,K10 Blazer 4WD,8,5,4-Wheel or All-Wheel Drive,Manual 4-spd,12,14,16
-Nissan,Stanza,4,2,,Manual 5-spd,23,26,31
-Dodge,Omni,4,1.6,,Manual 4-spd,25,29,35
-Dodge,Omni,4,2.2,,Automatic 3-spd,20,21,24
-Dodge,Omni,4,2.2,,Manual 5-spd,21,25,31
-Ford,Escort,4,1.6,,Automatic 3-spd,21,23,26
-Ford,Escort,4,1.6,,Manual 4-spd,23,27,32
-Ford,Escort,4,1.6,,Manual 5-spd,21,25,31
-Ford,Escort,4,1.6,,Automatic 3-spd,21,24,27
-Ford,Escort,4,1.6,,Manual 5-spd,22,25,30
-Ford,Escort,4,1.6,,Manual 5-spd,21,24,30
 Chevrolet,K10 Blazer 4WD,8,5.7,4-Wheel or All-Wheel Drive,Automatic 4-spd,11,12,15
-Ford,Escort,4,2,,Manual 5-spd,31,34,39
-Ford,Tempo,4,2,,Manual 5-spd,31,34,39
-Ford,Tempo,4,2.3,,Automatic 3-spd,19,21,24
-Ford,Tempo,4,2.3,,Manual 5-spd,20,22,26
-Ford,Thunderbird,4,2.3,,Automatic 3-spd,16,18,20
-Ford,Thunderbird,4,2.3,,Manual 5-spd,17,19,23
-Ford,Thunderbird,6,3.8,,Automatic 3-spd,16,18,20
-Ford,Thunderbird,6,3.8,,Automatic 4-spd,17,19,22
-Ford,Thunderbird,8,5,,Automatic 4-spd,14,16,20
-Mercury,Cougar,4,2.3,,Automatic 3-spd,16,18,20
 Chevrolet,K10 Blazer 4WD,8,6.2,4-Wheel or All-Wheel Drive,Automatic 4-spd,15,17,20
-Mercury,Cougar,4,2.3,,Manual 5-spd,17,19,23
-Mercury,Cougar,6,3.8,,Automatic 3-spd,16,18,20
-Mercury,Cougar,6,3.8,,Automatic 4-spd,17,19,22
-Mercury,Cougar,8,5,,Automatic 4-spd,14,16,20
-Mercury,Lynx,4,1.6,,Automatic 3-spd,21,23,26
-Mercury,Lynx,4,1.6,,Manual 4-spd,23,26,31
-Mercury,Lynx,4,1.6,,Manual 5-spd,21,25,31
-Mercury,Lynx,4,1.6,,Automatic 3-spd,21,24,27
-Mercury,Lynx,4,1.6,,Manual 5-spd,22,25,30
-Mercury,Lynx,4,1.6,,Manual 5-spd,21,24,30
 Chevrolet,Suburban K10 4WD,8,5.7,4-Wheel or All-Wheel Drive,Automatic 4-spd,11,12,15
-Mercury,Lynx,4,2,,Manual 5-spd,31,34,39
-Mercury,Topaz,4,2,,Manual 5-spd,31,34,39
-Mercury,Topaz,4,2.3,,Automatic 3-spd,19,21,24
-Mercury,Topaz,4,2.3,,Manual 5-spd,20,22,26
-Mazda,626,4,2,,Automatic 3-spd,21,23,26
-Mazda,626,4,2,,Manual 5-spd,23,25,29
-Mazda,626,4,2,,Manual 5-spd,31,33,38
-Mercedes-Benz,300D/300CD,5,3,,Automatic 4-spd,21,22,23
-Mercedes-Benz,300SD/380SE,5,3,,Automatic 4-spd,21,22,23
-Mercedes-Benz,300SD/380SE,8,3.8,,Automatic 4-spd,15,15,17
 Chevrolet,Suburban K10 4WD,8,5.7,4-Wheel or All-Wheel Drive,Automatic 4-spd,10,12,15
-Mercedes-Benz,500SEC,8,5,,Automatic 4-spd,12,13,15
-Oldsmobile,Firenza,4,1.8,,Automatic 3-spd,21,24,29
-Oldsmobile,Firenza,4,1.8,,Manual 5-spd,23,26,32
-Oldsmobile,Firenza,4,2,,Automatic 3-spd,19,22,26
-Oldsmobile,Firenza,4,2,,Manual 4-spd,21,24,30
-Oldsmobile,Firenza,4,2,,Manual 5-spd,21,25,31
-Oldsmobile,Omega,4,2.5,,Automatic 3-spd,20,23,28
-Oldsmobile,Omega,4,2.5,,Manual 4-spd,21,24,30
-Oldsmobile,Omega,6,2.8,,Automatic 3-spd,17,19,23
-Oldsmobile,Omega,6,2.8,,Manual 4-spd,17,20,24
 Chevrolet,Suburban K10 4WD,8,5.7,4-Wheel or All-Wheel Drive,Manual 4-spd,10,11,12
-Peugeot,505 Sedan,4,2,,Automatic 3-spd,17,17,18
-Peugeot,505 Sedan,4,2,,Manual 5-spd,18,19,22
-Peugeot,505 Sedan,4,2.3,,Automatic 3-spd,21,22,22
-Peugeot,505 Sedan,4,2.3,,Automatic 3-spd,21,22,23
-Peugeot,505 Sedan,4,2.3,,Manual 5-spd,23,25,27
-Peugeot,505 Sedan,4,2.3,,Manual 5-spd,22,24,27
-Plymouth,Horizon,4,1.6,,Manual 4-spd,25,29,35
-Plymouth,Horizon,4,2.2,,Automatic 3-spd,20,21,24
-Plymouth,Horizon,4,2.2,,Manual 5-spd,21,25,31
-Pontiac,2000 Sunbird,4,1.8,,Automatic 3-spd,21,24,29
 Chevrolet,Suburban K10 4WD,8,6.2,4-Wheel or All-Wheel Drive,Automatic 4-spd,15,16,20
-Pontiac,2000 Sunbird,4,1.8,,Automatic 3-spd,18,20,23
-Pontiac,2000 Sunbird,4,1.8,,Manual 4-spd,20,22,26
-Pontiac,2000 Sunbird,4,1.8,,Manual 5-spd,23,26,32
-Pontiac,2000 Sunbird,4,2,,Manual 4-spd,21,24,30
-Renault,Alliance/Encore,4,1.4,,Automatic 3-spd,22,24,26
-Renault,Alliance/Encore,4,1.4,,Automatic 3-spd,22,24,26
-Renault,Alliance/Encore,4,1.4,,Manual 4-spd,29,32,37
-Renault,Alliance/Encore,4,1.4,,Manual 4-spd,28,30,34
-Renault,Alliance/Encore,4,1.4,,Manual 5-spd,26,29,34
-Renault,Alliance/Encore,4,1.4,,Manual 5-spd,27,30,34
 Chevrolet,T10 (S10) Blazer 4WD,4,2.5,4-Wheel or All-Wheel Drive,Automatic 4-spd,17,19,22
-Rolls-Royce,Camargue,8,6.8,,Automatic 3-spd,7,8,10
-Saab,900,4,2,,Automatic 3-spd,17,18,21
-Saab,900,4,2,,Automatic 3-spd,16,18,20
-Saab,900,4,2,,Manual 5-spd,18,21,26
-Saab,900,4,2,,Manual 5-spd,17,20,24
-Toyota,Camry,4,2,,Automatic 4-spd,23,26,29
-Toyota,Camry,4,2,,Manual 5-spd,25,27,31
-Toyota,Corolla,4,1.6,,Automatic 3-spd,24,26,30
-Toyota,Corolla,4,1.6,,Manual 5-spd,26,29,33
-Toyota,Corolla,4,1.8,,Manual 5-spd,33,37,43
 Chevrolet,T10 (S10) Blazer 4WD,4,2.5,4-Wheel or All-Wheel Drive,Manual 4-spd,19,21,23
-Volkswagen,Quantum,4,1.6,,Manual 5-spd,29,31,35
-Volkswagen,Quantum,4,1.6,,Manual 5-spd,28,31,35
-Volkswagen,Quantum,5,2.1,,Automatic 3-spd,16,18,20
-Volkswagen,Quantum,5,2.1,,Manual 5-spd,17,19,22
-Volvo,240 DL/GL/Turbo,4,2.1,,Automatic 4-spd,16,17,20
-Volvo,240 DL/GL/Turbo,4,2.1,,Manual 5-spd,16,18,21
-Volvo,240 DL/GL/Turbo,4,2.3,,Automatic 4-spd,18,20,23
-Volvo,240 DL/GL/Turbo,4,2.3,,Automatic 4-spd,18,19,22
-Volvo,240 DL/GL/Turbo,4,2.3,,Manual 5-spd,20,23,27
-Volvo,240 DL/GL/Turbo,4,2.3,,Manual 5-spd,20,22,26
 Pontiac,Fiero,4,2.5,Rear-Wheel Drive,Manual 5-spd,21,25,33
 Nissan,Maxima,6,3,Front-Wheel Drive,Automatic 4-spd,15,17,20
 Chevrolet,T10 (S10) Blazer 4WD,4,2.5,4-Wheel or All-Wheel Drive,Manual 5-spd,18,20,24
-Audi,5000S,5,2.1,,Automatic 3-spd,15,17,19
-Audi,5000S,5,2.1,,Automatic 3-spd,16,18,21
-Audi,5000S,5,2.1,,Manual 5-spd,17,19,24
-Buick,Century,4,2.5,,Automatic 3-spd,20,23,28
-Buick,Century,6,3,,Automatic 3-spd,16,18,22
-Buick,Century,6,3.8,,Automatic 4-spd,16,19,23
-Buick,Century,6,4.3,,Automatic 3-spd,21,24,29
-Buick,Century,6,4.3,,Automatic 4-spd,21,24,31
-Buick,Regal,6,3.8,,Automatic 3-spd,16,18,22
-Buick,Regal,6,3.8,,Automatic 4-spd,14,16,20
 Chevrolet,T10 (S10) Blazer 4WD,6,2.8,4-Wheel or All-Wheel Drive,Automatic 4-spd,14,16,19
-Buick,Regal,6,4.1,,Automatic 4-spd,15,17,20
-Buick,Regal,6,4.3,,Automatic 4-spd,19,22,29
-Buick,Riviera,6,4.1,,Automatic 4-spd,13,15,19
-Buick,Riviera,8,5,,Automatic 4-spd,14,16,20
-Cadillac,Eldorado,8,4.1,,Automatic 4-spd,14,16,20
-Cadillac,Seville,8,4.1,,Automatic 4-spd,14,16,20
-Chevrolet,Celebrity,4,2.5,,Automatic 3-spd,20,23,28
-Chevrolet,Celebrity,4,2.5,,Manual 4-spd,20,23,27
-Chevrolet,Celebrity,6,2.8,,Automatic 3-spd,17,19,23
-Chevrolet,Celebrity,6,4.3,,Automatic 3-spd,21,24,29
 Chevrolet,T10 (S10) Blazer 4WD,6,2.8,4-Wheel or All-Wheel Drive,Manual 4-spd,15,16,19
-Chevrolet,Celebrity,6,4.3,,Automatic 4-spd,21,24,31
-Chevrolet,Citation II,4,2.5,,Automatic 3-spd,20,23,28
-Chevrolet,Citation II,4,2.5,,Manual 4-spd,21,24,30
-Chevrolet,Citation II,6,2.8,,Automatic 3-spd,17,19,23
-Chevrolet,Citation II,6,2.8,,Manual 4-spd,17,20,24
-Chevrolet,Monte Carlo,6,3.8,,Automatic 3-spd,16,18,22
-Chevrolet,Monte Carlo,8,5,,Automatic 3-spd,15,16,19
-Chevrolet,Monte Carlo,8,5,,Automatic 4-spd,15,17,21
-Chrysler,E Class/New Yorker,4,2.2,,Automatic 3-spd,19,21,24
-Chrysler,E Class/New Yorker,4,2.2,,Automatic 3-spd,18,19,22
 Chevrolet,T10 (S10) Blazer 4WD,6,2.8,4-Wheel or All-Wheel Drive,Manual 5-spd,15,17,20
-Chrysler,E Class/New Yorker,4,2.6,,Automatic 3-spd,18,19,21
-Chrysler,Executive Sedan/Limousine,4,2.6,,Automatic 3-spd,16,17,20
-Chrysler,LeBaron,4,2.2,,Automatic 3-spd,20,21,24
-Chrysler,LeBaron,4,2.2,,Manual 5-spd,21,25,31
-Chrysler,LeBaron,4,2.2,,Automatic 3-spd,18,19,22
-Chrysler,LeBaron,4,2.2,,Automatic 3-spd,19,21,23
-Chrysler,LeBaron,4,2.2,,Manual 5-spd,18,22,30
-Chrysler,LeBaron,4,2.6,,Automatic 3-spd,18,19,21
-Chrysler,Newport/Fifth Avenue,8,5.2,,Automatic 3-spd,14,15,18
-Dodge,Aries,4,2.2,,Automatic 3-spd,20,21,24
 Nissan,Stanza Wagon 4WD,4,2,4-Wheel or All-Wheel Drive,Automatic 4-spd,17,18,20
-Dodge,Aries,4,2.2,,Manual 4-spd,21,24,27
-Dodge,Aries,4,2.2,,Manual 5-spd,21,25,31
-Dodge,Aries,4,2.6,,Automatic 3-spd,18,19,20
-Dodge,Diplomat,8,5.2,,Automatic 3-spd,14,15,18
-Dodge,600,4,2.2,,Automatic 3-spd,20,21,24
-Dodge,600,4,2.2,,Manual 5-spd,21,25,31
-Dodge,600,4,2.2,,Automatic 3-spd,19,21,24
-Dodge,600,4,2.2,,Automatic 3-spd,18,19,22
-Dodge,600,4,2.2,,Manual 5-spd,19,22,29
-Dodge,600,4,2.2,,Manual 5-spd,18,20,25
 Nissan,Stanza Wagon 4WD,4,2,4-Wheel or All-Wheel Drive,Manual 5-spd,18,19,22
-Dodge,600,4,2.6,,Automatic 3-spd,18,19,21
-Ford,LTD,4,2.3,,Automatic 3-spd,17,19,22
-Ford,LTD,6,3.8,,Automatic 3-spd,16,18,20
-Ford,LTD,6,3.8,,Automatic 4-spd,17,19,22
-Ford,LTD,8,5,,Automatic 4-spd,14,16,20
-Lincoln,Continental,6,2.4,,Automatic 4-spd,21,24,29
-Lincoln,Continental,8,5,,Automatic 4-spd,14,16,19
-Lincoln,Mark VII,6,2.4,,Automatic 4-spd,21,24,29
-Mercury,Marquis,4,2.3,,Automatic 3-spd,17,19,22
-Mercury,Marquis,6,3.8,,Automatic 3-spd,16,18,20
 Dodge,AW100/AW150 Ramcharger 4WD,8,5.2,4-Wheel or All-Wheel Drive,Automatic 3-spd,10,11,13
-Mercury,Marquis,6,3.8,,Automatic 4-spd,17,19,22
-Mercury,Marquis,8,5,,Automatic 4-spd,14,16,20
-Maserati,Quattroporte,8,4.9,,Automatic 3-spd,7,8,10
-Mercedes-Benz,500SEL,8,5,,Automatic 4-spd,12,13,15
-Oldsmobile,Cutlass Ciera,4,2.5,,Automatic 3-spd,20,23,28
-Oldsmobile,Cutlass Ciera,6,3,,Automatic 3-spd,16,18,22
-Oldsmobile,Cutlass Ciera,6,3.8,,Automatic 4-spd,16,19,23
-Oldsmobile,Cutlass Ciera,6,4.3,,Automatic 3-spd,21,24,30
-Oldsmobile,Cutlass Ciera,6,4.3,,Automatic 4-spd,21,24,31
-Oldsmobile,Cutlass Supreme,6,3.8,,Automatic 3-spd,16,18,22
 Dodge,AW100/AW150 Ramcharger 4WD,8,5.2,4-Wheel or All-Wheel Drive,Automatic 3-spd,10,11,12
-Oldsmobile,Cutlass Supreme,6,4.3,,Automatic 4-spd,19,22,29
-Oldsmobile,Cutlass Supreme,8,5,,Automatic 3-spd,15,16,20
-Oldsmobile,Cutlass Supreme,8,5,,Automatic 4-spd,14,16,21
-Oldsmobile,Toronado,6,4.1,,Automatic 4-spd,13,15,19
-Oldsmobile,Toronado,8,5,,Automatic 4-spd,14,16,20
-Plymouth,Gran Fury,8,5.2,,Automatic 3-spd,14,15,18
-Plymouth,Reliant,4,2.2,,Automatic 3-spd,20,21,24
-Plymouth,Reliant,4,2.2,,Manual 4-spd,21,24,27
-Plymouth,Reliant,4,2.2,,Manual 5-spd,21,25,31
-Plymouth,Reliant,4,2.6,,Automatic 3-spd,18,19,20
 Dodge,AW100/AW150 Ramcharger 4WD,8,5.2,4-Wheel or All-Wheel Drive,Manual 4-spd,10,11,13
-Pontiac,Bonneville,6,3.8,,Automatic 3-spd,16,18,22
-Pontiac,Bonneville,8,5,,Automatic 3-spd,15,16,19
-Pontiac,Bonneville,8,5,,Automatic 4-spd,15,17,21
-Pontiac,Grand Prix,6,3.8,,Automatic 3-spd,16,18,22
-Pontiac,Grand Prix,8,5,,Automatic 3-spd,15,16,19
-Pontiac,Grand Prix,8,5,,Automatic 4-spd,15,17,21
-Pontiac,Phoenix,4,2.5,,Automatic 3-spd,20,23,28
-Pontiac,Phoenix,6,2.8,,Automatic 3-spd,17,19,23
-Pontiac,Phoenix,6,2.8,,Manual 4-spd,17,20,24
-Pontiac,6000,4,2.5,,Automatic 3-spd,20,23,28
 Dodge,AW100/AW150 Ramcharger 4WD,8,5.9,4-Wheel or All-Wheel Drive,Automatic 3-spd,9,10,11
-Pontiac,6000,6,2.8,,Automatic 3-spd,17,19,22
-Pontiac,6000,6,4.3,,Automatic 3-spd,21,24,29
-Pontiac,6000,6,4.3,,Automatic 4-spd,21,24,31
-Rolls-Royce,Silver Spirit/Spur/Mulsanne,8,6.8,,Automatic 3-spd,8,9,10
-Volvo,760 GLE,4,2.3,,Automatic 4-spd,17,18,21
-Volvo,760 GLE,4,2.3,,Manual 5-spd,18,19,22
-Volvo,760 GLE,6,2.4,,Automatic 4-spd,21,22,23
-Volvo,760 GLE,6,2.9,,Automatic 4-spd,16,18,21
-Buick,Electra/Park Avenue,6,4.1,,Automatic 4-spd,15,16,20
-Buick,Electra/Park Avenue,8,5,,Automatic 4-spd,13,15,20
 Nissan,Maxima,6,3,Front-Wheel Drive,Manual 5-spd,17,19,23
 Dodge,AW100/AW150 Ramcharger 4WD,8,5.9,4-Wheel or All-Wheel Drive,Manual 4-spd,10,11,12
-Buick,Electra/Park Avenue,6,4.3,,Automatic 4-spd,21,24,31
-Buick,LeSabre,6,3.8,,Automatic 3-spd,15,17,20
-Buick,LeSabre,6,4.1,,Automatic 4-spd,15,16,20
-Buick,LeSabre,8,5,,Automatic 3-spd,14,16,19
-Buick,LeSabre,8,5,,Automatic 4-spd,14,16,20
 Cadillac,Brougham/DeVille (RWD),8,4.1,Rear-Wheel Drive,Automatic 4-spd,14,16,19
 Cadillac,Fleetwood/DeVille (FWD),6,4.3,Rear-Wheel Drive,Automatic 4-spd,21,24,31
-Chevrolet,Impala/Caprice,6,3.8,,Automatic 3-spd,15,17,20
-Chevrolet,Impala/Caprice,8,5,,Automatic 3-spd,14,16,19
-Chevrolet,Impala/Caprice,8,5,,Automatic 4-spd,15,17,21
 Dodge,Colt Vista 4WD,4,2,4-Wheel or All-Wheel Drive,Manual 5-spd,17,19,23
-Ford,LTD Crown Victoria,8,5,,Automatic 4-spd,13,15,19
-Mercury,Grand Marquis,8,5,,Automatic 4-spd,13,15,19
-Lincoln,Town Car,8,5,,Automatic 4-spd,13,15,19
-Oldsmobile,Delta 88,6,3.8,,Automatic 3-spd,15,17,20
-Oldsmobile,Delta 88,8,5,,Automatic 3-spd,14,16,19
-Oldsmobile,Delta 88,8,5,,Automatic 4-spd,14,16,20
-Oldsmobile,Ninety-Eight,8,5,,Automatic 4-spd,14,16,20
-Oldsmobile,Ninety-Eight II,6,4.3,,Automatic 4-spd,21,24,31
-Pontiac,Parisienne,6,3.8,,Automatic 3-spd,15,17,20
-Pontiac,Parisienne,8,5,,Automatic 4-spd,15,17,21
 Ford,Bronco II 4WD,6,2.9,4-Wheel or All-Wheel Drive,Automatic 4-spd,15,17,20
-Rolls-Royce,Silver Spur Limousine,8,6.8,,Automatic 3-spd,7,8,9
-Buick,Skyhawk Wagon,4,1.8,,Automatic 3-spd,21,24,29
-Buick,Skyhawk Wagon,4,1.8,,Manual 5-spd,23,26,32
-Buick,Skyhawk Wagon,4,2,,Automatic 3-spd,18,21,26
-Buick,Skyhawk Wagon,4,2,,Manual 4-spd,21,23,28
-Chevrolet,Cavalier Wagon,4,2,,Automatic 3-spd,19,22,26
-Chevrolet,Cavalier Wagon,4,2,,Manual 4-spd,21,24,30
-Chevrolet,Cavalier Wagon,4,2,,Manual 5-spd,21,25,31
-Nissan,Maxima Wagon,6,2.4,,Automatic 4-spd,18,20,24
-Nissan,Sentra Wagon,4,1.6,,Automatic 3-spd,23,25,28
 Ford,Bronco II 4WD,6,2.9,4-Wheel or All-Wheel Drive,Manual 5-spd,16,18,20
-Nissan,Sentra Wagon,4,1.6,,Manual 5-spd,27,30,35
-Nissan,Sentra Wagon,4,1.7,,Manual 5-spd,33,36,41
-Dodge,Colt Vista,4,2,,Automatic 3-spd,21,22,24
-Dodge,Colt Vista,4,2,,Manual 4-spd Doubled,21,23,25
-Dodge,Colt Vista,4,2,,Manual 5-spd,21,24,29
-Ford,Escort Wagon,4,1.6,,Automatic 3-spd,21,23,26
-Ford,Escort Wagon,4,1.6,,Manual 4-spd,23,26,31
-Ford,Escort Wagon,4,1.6,,Manual 5-spd,21,25,31
-Ford,Escort Wagon,4,1.6,,Automatic 3-spd,21,23,27
-Ford,Escort Wagon,4,1.6,,Manual 5-spd,22,25,30
 Ford,Bronco 4WD,6,4.9,4-Wheel or All-Wheel Drive,Automatic 3-spd,14,14,14
-Ford,Escort Wagon,4,2,,Manual 5-spd,31,34,39
-Honda,Civic Wagon,4,1.5,,Automatic 3-spd,23,25,27
-Honda,Civic Wagon,4,1.5,,Manual 5-spd,26,28,33
-Mercury,Lynx Wagon,4,1.6,,Automatic 3-spd,21,23,26
-Mercury,Lynx Wagon,4,1.6,,Manual 4-spd,23,26,31
-Mercury,Lynx Wagon,4,1.6,,Manual 5-spd,21,25,31
-Mercury,Lynx Wagon,4,2,,Manual 5-spd,31,34,39
-Oldsmobile,Firenza Cruiser Wagon,4,1.8,,Automatic 3-spd,21,24,29
-Oldsmobile,Firenza Cruiser Wagon,4,1.8,,Manual 5-spd,23,26,32
-Oldsmobile,Firenza Cruiser Wagon,4,2,,Automatic 3-spd,18,21,26
 Ford,Bronco 4WD,6,4.9,4-Wheel or All-Wheel Drive,Manual 4-spd,15,17,20
-Oldsmobile,Firenza Cruiser Wagon,4,2,,Manual 4-spd,21,24,30
-Oldsmobile,Firenza Cruiser Wagon,4,2,,Manual 5-spd,21,25,31
-Plymouth,Colt Vista,4,2,,Automatic 3-spd,21,22,24
-Plymouth,Colt Vista,4,2,,Manual 4-spd Doubled,21,23,25
-Plymouth,Colt Vista,4,2,,Manual 5-spd,21,24,29
-Pontiac,2000 Sunbird Wagon,4,1.8,,Automatic 3-spd,21,24,29
-Pontiac,2000 Sunbird Wagon,4,1.8,,Manual 5-spd,23,26,32
-Pontiac,2000 Sunbird Wagon,4,2,,Manual 4-spd,21,24,30
-Renault,Sportwagon,4,2.2,,Automatic 3-spd,18,19,22
-Renault,Sportwagon,4,2.2,,Manual 5-spd,20,23,28
 Ford,Bronco 4WD,6,4.9,4-Wheel or All-Wheel Drive,Manual 4-spd,14,15,16
-Subaru,Wagon,4,1.8,,Automatic 3-spd,21,22,24
-Subaru,Wagon,4,1.8,,Manual 5-spd,23,25,30
-Toyota,Cressida Wagon,6,2.8,,Automatic 4-spd,18,19,22
-Toyota,Tercel Wagon,4,1.5,,Automatic 3-spd,25,26,28
-Toyota,Tercel Wagon,4,1.5,,Manual 5-spd,26,29,35
-Toyota,Tercel Wagon 4WD,4,1.5,,Automatic 3-spd,22,23,24
-Toyota,Tercel Wagon 4WD,4,1.5,,Manual 5-spd,24,26,30
-Volkswagen,Quantum Wagon,4,1.6,,Manual 5-spd,29,31,35
-Volkswagen,Quantum Wagon,4,1.6,,Manual 5-spd,28,31,35
-Volkswagen,Quantum Wagon,5,2.1,,Automatic 3-spd,16,18,20
 Ford,Bronco 4WD,8,5,4-Wheel or All-Wheel Drive,Automatic 4-spd,12,13,16
-Volkswagen,Quantum Wagon,5,2.1,,Manual 5-spd,16,18,21
-Audi,5000S Wagon,5,2.1,,Automatic 3-spd,16,18,21
-Audi,5000S Wagon,5,2.1,,Manual 5-spd,16,19,24
-Buick,Century Estate Wagon,4,2.5,,Automatic 3-spd,19,22,26
-Buick,Century Estate Wagon,6,3,,Automatic 3-spd,15,17,20
-Buick,Century Estate Wagon,6,3.8,,Automatic 4-spd,16,19,23
-Buick,Century Estate Wagon,6,4.3,,Automatic 3-spd,21,24,29
-Buick,Century Estate Wagon,6,4.3,,Automatic 4-spd,21,24,31
-Chevrolet,Celebrity Wagon,4,2.5,,Automatic 3-spd,20,23,28
-Chevrolet,Celebrity Wagon,4,2.5,,Manual 4-spd,20,23,27
 Ford,Bronco 4WD,8,5,4-Wheel or All-Wheel Drive,Manual 4-spd,12,13,14
-Chevrolet,Celebrity Wagon,6,2.8,,Automatic 3-spd,16,18,21
-Chevrolet,Celebrity Wagon,6,2.8,,Automatic 4-spd,16,18,22
-Chevrolet,Celebrity Wagon,6,4.3,,Automatic 3-spd,21,24,29
-Chevrolet,Celebrity Wagon,6,4.3,,Automatic 4-spd,21,24,31
-Chrysler,Town and Country Wagon,4,2.2,,Automatic 3-spd,20,21,24
-Chrysler,Town and Country Wagon,4,2.6,,Automatic 3-spd,18,19,21
-Dodge,Aries Wagon,4,2.2,,Automatic 3-spd,20,21,24
-Dodge,Aries Wagon,4,2.2,,Manual 4-spd,21,24,27
-Dodge,Aries Wagon,4,2.2,,Manual 5-spd,21,25,31
-Dodge,Aries Wagon,4,2.6,,Automatic 3-spd,18,19,21
 Ford,Bronco 4WD,8,5.8,4-Wheel or All-Wheel Drive,Automatic 3-spd,11,11,12
-Ford,LTD Wagon,6,3.8,,Automatic 3-spd,16,18,20
-Ford,LTD Wagon,6,3.8,,Automatic 4-spd,17,19,22
-Mercury,Marquis Wagon,6,3.8,,Automatic 3-spd,16,18,20
-Mercury,Marquis Wagon,6,3.8,,Automatic 4-spd,17,19,22
-Mercedes-Benz,300TD,5,3,,Automatic 4-spd,21,22,23
-Oldsmobile,Cutlass Cruiser Wagon,4,2.5,,Automatic 3-spd,20,23,28
-Oldsmobile,Cutlass Cruiser Wagon,6,3,,Automatic 3-spd,15,17,20
-Oldsmobile,Cutlass Cruiser Wagon,6,3.8,,Automatic 4-spd,16,19,23
-Oldsmobile,Cutlass Cruiser Wagon,6,4.3,,Automatic 3-spd,21,24,29
-Oldsmobile,Cutlass Cruiser Wagon,6,4.3,,Automatic 4-spd,21,24,31
 Nissan,Stanza,4,2,Front-Wheel Drive,Automatic 3-spd,21,22,24
 GMC,K15 Jimmy 4WD,8,5,4-Wheel or All-Wheel Drive,Automatic 4-spd,12,13,16
-Peugeot,505 Station Wagon,4,2,,Automatic 3-spd,17,17,18
-Peugeot,505 Station Wagon,4,2,,Manual 5-spd,18,19,22
-Peugeot,505 Station Wagon,4,2.3,,Automatic 3-spd,21,22,22
-Peugeot,505 Station Wagon,4,2.3,,Automatic 3-spd,21,22,23
-Plymouth,Reliant Wagon,4,2.2,,Automatic 3-spd,20,21,24
-Plymouth,Reliant Wagon,4,2.2,,Manual 4-spd,21,24,27
-Plymouth,Reliant Wagon,4,2.2,,Manual 5-spd,21,25,31
-Plymouth,Reliant Wagon,4,2.6,,Automatic 3-spd,18,19,21
-Pontiac,6000 Wagon,4,2.5,,Automatic 3-spd,20,23,28
-Pontiac,6000 Wagon,6,2.8,,Automatic 3-spd,16,18,21
 GMC,K15 Jimmy 4WD,8,5,4-Wheel or All-Wheel Drive,Manual 4-spd,12,14,16
-Pontiac,6000 Wagon,6,2.8,,Automatic 4-spd,16,18,22
-Pontiac,6000 Wagon,6,4.3,,Automatic 3-spd,21,24,29
-Pontiac,6000 Wagon,6,4.3,,Automatic 4-spd,21,24,31
-Volvo,240 DL/GL/Turbo Wagon,4,2.1,,Automatic 4-spd,16,17,20
-Volvo,240 DL/GL/Turbo Wagon,4,2.1,,Manual 5-spd,16,18,21
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Automatic 4-spd,18,20,22
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Automatic 4-spd,18,19,22
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Manual 5-spd,19,21,25
-Volvo,240 DL/GL/Turbo Wagon,4,2.3,,Manual 5-spd,20,22,24
-Buick,Electra Estate Wagon,8,5,,Automatic 4-spd,13,15,20
 GMC,K15 Jimmy 4WD,8,5.7,4-Wheel or All-Wheel Drive,Automatic 4-spd,11,12,15
-Chevrolet,Caprice Wagon,8,5,,Automatic 4-spd,14,16,19
-Ford,LTD Crown Victoria Wagon,8,5,,Automatic 4-spd,13,15,19
-Mercury,Grand Marquis Wagon,8,5,,Automatic 4-spd,13,15,19
-Oldsmobile,Custom Cruiser Wagon,8,5,,Automatic 4-spd,13,15,20
-Pontiac,Parisienne Wagon,8,5,,Automatic 4-spd,14,16,19
 Chevrolet,S10 Pickup 2WD,4,2,2-Wheel Drive,Automatic 3-spd,18,20,24
 Chevrolet,S10 Pickup 2WD,4,2,2-Wheel Drive,Manual 4-spd,21,23,26
 Chevrolet,S10 Pickup 2WD,4,2,2-Wheel Drive,Manual 5-spd,20,23,27
@@ -20386,7 +19196,6 @@ Subaru,Sedan 4WD,4,1.8,4-Wheel or All-Wheel Drive,Manual 4-spd,22,24,27
 Subaru,Sedan 4WD,4,1.8,4-Wheel or All-Wheel Drive,Automatic 3-spd,19,20,22
 Toyota,4Runner 4WD,4,2.4,4-Wheel or All-Wheel Drive,Manual 5-spd,16,17,19
 Chevrolet,S10 Cab Chassis 2WD,6,2.8,2-Wheel Drive,Automatic 4-spd,13,14,15
-Nissan,Pickup Cab Chassis,4,2.4,,Manual 5-spd,14,14,15
 Ford,F250 Pickup Cab Chassis 2WD,8,5,2-Wheel Drive,Automatic 3-spd,11,11,11
 Ford,Ranger Pickup Cab Chassis 2WD,4,2.3,2-Wheel Drive,Manual 4-spd,16,17,19
 GMC,S15 Cab Chassis 2WD,6,2.8,2-Wheel Drive,Automatic 4-spd,13,14,15
@@ -21128,7 +19937,6 @@ Chevrolet,Impala Police,6,3.8,Front-Wheel Drive,Automatic 4-spd,16,20,27
 Mazda,RX-7,2,1.3,Rear-Wheel Drive,Manual 5-spd,15,17,21
 Ford,Crown Victoria Police,8,4.6,Rear-Wheel Drive,Automatic 4-spd,14,17,21
 Oldsmobile,Bravada AWD,6,4.3,4-Wheel or All-Wheel Drive,Automatic 4-spd,14,15,18
-Lotus,Esprit V8,8,3.5,,Manual 5-spd,14,16,21
 Morgan,Plus Eight,8,3.9,Rear-Wheel Drive,Manual 5-spd,15,17,22
 Chrysler,Sebring,6,3,Front-Wheel Drive,Manual 5-spd,18,21,26
 Chrysler,Sebring,6,3,Front-Wheel Drive,Automatic (S4),18,20,25
@@ -21412,8 +20220,6 @@ Chevrolet,G30 Van 2WD (cargo),8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,12,14
 GMC,Vandura G35 2WD (cargo),8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,12,14
 Porsche,944,4,2.5,Rear-Wheel Drive,Automatic 3-spd,17,19,22
 Isuzu,Pickup 2WD,4,2.6,2-Wheel Drive,Manual 5-spd,16,18,20
-Subaru,RX Turbo,NA,NA,4-Wheel Drive,Manual 5-spd,22,24,28
-Subaru,RX Turbo,NA,NA,4-Wheel Drive,Manual 5-spd,21,23,27
 Mercedes-Benz,SLK300,6,3.5,Rear-Wheel Drive,Automatic 7-spd,19,21,26
 Mercedes-Benz,SLK350,6,3.5,Rear-Wheel Drive,Manual 6-spd,17,20,25
 Mercedes-Benz,SLK350,6,3.5,Rear-Wheel Drive,Automatic 7-spd,18,20,25
@@ -21505,7 +20311,6 @@ Chevrolet,Sport Van G30 2WD (cargo),8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,12
 GMC,Vandura 2500 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,11,12,14
 Porsche,924 S,4,2.5,Rear-Wheel Drive,Manual 5-spd,18,21,26
 Porsche,924 S,4,2.5,Rear-Wheel Drive,Automatic 3-spd,18,19,22
-Mazda,RX-7,NA,1.3,Rear-Wheel Drive,Manual 5-spd,15,18,22
 Alfa Romeo,8 C Spider,8,4.7,Rear-Wheel Drive,Automatic 6-spd,11,13,16
 Nissan,Titan FE 2WD,8,5.6,Rear-Wheel Drive,Automatic 5-spd,13,15,18
 Alfa Romeo,Milano,6,2.5,Rear-Wheel Drive,Automatic 3-spd,16,18,21
@@ -23025,22 +21830,7 @@ Jeep,Patriot 4WD,4,2.4,4-Wheel Drive,Automatic (variable gear ratios),21,23,26
 Jeep,Patriot 4WD,4,2.4,4-Wheel Drive,Manual 5-spd,22,24,27
 Nissan,Murano AWD,6,3.5,All-Wheel Drive,Automatic (variable gear ratios),18,20,23
 Porsche,Cayenne S Hybrid,6,3,All-Wheel Drive,Automatic 8-spd,20,21,24
-Ford,Ranger Pickup 2WD,,,2-Wheel Drive,Automatic (A1),62,58,54
-Ford,Ranger Pickup 2WD,,,2-Wheel Drive,Automatic (A1),62,58,54
-Ford,Ranger Pickup 2WD,,,2-Wheel Drive,Automatic (A1),59,56,52
-GMC,EV1,,,,Automatic (A1),79,85,94
-GMC,EV1,,,,Automatic (A1),35,37,39
 Pontiac,Firefly,3,1,Front-Wheel Drive,Manual 5-spd,36,39,43
-Honda,EV Plus,,,,Automatic (A1),49,48,46
-Ford,Ranger Pickup 2WD,,,2-Wheel Drive,Automatic (A1),62,58,54
-Ford,Ranger Pickup 2WD,,,2-Wheel Drive,Automatic (A1),50,47,44
-Dodge,Caravan/Grand Caravan 2WD,,,2-Wheel Drive,Automatic (A1),37,35,33
-Plymouth,Voyager/Grand Voyager 2WD,,,Front-Wheel Drive,Automatic (A1),37,35,33
-Honda,EV Plus,,,,Automatic (A1),49,48,46
-Chevrolet,S10 Electric,,,2-Wheel Drive,Automatic (A1),52,55,58
-Chevrolet,S10 Electric,,,2-Wheel Drive,Automatic (A1),28,28,28
-MINI,MiniE,,,,Automatic (A1),102,98,94
-Nissan,Leaf,,,Front-Wheel Drive,Automatic (A1),106,99,92
 Pontiac,Sunbird Convertible,4,2,Front-Wheel Drive,Automatic 3-spd,18,20,24
 Chevrolet,Volt,4,1.4,Front-Wheel Drive,Automatic (variable gear ratios),35,37,40
 Nissan,370Z,6,3.7,Rear-Wheel Drive,Automatic (S7),19,22,26
@@ -23136,8 +21926,6 @@ Ford,Explorer 4WD,6,3.5,4-Wheel Drive,Automatic 6-spd,17,19,23
 Ford,Explorer 4WD,6,3.5,4-Wheel Drive,Automatic (S6),17,19,23
 Jeep,Compass 4WD,4,2.4,4-Wheel Drive,Automatic (variable gear ratios),20,21,23
 Volkswagen,Touareg Hybrid,6,3,All-Wheel Drive,Automatic (S8),20,21,24
-smart,fortwo electric drive cabriolet,,,Rear-Wheel Drive,Automatic (A1),94,87,79
-smart,fortwo electric drive coupe,,,Rear-Wheel Drive,Automatic (A1),94,87,79
 Mercedes-Benz,CL550 4matic,8,4.7,4-Wheel Drive,Automatic 7-spd,15,18,23
 Mercedes-Benz,CL600,12,5.5,Rear-Wheel Drive,Automatic 5-spd,12,14,18
 Mercedes-Benz,CL63 AMG,8,5.5,Rear-Wheel Drive,Automatic 7-spd,15,17,21
@@ -23805,7 +22593,6 @@ Bitter Gmbh and Co. Kg,Bitter SC,6,3.9,Rear-Wheel Drive,Manual 5-spd,14,16,20
 MINI,Cooper S Clubman,4,1.6,Front-Wheel Drive,Automatic (S6),25,28,33
 MINI,Cooper S Clubman,4,1.6,Front-Wheel Drive,Manual 6-spd,26,30,34
 MINI,John Cooper Works Clubman,4,1.6,Front-Wheel Drive,Manual 6-spd,25,28,32
-Mitsubishi,i-MiEV,,,Rear-Wheel Drive,Automatic (A1),126,112,99
 Acura,TSX,4,2.4,Front-Wheel Drive,Manual 6-spd,21,24,29
 Acura,TSX,4,2.4,Front-Wheel Drive,Automatic (S5),22,25,31
 Acura,TSX,6,3.5,Front-Wheel Drive,Automatic (S5),19,22,28
@@ -24049,8 +22836,6 @@ Chevrolet,Beretta,6,2.8,Front-Wheel Drive,Automatic 3-spd,18,20,24
 GMC,Savana 3500 2WD (Passenger),8,4.8,Rear-Wheel Drive,Automatic 6-spd,11,13,17
 GMC,Savana 2500 2WD (Passenger),8,6,Rear-Wheel Drive,Automatic 6-spd,11,13,16
 GMC,Savana 3500 2WD (Passenger),8,6,Rear-Wheel Drive,Automatic 6-spd,10,12,15
-Azure Dynamics,Transit Connect Electric Van,,,Front-Wheel Drive,Automatic (A1),62,62,62
-Azure Dynamics,Transit Connect Electric Wagon,,,Front-Wheel Drive,Automatic (A1),62,62,62
 Honda,Odyssey,6,3.5,Front-Wheel Drive,Automatic 5-spd,18,21,27
 Honda,Odyssey,6,3.5,Front-Wheel Drive,Automatic 6-spd,19,22,27
 Toyota,Sienna 2WD,4,2.7,Front-Wheel Drive,Automatic (S6),19,21,24
@@ -24339,7 +23124,6 @@ Nissan,Xterra 4WD,6,4,4-Wheel Drive,Manual 6-spd,16,17,20
 Nissan,Armada 4WD,8,5.6,4-Wheel Drive,Automatic 5-spd,12,14,18
 Toyota,4Runner 4WD,6,4,4-Wheel Drive,Automatic (S5),17,19,22
 Toyota,4Runner 4WD,6,4,Part-time 4-Wheel Drive,Automatic (S5),17,19,22
-Nissan,Leaf,,,Front-Wheel Drive,Automatic (A1),106,99,92
 Mitsubishi,Outlander Sport 2WD,4,2,Front-Wheel Drive,Automatic (AV-S6),25,27,30
 Mitsubishi,Outlander Sport 2WD,4,2,Front-Wheel Drive,Manual 5-spd,24,26,30
 Mitsubishi,Outlander Sport 4WD,4,2,4-Wheel Drive,Automatic (AV-S6),23,25,28
@@ -24470,9 +23254,6 @@ Kia,Sorento 2WD,6,3.5,Front-Wheel Drive,Automatic 6-spd,20,22,25
 Kia,Sorento 4WD,4,2.4,4-Wheel Drive,Automatic 6-spd,20,22,26
 Kia,Sorento 4WD,4,2.4,4-Wheel Drive,Automatic 6-spd,21,23,26
 Kia,Sorento 4WD,6,3.5,4-Wheel Drive,Automatic 6-spd,18,20,24
-BMW,Active E,,,Rear-Wheel Drive,Automatic (A1),107,102,96
-CODA Automotive,CODA,,,Front-Wheel Drive,Automatic (A1),77,73,68
-Ford,Focus Electric,,,Front-Wheel Drive,Automatic (variable gear ratios),110,105,99
 Mercedes-Benz,SLK250,4,1.8,Rear-Wheel Drive,Automatic 7-spd,23,26,32
 Ford,Tempo,4,2.3,Front-Wheel Drive,Manual 5-spd,19,22,28
 Mercedes-Benz,SLK250,4,1.8,Rear-Wheel Drive,Manual 6-spd,22,26,32
@@ -24782,7 +23563,6 @@ Toyota,Venza AWD,4,2.7,All-Wheel Drive,Automatic (S6),20,22,26
 Toyota,Venza AWD,6,3.5,All-Wheel Drive,Automatic (S6),18,21,25
 Cadillac,SRX 2WD,6,3.6,Front-Wheel Drive,Automatic (S6),17,19,24
 Cadillac,SRX AWD,6,3.6,All-Wheel Drive,Automatic (S6),16,18,23
-Tesla,Model S,,,Rear-Wheel Drive,Automatic (A1),88,89,90
 Audi,TT Roadster quattro,4,2,All-Wheel Drive,Automatic (AM-S6),22,26,31
 Mercedes-Benz,SLK250,4,1.8,Rear-Wheel Drive,Manual 6-spd,22,26,32
 Mazda,626,4,2,Front-Wheel Drive,Manual 5-spd,19,22,26
@@ -25300,7 +24080,6 @@ Jeep,Wrangler Unlimited 4WD,6,3.6,4-Wheel Drive,Automatic 5-spd,16,18,20
 Jeep,Wrangler 4WD,6,3.6,4-Wheel Drive,Manual 6-spd,17,18,21
 Jeep,Wrangler Unlimited 4WD,6,3.6,4-Wheel Drive,Manual 6-spd,16,18,21
 Lexus,RX 350 AWD,6,3.5,All-Wheel Drive,Automatic (S8),18,21,26
-Ford,Focus Electric,,,Front-Wheel Drive,Automatic (A1),110,105,99
 Lamborghini,Aventador Coupe,12,6.5,All-Wheel Drive,Automatic (AM-S7),11,13,18
 Ferrari,California,8,4.3,Rear-Wheel Drive,Automatic (AM7),14,16,19
 Fiat,500,4,1.4,Front-Wheel Drive,Manual 5-spd,28,30,33
@@ -25567,7 +24346,6 @@ Toyota,4Runner 4WD,6,4,All-Wheel Drive,Automatic (S5),17,18,21
 Toyota,4Runner 4WD,6,4,Part-time 4-Wheel Drive,Automatic (S5),17,18,21
 Toyota,Sequoia 4WD,8,5.7,Part-time 4-Wheel Drive,Automatic (S6),13,14,17
 Toyota,Sequoia 4WD FFV,8,5.7,Part-time 4-Wheel Drive,Automatic (S6),13,15,17
-Honda,Fit EV,,,Front-Wheel Drive,Automatic (A1),132,118,105
 Nissan,Versa,4,1.6,Front-Wheel Drive,Automatic (variable gear ratios),31,35,40
 Nissan,Versa,4,1.6,Front-Wheel Drive,Manual 5-spd,27,30,35
 Nissan,Versa,4,1.6,Front-Wheel Drive,Automatic 4-spd,26,30,35
@@ -25612,10 +24390,6 @@ Audi,Q5 Hybrid,4,2,All-Wheel Drive,Automatic (S8),24,26,30
 Mazda,CX-9 4WD,6,3.7,4-Wheel Drive,Automatic (S6),16,19,22
 Infiniti,QX56 2WD,8,5.6,Rear-Wheel Drive,Automatic (S7),14,16,20
 Infiniti,QX56 4WD,8,5.6,4-Wheel Drive,Automatic (S7),14,16,20
-smart,fortwo electric drive convertible,,,Rear-Wheel Drive,Automatic (A1),122,107,93
-smart,fortwo electric drive coupe,,,Rear-Wheel Drive,Automatic (A1),122,107,93
-Scion,iQ EV,,,Front-Wheel Drive,Automatic (variable gear ratios),138,121,105
-Toyota,RAV4 EV,,,Front-Wheel Drive,Automatic (variable gear ratios),78,76,74
 Lotus,Evora,6,3.5,Rear-Wheel Drive,Manual 6-spd,18,21,26
 Volkswagen,Golf,4,1.8,Front-Wheel Drive,Manual 5-spd,23,26,31
 Lotus,Evora,6,3.5,Rear-Wheel Drive,Manual 6-spd,17,20,26
@@ -25647,7 +24421,6 @@ Land Rover,Range Rover Evoque,4,2,4-Wheel Drive,Automatic (S6),20,22,27
 Nissan,Murano AWD,6,3.5,All-Wheel Drive,Automatic (variable gear ratios),18,20,23
 Toyota,Prius Plug-in Hybrid,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),51,50,49
 Ford,C-MAX Energi Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (variable gear ratios),40,38,36
-CODA Automotive,CODA,,,Front-Wheel Drive,Automatic (A1),77,73,68
 Mercedes-Benz,SL65 AMG,12,6,Rear-Wheel Drive,Automatic 7-spd,14,17,21
 Mercedes-Benz,SLS AMG GT Coupe,8,6.2,Rear-Wheel Drive,Automatic (AM7),13,15,19
 Volkswagen,GTI/Golf GT,4,1.8,Front-Wheel Drive,Manual 5-spd,23,25,28
@@ -25670,7 +24443,6 @@ Nissan,Pathfinder 2WD,6,3.5,Front-Wheel Drive,Automatic (variable gear ratios),2
 Audi,Q5,6,3,All-Wheel Drive,Automatic (S8),18,21,26
 Nissan,Pathfinder 4WD,6,3.5,4-Wheel Drive,Automatic (variable gear ratios),19,21,25
 Land Rover,LR4,8,5,4-Wheel Drive,Automatic (S6),13,14,17
-Mitsubishi,i-MiEV,,,Rear-Wheel Drive,Automatic (A1),126,112,99
 Mercedes-Benz,C350 4matic Coupe,6,3.5,4-Wheel Drive,Automatic 7-spd,19,22,27
 Volkswagen,Jetta,4,1.8,Front-Wheel Drive,Manual 5-spd,23,26,31
 BMW,650i Convertible xDrive,8,4.4,All-Wheel Drive,Automatic (S8),15,17,19
@@ -25680,8 +24452,6 @@ BMW,ActiveHybrid 5,6,3,Rear-Wheel Drive,Automatic (S8),23,26,30
 Honda,Crosstour 2WD,4,2.4,Front-Wheel Drive,Automatic 5-spd,21,24,29
 Mercedes-Benz,ML350 4matic,6,3.5,4-Wheel Drive,Automatic 7-spd,18,20,23
 Volkswagen,Jetta Hybrid,4,1.4,Front-Wheel Drive,Automatic (AM-S7),41,44,48
-Tesla,Model S (60 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),94,95,97
-Tesla,Model S (85 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),88,89,90
 Audi,RS 5 Cabriolet,8,4.2,All-Wheel Drive,Automatic (AM-S7),16,18,22
 Volkswagen,Jetta GLI 16v,4,1.8,Front-Wheel Drive,Manual 5-spd,21,23,26
 Jaguar,XF,4,2,Rear-Wheel Drive,Automatic (S8),19,23,30
@@ -25698,7 +24468,6 @@ Volkswagen,Jetta GLI/Wolfsburg Edition,4,1.8,Front-Wheel Drive,Automatic 3-spd,2
 Land Rover,LR2,4,2,4-Wheel Drive,Automatic (S6),17,20,24
 Land Rover,Range Rover,8,5,4-Wheel Drive,Automatic (S8),13,15,19
 Land Rover,Range Rover,8,5,4-Wheel Drive,Automatic (S8),14,16,20
-BYD,e6,,,Front-Wheel Drive,Automatic (A1),60,62,64
 Aston Martin,V8 Vantage,8,4.7,Rear-Wheel Drive,Manual 6-spd,13,15,19
 Aston Martin,V8 Vantage,8,4.7,Rear-Wheel Drive,Automatic (AM7),14,16,21
 Aston Martin,V8 Vantage S,8,4.7,Rear-Wheel Drive,Manual 6-spd,13,15,19
@@ -25712,8 +24481,6 @@ Buick,Encore AWD,4,1.4,All-Wheel Drive,Automatic (S6),23,25,29
 Hyundai,Santa Fe 4WD,6,3.3,4-Wheel Drive,Automatic 6-spd,18,20,24
 Nissan,Murano CrossCabriolet,6,3.5,All-Wheel Drive,Automatic (variable gear ratios),17,19,22
 BMW,X5 xDrive35d,6,3,All-Wheel Drive,Automatic (S6),19,22,26
-Fiat,500e,,,Front-Wheel Drive,Automatic (A1),122,116,108
-Toyota,RAV4 EV,,,Front-Wheel Drive,Automatic (variable gear ratios),78,76,74
 Ford,Fusion Energi Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (variable gear ratios),40,38,36
 Mazda,6,4,2.5,Front-Wheel Drive,Manual 6-spd,25,29,36
 Mazda,626,4,2,Front-Wheel Drive,Manual 5-spd,23,25,29
@@ -25892,7 +24659,6 @@ BMW,X6 xDrive35i,6,3,All-Wheel Drive,Automatic (S8),17,20,24
 BMW,X6 xDrive50i,8,4.4,All-Wheel Drive,Automatic (S8),14,17,21
 BMW,X6 M,8,4.4,All-Wheel Drive,Automatic (S6),13,15,17
 Honda,Accord Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (variable gear ratios),47,46,46
-Nissan,Leaf,,,Front-Wheel Drive,Automatic (A1),129,115,102
 Jaguar,F-Type V8 S Convertible,8,5,Rear-Wheel Drive,Automatic (S8),16,18,23
 Buick,Century,4,2.5,Front-Wheel Drive,Automatic 3-spd,19,23,29
 Porsche,Boxster S,6,3.4,Rear-Wheel Drive,Manual 6-spd,20,22,27
@@ -25952,7 +24718,6 @@ Subaru,Legacy AWD,4,2.5,All-Wheel Drive,Automatic (variable gear ratios),24,27,3
 Buick,Regal,6,3.8,Rear-Wheel Drive,Automatic 4-spd,15,18,23
 Porsche,Cayenne Diesel,6,3,All-Wheel Drive,Automatic (S8),20,23,29
 Volkswagen,Touareg,6,3,All-Wheel Drive,Automatic (S8),20,23,29
-Tesla,Model S (40 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),93,94,96
 Audi,TT Roadster quattro,4,2,All-Wheel Drive,Automatic (AM-S6),22,26,31
 Bugatti,Veyron,16,8,All-Wheel Drive,Automatic (AM-S7),8,10,15
 Jaguar,F-Type Convertible,6,3,Rear-Wheel Drive,Automatic (S8),20,23,28
@@ -25983,7 +24748,6 @@ Scion,iQ,4,1.3,Front-Wheel Drive,Automatic (variable gear ratios),36,37,37
 Audi,RS 5,8,4.2,All-Wheel Drive,Automatic (AM-S7),16,18,23
 Audi,TT Coupe quattro,4,2,All-Wheel Drive,Automatic (AM-S6),22,26,31
 Buick,Riviera,6,3.8,Front-Wheel Drive,Automatic 4-spd,16,19,25
-Chevrolet,Spark EV,,,Front-Wheel Drive,Automatic (A1),128,119,109
 Buick,Verano,4,2,Front-Wheel Drive,Manual 6-spd,20,24,31
 Cadillac,ATS,4,2.5,Rear-Wheel Drive,Automatic (S6),22,26,32
 Cadillac,ATS,4,2,Rear-Wheel Drive,Automatic (S6),21,24,30
@@ -26275,7 +25039,6 @@ Ferrari,F12,12,6.3,Rear-Wheel Drive,Automatic (AM7),12,13,16
 Ferrari,F12,12,6.3,Rear-Wheel Drive,Automatic (AM7),12,13,16
 Dodge,Dart,4,2.4,Front-Wheel Drive,Automatic 6-spd,21,24,30
 Jaguar,XJ LWB,6,3,Rear-Wheel Drive,Automatic (S8),17,20,27
-Honda,Fit EV,,,Front-Wheel Drive,Automatic (A1),132,118,105
 Mazda,6,4,2.5,Front-Wheel Drive,Automatic (S6),28,32,39
 Chevrolet,Corvette,8,6.2,Rear-Wheel Drive,Manual 7-spd,17,21,28
 Mazda,MX-5,4,2,Rear-Wheel Drive,Manual 5-spd,22,24,27
@@ -26524,7 +25287,6 @@ Jeep,Wrangler Unlimited 4WD,6,3.6,4-Wheel Drive,Manual 6-spd,16,18,21
 Jeep,Wrangler 4WD,6,3.6,4-Wheel Drive,Automatic 5-spd,17,18,21
 Porsche,Cayenne S Hybrid,6,3,All-Wheel Drive,Automatic 8-spd,20,21,24
 Mercedes-Benz,560SEL,8,5.6,Rear-Wheel Drive,Automatic 4-spd,12,13,15
-Ford,Focus Electric,,,Front-Wheel Drive,Automatic (A1),110,105,99
 SRT,Viper,10,8.4,Rear-Wheel Drive,Manual 6-spd,12,15,19
 Infiniti,Q60 AWD Coupe,6,3.7,All-Wheel Drive,Automatic (S7),18,20,25
 Infiniti,Q60 Convertible,6,3.7,Rear-Wheel Drive,Automatic (S7),18,20,25
@@ -26804,9 +25566,6 @@ Land Rover,Range Rover FFV,6,3,4-Wheel Drive,Automatic (S8),17,19,23
 Pontiac,6000,6,2.8,Front-Wheel Drive,Automatic 3-spd,18,20,24
 Land Rover,Range Rover Sport FFV,8,5,4-Wheel Drive,Automatic (S8),14,16,19
 Lexus,LX 570,8,5.7,4-Wheel Drive,Automatic (S6),12,14,17
-Fiat,500e,,,Front-Wheel Drive,Automatic (A1),122,116,108
-smart,fortwo electric drive convertible,,,Rear-Wheel Drive,Automatic (A1),122,107,93
-smart,fortwo electric drive coupe,,,Rear-Wheel Drive,Automatic (A1),122,107,93
 Honda,Accord Hybrid,4,2,Front-Wheel Drive,Automatic (variable gear ratios),49,47,45
 Mercedes-Benz,E250 Bluetec,4,2.1,Rear-Wheel Drive,Automatic 7-spd,28,32,40
 Mercedes-Benz,E250 Bluetec 4matic,4,2.1,4-Wheel Drive,Automatic 7-spd,27,31,37
@@ -26841,7 +25600,6 @@ Nissan,Armada 2WD,8,5.6,Rear-Wheel Drive,Automatic 5-spd,13,15,19
 Dodge,Durango AWD,8,5.7,4-Wheel Drive,Automatic 8-spd,14,16,22
 Nissan,Armada 4WD,8,5.6,4-Wheel Drive,Automatic 5-spd,12,14,18
 Nissan,Armada 4WD,8,5.6,4-Wheel Drive,Automatic 5-spd,12,14,18
-Toyota,RAV4 EV,,,Front-Wheel Drive,Automatic (variable gear ratios),78,76,74
 Honda,CR-Z,4,1.5,Front-Wheel Drive,Automatic (AV-S7),35,36,38
 Honda,CR-Z,4,1.5,Front-Wheel Drive,Manual 6-spd,31,33,37
 Lexus,IS 350 C,6,3.5,Rear-Wheel Drive,Automatic (S6),19,22,27
@@ -27138,7 +25896,6 @@ BMW,228i,4,2,Rear-Wheel Drive,Automatic (S8),23,27,35
 Ford,C-MAX Hybrid FWD,4,2,Front-Wheel Drive,Automatic (variable gear ratios),41,39,36
 Ford,Transit Connect Van 2WD,4,1.6,Front-Wheel Drive,Automatic (S6),22,25,29
 Nissan,NV200 Cargo Van,4,2,Front-Wheel Drive,Automatic (variable gear ratios),24,24,25
-Nissan,Leaf,,,Front-Wheel Drive,Automatic (A1),126,114,101
 Oldsmobile,Firenza,4,1.8,Front-Wheel Drive,Automatic 3-spd,21,24,29
 Mercury,Grand Marquis,8,5,Rear-Wheel Drive,Automatic 4-spd,16,19,24
 Jaguar,F-Type V8 S Convertible,8,5,Rear-Wheel Drive,Automatic (S8),16,18,23
@@ -27222,8 +25979,6 @@ Audi,A3,4,1.8,Front-Wheel Drive,Automatic (AM-S6),23,27,33
 Honda,Civic,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),29,33,37
 Honda,Civic,4,2.4,Front-Wheel Drive,Manual 6-spd,22,25,31
 Honda,Civic HF,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),31,34,40
-Tesla,Model S (85 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),88,89,90
-Tesla,Model S (60 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),94,95,97
 Chrysler,200 AWD,6,3.6,All-Wheel Drive,Automatic 9-spd,18,22,28
 Lexus,RX 350,6,3.5,Front-Wheel Drive,Automatic (S6),18,21,25
 Lexus,RX 450h,6,3.5,Front-Wheel Drive,Automatic (AV-S6),31,29,28
@@ -27314,9 +26069,7 @@ Honda,Fit,4,1.5,Front-Wheel Drive,Automatic (variable gear ratios),33,36,40
 Porsche,918 Spyder,8,4.6,All-Wheel Drive,Automatic (AM-S7),20,22,24
 BMW,428i xDrive Convertible,4,2,All-Wheel Drive,Automatic (S8),21,25,32
 MINI,Cooper S (3-doors),4,2,Front-Wheel Drive,Automatic (S6),26,29,34
-BYD,e6,,,Front-Wheel Drive,Automatic (A1),61,63,65
 Buick,Skyhawk Wagon,4,2,Front-Wheel Drive,Manual 5-spd,23,26,33
-BYD,e6,,,Front-Wheel Drive,Automatic (A1),61,63,65
 MINI,Cooper Roadster,4,1.6,Front-Wheel Drive,Manual 6-spd,27,29,33
 MINI,Cooper Coupe,4,1.6,Front-Wheel Drive,Manual 6-spd,29,32,36
 MINI,Cooper S Roadster,4,1.6,Front-Wheel Drive,Manual 6-spd,26,29,34
@@ -27362,7 +26115,6 @@ Mercedes-Benz,S550 4matic,8,4.7,4-Wheel Drive,Automatic 7-spd,16,19,26
 Oldsmobile,Firenza,4,2,Front-Wheel Drive,Automatic 3-spd,22,24,27
 Chevrolet,Cavalier Wagon,6,2.8,Front-Wheel Drive,Automatic 3-spd,18,20,24
 Land Rover,LR2,4,2,4-Wheel Drive,Automatic (S9),17,20,24
-Mitsubishi,i-MiEV,,,Rear-Wheel Drive,Automatic (A1),126,112,99
 BMW,650i Coupe,8,4.4,Rear-Wheel Drive,Automatic (S8),17,20,24
 BMW,650i Convertible,8,4.4,Rear-Wheel Drive,Automatic (S8),17,20,24
 BMW,M6 Coupe,8,4.4,Rear-Wheel Drive,Manual 6-spd,15,17,22
@@ -27380,7 +26132,6 @@ Infiniti,QX50 AWD,6,3.7,All-Wheel Drive,Automatic (S7),17,20,24
 Volvo,V60 PoleStar AWD,6,3,All-Wheel Drive,Automatic (S6),18,21,27
 Infiniti,QX70 RWD,6,3.7,Rear-Wheel Drive,Automatic (S7),17,19,24
 Infiniti,QX70 AWD,6,3.7,All-Wheel Drive,Automatic (S7),16,18,22
-Nissan,Leaf,,,Front-Wheel Drive,Automatic (A1),126,114,101
 McLaren Automotive,MP4-12C Coupe,8,3.8,Rear-Wheel Drive,Automatic 7-spd,15,18,22
 Nissan,Maxima Wagon,6,3,Front-Wheel Drive,Automatic 4-spd,16,18,22
 McLaren Automotive,MP4-12C Spider,8,3.8,Rear-Wheel Drive,Automatic 7-spd,15,18,22
@@ -27605,7 +26356,6 @@ Mercedes-Benz,GLK350 4matic,6,3.5,4-Wheel Drive,Automatic 7-spd,18,20,24
 Volvo,XC60 AWD,5,2.5,All-Wheel Drive,Automatic (S6),18,21,25
 Audi,Q7,6,3,All-Wheel Drive,Automatic (S8),16,18,22
 Mitsubishi,Space Wagon,4,2,Front-Wheel Drive,Automatic 3-spd,20,21,22
-Chevrolet,Spark EV,,,Front-Wheel Drive,Automatic (A1),128,119,109
 Hyundai,Santa Fe Ultimate 2WD,6,3.3,Front-Wheel Drive,Automatic 6-spd,18,20,23
 Hyundai,Santa Fe Ultimate 4WD,6,3.3,All-Wheel Drive,Automatic 6-spd,17,19,22
 Cadillac,ATS,4,2,Rear-Wheel Drive,Manual 6-spd,19,23,29
@@ -27699,8 +26449,6 @@ Kia,Sportage FWD,4,2.4,Front-Wheel Drive,Automatic 6-spd,21,23,28
 Kia,Sportage FWD,4,2,Front-Wheel Drive,Automatic 6-spd,20,23,26
 Kia,Sportage AWD,4,2.4,All-Wheel Drive,Automatic 6-spd,19,22,26
 Kia,Sportage AWD,4,2,All-Wheel Drive,Automatic 6-spd,19,21,24
-Fiat,500e,,,Front-Wheel Drive,Automatic (A1),122,116,108
-BMW,i3 BEV,,,Rear-Wheel Drive,Automatic (A1),137,124,111
 Porsche,911 Carrera Cabriolet,6,3.4,Rear-Wheel Drive,Automatic (AM-S7),21,23,28
 Cadillac,ATS,4,2,Rear-Wheel Drive,Automatic (S6),21,24,29
 Pontiac,Sunbird Wagon,4,2,Front-Wheel Drive,Manual 4-spd,22,25,30
@@ -27743,7 +26491,6 @@ Mitsubishi,Outlander 4WD,4,2.4,4-Wheel Drive,Automatic (AV-S6),24,26,29
 Mitsubishi,Outlander 4WD,6,3,4-Wheel Drive,Automatic (S6),20,23,27
 Mitsubishi,Outlander Sport 4WD,4,2,4-Wheel Drive,Automatic (AV-S6),24,27,30
 Chevrolet,Volt,4,1.4,Front-Wheel Drive,Automatic (variable gear ratios),35,37,40
-Mercedes-Benz,B-Class Electric Drive,,,Front-Wheel Drive,Automatic (A1),85,84,83
 Nissan,370Z,6,3.7,Rear-Wheel Drive,Automatic (S7),19,21,26
 Nissan,370Z,6,3.7,Rear-Wheel Drive,Manual 6-spd,18,21,25
 Subaru,Wagon,4,1.8,Front-Wheel Drive,Automatic 3-spd,21,22,24
@@ -28137,7 +26884,6 @@ BMW,i8,3,1.5,All-Wheel Drive,Automatic 6-spd,28,28,29
 Peugeot,505,4,2.5,Rear-Wheel Drive,Automatic 3-spd,22,22,23
 Ford,Taurus Wagon,4,2.5,Front-Wheel Drive,Manual 5-spd,19,21,27
 McLaren Automotive,P1,8,3.8,Rear-Wheel Drive,Automatic 7-spd,16,17,20
-Kia,Soul Electric,,,Front-Wheel Drive,Automatic (A1),120,105,92
 Chevrolet,Corvette,8,6.2,Rear-Wheel Drive,Automatic (S8),16,20,29
 Ferrari,F12,12,6.3,Rear-Wheel Drive,Automatic (AM7),12,13,16
 McLaren Automotive,650S Coupe,8,3.8,Rear-Wheel Drive,Automatic 7-spd,16,18,22
@@ -28410,7 +27156,6 @@ Mercedes-Benz,E550 Coupe,8,4.7,Rear-Wheel Drive,Automatic 7-spd,18,21,26
 Mercedes-Benz,E350 Convertible,6,3.5,Rear-Wheel Drive,Automatic 7-spd,20,23,28
 Mercedes-Benz,E550 Convertible,8,4.7,Rear-Wheel Drive,Automatic 7-spd,17,20,25
 Mercedes-Benz,S63 AMG 4matic Coupe,8,5.5,4-Wheel Drive,Automatic 7-spd,15,18,23
-Volkswagen,e-Golf,,,Front-Wheel Drive,Automatic (A1),126,116,105
 Volvo,240 DL/240 GL Wagon,4,2.3,Rear-Wheel Drive,Manual 5-spd,19,22,26
 Mercedes-Benz,E350,6,3.5,Rear-Wheel Drive,Automatic 7-spd,20,23,28
 Mercedes-Benz,E250 Bluetec 4matic,4,2.1,4-Wheel Drive,Automatic 7-spd,27,31,37
@@ -28420,8 +27165,6 @@ Nissan,NV200 Cargo Van,4,2,Front-Wheel Drive,Automatic (variable gear ratios),24
 Land Rover,Range Rover Evoque,4,2,4-Wheel Drive,Automatic (S9),21,24,29
 Mercedes-Benz,GLK250 Bluetec 4matic,4,2.1,4-Wheel Drive,Automatic 7-spd,24,27,32
 Mercedes-Benz,G550,8,5.5,4-Wheel Drive,Automatic 7-spd,12,13,15
-smart,fortwo electric drive convertible,,,Rear-Wheel Drive,Automatic (A1),122,107,93
-smart,fortwo electric drive coupe,,,Rear-Wheel Drive,Automatic (A1),122,107,93
 Volvo,740/760 Wagon,4,2.3,Rear-Wheel Drive,Automatic 4-spd,17,18,20
 Ford,Mustang Convertible,8,5,Rear-Wheel Drive,Automatic (S6),15,18,23
 Ford,Mustang Convertible,4,2.3,Rear-Wheel Drive,Automatic (S6),20,24,29
@@ -28534,7 +27277,6 @@ Mercedes-Benz,S65 AMG Coupe,12,6,Rear-Wheel Drive,Automatic 7-spd,13,15,20
 Mercedes-Benz,CLA250,4,2,Front-Wheel Drive,Automatic (AM7),26,30,37
 Hyundai,Elantra GT,4,2,Front-Wheel Drive,Manual 6-spd,24,27,33
 Chevrolet,S10 Pickup 2WD,4,2.5,Rear-Wheel Drive,Automatic 4-spd,18,21,25
-Mercedes-Benz,B-Class Electric Drive,,,Front-Wheel Drive,Automatic (A1),85,84,82
 Ford,Focus FWD,3,1,Front-Wheel Drive,Manual 6-spd,29,32,38
 Ford,Focus FWD,4,2,Front-Wheel Drive,Automatic (AM6),27,31,38
 Ford,Focus FWD,4,2,Front-Wheel Drive,Automatic (S6),26,30,37
@@ -28545,7 +27287,6 @@ Ford,Focus FWD FFV,4,2,Front-Wheel Drive,Automatic (S6),26,30,37
 Ford,Focus FWD FFV,4,2,Front-Wheel Drive,Manual 5-spd,26,29,35
 Ford,Focus SFE FWD,3,1,Front-Wheel Drive,Manual 6-spd,30,34,41
 Chevrolet,S10 Pickup 2WD,4,2.5,Rear-Wheel Drive,Manual 4-spd,19,21,24
-Ford,Focus Electric,,,Front-Wheel Drive,Automatic (A1),110,105,99
 Nissan,Sentra,4,1.8,Front-Wheel Drive,Manual 6-spd,27,30,35
 Nissan,Sentra,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),29,32,37
 Nissan,Sentra FE,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),30,33,38
@@ -28556,7 +27297,6 @@ Nissan,Titan 4WD,8,5.6,4-Wheel Drive,Automatic 5-spd,12,14,17
 Volvo,V60 CC FWD,4,2,Front-Wheel Drive,Automatic (S8),24,27,31
 Volvo,V60 CC AWD,5,2.5,All-Wheel Drive,Automatic (S6),20,23,28
 Chevrolet,S10 Pickup 2WD,4,2.5,Rear-Wheel Drive,Manual 5-spd,20,22,26
-Tesla,Model S (85 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),88,89,90
 Mazda,6,4,2.5,Front-Wheel Drive,Automatic (S6),26,30,37
 Mazda,6,4,2.5,Front-Wheel Drive,Automatic (S6),28,32,38
 Mazda,6,4,2.5,Front-Wheel Drive,Manual 6-spd,25,29,36
@@ -28571,7 +27311,6 @@ Kia,Sorento AWD,4,2,All-Wheel Drive,Automatic (S6),19,21,25
 Kia,Sorento AWD,4,2.4,All-Wheel Drive,Automatic (S6),21,22,25
 Kia,Sorento AWD,6,3.3,All-Wheel Drive,Automatic (S6),17,19,23
 Mazda,CX-5 4WD,4,2.5,4-Wheel Drive,Automatic (S6),24,26,29
-Tesla,Model S AWD (85 kW-hr battery pack),,,4-Wheel Drive,Automatic (A1),86,89,94
 Audi,A7 quattro,6,3,All-Wheel Drive,Automatic (S8),20,24,29
 Audi,A6 quattro,6,3,All-Wheel Drive,Automatic (S8),20,24,29
 Honda,HR-V 2WD,4,1.8,Front-Wheel Drive,Manual 6-spd,25,28,33
@@ -28587,23 +27326,18 @@ Ram,1500 HFE 2WD,6,3,Rear-Wheel Drive,Automatic 8-spd,21,24,29
 Nissan,Rogue Select FWD,4,2.5,Front-Wheel Drive,Automatic (variable gear ratios),23,25,28
 Land Rover,Discovery Sport,4,2,4-Wheel Drive,Automatic (S9),20,22,26
 Nissan,Rogue Select AWD,4,2.5,All-Wheel Drive,Automatic (variable gear ratios),22,24,26
-Tesla,Model S AWD - P85D,,,All-Wheel Drive,Automatic (A1),89,93,98
-Tesla,Model S AWD - 85D,,,All-Wheel Drive,Automatic (A1),95,100,106
 Chevrolet,S10 Pickup 2WD,6,2.8,Rear-Wheel Drive,Manual 4-spd,16,18,21
 Jaguar,F-Type Coupe,6,3,Rear-Wheel Drive,Automatic (S8),19,22,27
 Jaguar,F-Type Convertible,6,3,Rear-Wheel Drive,Automatic (S8),19,22,27
 Jaguar,F-Type S Coupe,6,3,Rear-Wheel Drive,Automatic (S8),19,22,27
 Jaguar,F-Type S Convertible,6,3,Rear-Wheel Drive,Automatic (S8),19,22,27
 Bentley,Mulsanne,8,6.8,Rear-Wheel Drive,Automatic (S8),11,14,18
-BMW,i3 BEV,,,Rear-Wheel Drive,Automatic (A1),137,124,111
-Tesla,Model S (60 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),94,95,97
 Kia,Sportage SX FWD,4,2,Front-Wheel Drive,Automatic (S6),20,22,26
 Kia,Sportage SX AWD,4,2,All-Wheel Drive,Automatic (S6),19,21,25
 Chevrolet,S10 Pickup 2WD,6,2.8,Rear-Wheel Drive,Manual 5-spd,16,18,22
 Hyundai,Veloster,4,1.6,Front-Wheel Drive,Automatic (AM6),28,31,35
 Hyundai,Veloster,4,1.6,Front-Wheel Drive,Manual 6-spd,27,30,34
 Hyundai,Elantra GT,4,2,Front-Wheel Drive,Manual 6-spd,24,27,32
-Mitsubishi,i-MiEV,,0,Rear-Wheel Drive,Automatic (A1),126,112,99
 Ford,Edge FWD,4,2,Front-Wheel Drive,Automatic (S6),20,24,30
 Ford,Edge FWD,6,3.5,Front-Wheel Drive,Automatic (S6),18,21,26
 Ford,Edge FWD,6,2.7,Front-Wheel Drive,Automatic (S6),18,21,27
@@ -28716,7 +27450,6 @@ Acura,MDX 4WD,6,3.5,All-Wheel Drive,Automatic (S9),18,21,26
 Ford,Edge FWD,4,2,Front-Wheel Drive,Automatic (S6),21,24,29
 Jeep,Renegade 2WD,4,1.4,Front-Wheel Drive,Manual 6-spd,24,26,31
 Jeep,Renegade 4WD,4,1.4,All-Wheel Drive,Manual 6-spd,24,27,31
-Tesla,Model S AWD - 70D,,,All-Wheel Drive,Automatic (A1),101,101,102
 Mazda,2,4,1.5,Front-Wheel Drive,Manual 6-spd,31,34,40
 Mazda,2,4,1.5,Front-Wheel Drive,Automatic (S6),33,36,41
 Subaru,WRX,4,2,All-Wheel Drive,Automatic (AV-S8),18,21,24
@@ -29184,7 +27917,6 @@ Isuzu,Pickup 4WD,4,2.3,4-Wheel or All-Wheel Drive,Manual 5-spd,17,19,22
 Jeep,Cherokee Trailhawk 4WD,4,2.4,4-Wheel Drive,Automatic 9-spd,19,22,25
 Mercedes-Benz,GLE350 4matic,6,3.5,4-Wheel Drive,Automatic 7-spd,18,19,22
 Mercedes-Benz,GLE350 4matic,6,3.5,4-Wheel Drive,Automatic 7-spd,18,19,22
-Kia,Soul Electric,,,Front-Wheel Drive,Automatic (A1),120,105,92
 Mercedes-Benz,SL550,8,4.7,Rear-Wheel Drive,Automatic 7-spd,16,19,24
 Mercedes-Benz,AMG SL65,12,6,Rear-Wheel Drive,Automatic 7-spd,14,17,21
 Mercedes-Benz,SLK300,4,2,Rear-Wheel Drive,Automatic 9-spd,24,27,32
@@ -29438,8 +28170,6 @@ Mercedes-Benz,GLE400 4matic,6,3,4-Wheel Drive,Automatic 7-spd,18,20,22
 Mercedes-Benz,GL450 4matic,6,3,4-Wheel Drive,Automatic 7-spd,17,19,21
 Porsche,Cayenne Diesel,6,3,All-Wheel Drive,Automatic (S8),21,24,28
 Volkswagen,Touareg,6,3.6,All-Wheel Drive,Automatic (S8),17,19,23
-Tesla,Model S AWD - 90D,,,All-Wheel Drive,Automatic (A1),95,100,106
-Tesla,Model S AWD - P90D,,,All-Wheel Drive,Automatic (A1),89,93,98
 BMW,228i,4,2,Rear-Wheel Drive,Automatic (S8),23,27,35
 BMW,M4 Convertible,6,3,Rear-Wheel Drive,Automatic (AM-S7),17,19,24
 Chevrolet,R20 (C20) Pickup 2WD,8,5,Rear-Wheel Drive,Automatic 4-spd,12,14,17
@@ -29492,7 +28222,6 @@ Subaru,Impreza Sport AWD,4,2,All-Wheel Drive,Automatic (AV-S6),27,30,35
 Subaru,XV Crosstrek AWD,4,2,All-Wheel Drive,Manual 5-spd,23,26,30
 Subaru,XV Crosstrek AWD,4,2,All-Wheel Drive,Automatic (AV-S6),26,29,33
 Subaru,XV Crosstrek Hybrid AWD,4,2,All-Wheel Drive,Automatic (AV-S6),29,31,33
-Volkswagen,e-Golf,,,Front-Wheel Drive,Automatic (A1),126,116,105
 Roush Performance,Stage 3 Mustang,8,5,Rear-Wheel Drive,Automatic (S6),13,16,23
 Roush Performance,Stage 3 Mustang,8,5,Rear-Wheel Drive,Manual 6-spd,13,16,23
 Fiat,500,4,1.4,Front-Wheel Drive,Automatic 6-spd,27,29,33
@@ -29521,8 +28250,6 @@ Lexus,GX 460,8,4.6,4-Wheel Drive,Automatic (S6),15,17,20
 Toyota,4Runner 4WD,6,4,Part-time 4-Wheel Drive,Automatic (S5),17,18,21
 Toyota,4Runner 4WD,6,4,All-Wheel Drive,Automatic (S5),17,18,21
 Dodge,Dakota Pickup 2WD,6,3.9,Rear-Wheel Drive,Automatic 3-spd,16,18,19
-smart,fortwo electric drive convertible,,,Rear-Wheel Drive,Automatic (A1),122,107,93
-smart,fortwo electric drive coupe,,,Rear-Wheel Drive,Automatic (A1),122,107,93
 Cadillac,ELR,4,1.4,Front-Wheel Drive,Automatic (variable gear ratios),31,32,33
 Chevrolet,Volt,4,1.5,Front-Wheel Drive,Automatic (variable gear ratios),43,42,42
 Aston Martin,V8 Vantage,8,4.7,Rear-Wheel Drive,Manual 6-spd,13,15,19
@@ -29646,10 +28373,7 @@ Dodge,Charger SRT8,8,6.4,Rear-Wheel Drive,Automatic 8-spd,15,18,25
 Dodge,Charger,6,3.6,Rear-Wheel Drive,Automatic 8-spd,19,23,30
 Dodge,Charger,6,3.6,Rear-Wheel Drive,Automatic 8-spd,19,23,30
 Mercedes-Benz,Metris (Passenger Van),4,2,Rear-Wheel Drive,Automatic 7-spd,20,22,23
-Ford,Focus Electric,,,Front-Wheel Drive,Automatic (A1),110,105,99
-Tesla,Model X AWD - 90D,,,All-Wheel Drive,Automatic (A1),90,92,94
 Dodge,D100/D150 Pickup 2WD,8,5.2,Rear-Wheel Drive,Manual 4-spd,10,12,14
-Tesla,Model X AWD - P90D,,,All-Wheel Drive,Automatic (A1),89,89,90
 Ford,Focus FWD,3,1,Front-Wheel Drive,Manual 6-spd,30,34,41
 Ford,Focus FWD FFV,4,2,Front-Wheel Drive,Automatic (AM6),27,31,39
 Ford,Focus FWD FFV,4,2,Front-Wheel Drive,Automatic (AM-S6),26,30,37
@@ -29666,8 +28390,6 @@ Honda,CR-V 2WD,4,2.4,Front-Wheel Drive,Automatic (variable gear ratios),26,29,32
 Mercedes-Benz,GLA250 4matic,4,2,4-Wheel Drive,Automatic (AM7),24,27,31
 Volvo,XC90 FWD,4,2,Front-Wheel Drive,Automatic (S8),22,24,26
 Volvo,XC90 AWD,4,2,All-Wheel Drive,Automatic (S8),22,23,25
-Chevrolet,Spark EV,,,Front-Wheel Drive,Automatic (A1),128,119,109
-Mercedes-Benz,B250e,,,Front-Wheel Drive,Automatic (A1),85,84,82
 Hyundai,Sonata Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (AM6),38,40,41
 Jaguar,XF AWD,6,3,All-Wheel Drive,Automatic (S8),20,23,28
 Chevrolet,Sprint,3,1,Front-Wheel Drive,Manual 5-spd,39,42,47
@@ -29745,8 +28467,6 @@ Lexus,NX 200t AWD,4,2,All-Wheel Drive,Automatic (S6),22,24,28
 Lexus,NX 200t AWD F Sport,4,2,All-Wheel Drive,Automatic (S6),22,24,27
 Mercedes-Benz,GLA250 4matic,4,2,4-Wheel Drive,Automatic (AM7),24,27,31
 Lexus,LX 570,8,5.7,4-Wheel Drive,Automatic (S8),13,15,18
-Nissan,Leaf (24 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),126,114,101
-Nissan,Leaf (30 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),124,112,101
 BMW,X5 xDrive40e,4,2,All-Wheel Drive,Automatic (S8),23,24,25
 Ferrari,488 GTB,8,3.9,Rear-Wheel Drive,Automatic (AM7),15,18,22
 Dodge,D250 Pickup 2WD,8,5.2,Rear-Wheel Drive,Manual 4-spd,11,12,14
@@ -29844,7 +28564,6 @@ Lexus,GS 350 F Sport,6,3.5,Rear-Wheel Drive,Automatic (S8),19,22,27
 Nissan,Pathfinder 2WD,6,3.5,Front-Wheel Drive,Automatic (variable gear ratios),20,23,27
 Nissan,Pathfinder 4WD,6,3.5,4-Wheel Drive,Automatic (variable gear ratios),19,22,26
 Nissan,Pathfinder 4WD Platinum,6,3.5,4-Wheel Drive,Automatic (variable gear ratios),19,21,26
-Fiat,500e,,,Front-Wheel Drive,Automatic (A1),121,112,103
 Toyota,Sienna 2WD,6,3.5,Front-Wheel Drive,Automatic (S6),18,21,25
 Toyota,Sienna AWD,6,3.5,All-Wheel Drive,Automatic (S6),16,19,23
 Mercedes-Benz,GLC300,4,2,Front-Wheel Drive,Automatic 9-spd,22,24,28
@@ -29910,7 +28629,6 @@ Jeep,Grand Cherokee SRT8 4WD,8,6.4,All-Wheel Drive,Automatic 8-spd,13,15,19
 Jeep,Grand Cherokee 4WD,6,3,4-Wheel Drive,Automatic 8-spd,21,24,28
 Jeep,Grand Cherokee 4WD,6,3.6,4-Wheel Drive,Automatic 8-spd,18,21,25
 Jeep,Grand Cherokee 4WD,8,5.7,All-Wheel Drive,Automatic 8-spd,14,17,22
-BMW,i3 BEV,,,Rear-Wheel Drive,Automatic (A1),137,124,111
 Hyundai,Santa Fe Sport FWD,4,2,Front-Wheel Drive,Automatic (S6),20,23,28
 Hyundai,Santa Fe Sport Ultimate FWD,4,2,Front-Wheel Drive,Automatic (S6),20,23,27
 Hyundai,Santa Fe Sport AWD,4,2,All-Wheel Drive,Automatic (S6),19,22,26
@@ -29928,17 +28646,8 @@ Hyundai,Santa Fe Ultimate FWD,6,3.3,Front-Wheel Drive,Automatic (S6),17,20,23
 Ford,F250 Pickup 2WD,8,5,Rear-Wheel Drive,Manual 4-spd,12,13,14
 Hyundai,Santa Fe AWD,6,3.3,All-Wheel Drive,Automatic (S6),18,20,24
 Hyundai,Santa Fe Ultimate AWD,6,3.3,All-Wheel Drive,Automatic (S6),17,19,22
-Tesla,Model S (70 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),88,89,90
-Tesla,Model S (85 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),88,89,90
-Tesla,Model S (90 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),88,89,90
-Tesla,Model S (90 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),88,89,90
 Nissan,NV200 NYC Taxi,4,2,Front-Wheel Drive,Automatic (variable gear ratios),23,24,26
-Tesla,Model S AWD - 70D,,,All-Wheel Drive,Automatic (A1),101,101,102
-Tesla,Model S AWD - 85D,,,All-Wheel Drive,Automatic (A1),95,100,106
 Ford,F250 Pickup 2WD,8,5.8,Rear-Wheel Drive,Automatic 3-spd,11,12,13
-Tesla,Model S AWD - 90D,,,All-Wheel Drive,Automatic (A1),101,103,107
-Tesla,Model S AWD - P85D,,,All-Wheel Drive,Automatic (A1),89,93,98
-Tesla,Model S AWD - P90D,,,All-Wheel Drive,Automatic (A1),91,95,100
 Hyundai,Santa Fe Sport FWD,4,2.4,Front-Wheel Drive,Automatic (S6),21,24,27
 Hyundai,Santa Fe Sport AWD,4,2.4,All-Wheel Drive,Automatic (S6),20,22,26
 MINI,Cooper Convertible,3,1.5,Front-Wheel Drive,Automatic (S6),27,30,36
@@ -29994,7 +28703,6 @@ GMC,R15 Pickup 2WD,6,4.3,Rear-Wheel Drive,Automatic 3-spd,15,16,17
 Mitsubishi,Mirage,3,1.2,Front-Wheel Drive,Manual 5-spd,33,36,41
 Mitsubishi,Mirage,3,1.2,Front-Wheel Drive,Automatic (variable gear ratios),37,39,43
 Chrysler,Pacifica,6,3.6,Front-Wheel Drive,Automatic 9-spd,18,22,28
-Mitsubishi,i-MiEV,,,Rear-Wheel Drive,Automatic (A1),121,112,102
 Ferrari,F60 America,12,6.3,Rear-Wheel Drive,Automatic (AM7),11,13,15
 Ferrari,F60 America,12,6.3,Rear-Wheel Drive,Automatic (AM7),12,13,15
 Audi,S8,8,4,All-Wheel Drive,Automatic (S8),15,18,25
@@ -30136,9 +28844,6 @@ Porsche,Cayenne GTS,6,3.6,All-Wheel Drive,Automatic (S8),16,19,23
 Infiniti,Q50,6,3,Rear-Wheel Drive,Automatic (S7),19,23,28
 GMC,R25 Pickup 2WD,6,4.3,Rear-Wheel Drive,Automatic 3-spd,14,14,15
 Infiniti,Q50 AWD,6,3,All-Wheel Drive,Automatic (S7),19,22,27
-Tesla,Model S (75 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),97,98,100
-Tesla,Model S AWD - 75D,,,All-Wheel Drive,Automatic (A1),102,103,105
-Tesla,Model X AWD - 75D,,,All-Wheel Drive,Automatic (A1),91,93,95
 Porsche,911 Turbo,6,3.8,All-Wheel Drive,Automatic (AM-S7),19,21,24
 Porsche,911 Turbo Cabriolet,6,3.8,All-Wheel Drive,Automatic (AM-S7),19,21,24
 Porsche,911 Turbo S,6,3.8,All-Wheel Drive,Automatic (AM-S7),19,21,24
@@ -30551,11 +29256,9 @@ BMW,X6 sDrive35i,6,3,Rear-Wheel Drive,Automatic (S8),18,21,25
 BMW,X5 xDrive35i,6,3,All-Wheel Drive,Automatic (S8),18,20,24
 BMW,X6 xDrive35i,6,3,All-Wheel Drive,Automatic (S8),18,20,24
 Volkswagen,Touareg,6,3.6,All-Wheel Drive,Automatic (S8),17,19,23
-Fiat,500e,,,Front-Wheel Drive,Automatic (A1),121,112,103
 Porsche,Cayenne S e-Hybrid,6,3,All-Wheel Drive,Automatic (AM8),21,22,24
 Renault,Alliance/Encore,4,1.7,Front-Wheel Drive,Manual 5-spd,25,28,33
 Chevrolet,V20 Pickup 4WD,8,6.2,4-Wheel or All-Wheel Drive,Automatic 4-spd,15,16,19
-BYD,e6,,,Front-Wheel Drive,Automatic (A1),73,72,71
 Dodge,Viper,10,8.4,Rear-Wheel Drive,Manual 6-spd,12,14,19
 Ferrari,F12 Berlinetta,12,6.3,Rear-Wheel Drive,Automatic (AM7),12,13,16
 Mercedes-Benz,SLC300,4,2,Rear-Wheel Drive,Automatic 9-spd,25,27,32
@@ -30778,9 +29481,6 @@ BMW,X6 M,8,4.4,All-Wheel Drive,Automatic (S8),14,16,19
 Ferrari,Mondial,8,2.9,Rear-Wheel Drive,Manual 5-spd,9,11,15
 Saab,900,4,2,Front-Wheel Drive,Automatic 3-spd,16,17,19
 Ford,F150 Pickup 4WD,6,4.9,4-Wheel or All-Wheel Drive,Automatic 3-spd,13,13,13
-BMW,i3 BEV (60  Amp-hour battery),,,Rear-Wheel Drive,Automatic (A1),137,124,111
-BMW,i3 BEV (94 Amp-hour battery),,,Rear-Wheel Drive,Automatic (A1),129,118,106
-Mercedes-Benz,B250e,,,Front-Wheel Drive,Automatic (A1),85,84,82
 Ferrari,488 Spider,8,3.9,Rear-Wheel Drive,Automatic (AM7),15,18,22
 Ferrari,488 Spider,8,3.9,Rear-Wheel Drive,Automatic (AM7),16,18,22
 Audi,TT Roadster quattro,4,2,All-Wheel Drive,Automatic (AM-S6),23,26,30
@@ -30963,13 +29663,8 @@ Jaguar,F-Pace,4,2,All-Wheel Drive,Automatic (S8),26,29,33
 Nissan,Pathfinder 4WD,6,3.5,4-Wheel Drive,Automatic (variable gear ratios),19,22,26
 Nissan,Pathfinder 4WD Platinum,6,3.5,4-Wheel Drive,Automatic (variable gear ratios),19,21,26
 Lexus,RX 450h AWD,6,3.5,All-Wheel Drive,Automatic (AV-S6),31,30,28
-Kia,Soul Electric,,,Front-Wheel Drive,Automatic (A1),120,105,92
 BMW,X5 xDrive40e,4,2,All-Wheel Drive,Automatic (S8),23,24,25
 GMC,T15 (S15) Pickup 4WD,6,2.8,4-Wheel or All-Wheel Drive,Automatic 4-spd,14,16,20
-Tesla,Model S (60 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),98,99,101
-Tesla,Model S AWD - 60D,,,All-Wheel Drive,Automatic (A1),101,104,107
-Tesla,Model S AWD - P100D,,,All-Wheel Drive,Automatic (A1),92,98,105
-Tesla,Model X AWD - 60D,,,All-Wheel Drive,Automatic (A1),91,93,94
 Mazda,MX-5,4,2,Rear-Wheel Drive,Manual 6-spd,26,29,33
 Mazda,MX-5,4,2,Rear-Wheel Drive,Automatic (S6),26,29,35
 Audi,A3 Cabriolet quattro,4,2,All-Wheel Drive,Automatic (AM-S6),22,25,30
@@ -30984,7 +29679,6 @@ Fiat,500 X AWD,4,2.4,All-Wheel Drive,Automatic 9-spd,21,24,29
 Jeep,Renegade 4WD,4,1.4,All-Wheel Drive,Manual 6-spd,24,26,31
 Chevrolet,Silverado C15 2WD,8,5.3,Rear-Wheel Drive,Automatic 8-spd,16,18,22
 GMC,Sierra C15 2WD,8,5.3,Rear-Wheel Drive,Automatic 8-spd,16,18,22
-Chevrolet,Bolt EV,,,Front-Wheel Drive,Automatic (A1),128,119,110
 Lexus,RC 300 AWD,6,3.5,All-Wheel Drive,Automatic (S6),19,21,26
 Lexus,RC 350,6,3.5,Rear-Wheel Drive,Automatic (S8),19,22,28
 GMC,T15 (S15) Pickup 4WD,6,2.8,4-Wheel or All-Wheel Drive,Manual 5-spd,15,17,21
@@ -31251,11 +29945,9 @@ Toyota,Highlander AWD,6,3.5,All-Wheel Drive,Automatic (S8),19,22,26
 Toyota,Highlander Hybrid AWD,6,3.5,All-Wheel Drive,Automatic (AV-S6),29,28,27
 Toyota,Highlander Hybrid AWD LE Plus,6,3.5,All-Wheel Drive,Automatic (AV-S6),30,29,28
 Toyota,Highlander AWD LE,6,3.5,All-Wheel Drive,Automatic (S8),20,23,27
-Nissan,Leaf,,,Front-Wheel Drive,Automatic (A1),124,112,101
 BMW,328d,4,2,Rear-Wheel Drive,Automatic (S8),31,36,43
 Jeep,J-10 Pickup Truck 4WD,8,5.9,4-Wheel or All-Wheel Drive,Automatic 3-spd,10,11,12
 MINI,John Cooper Works Clubman All4,4,2,All-Wheel Drive,Manual 6-spd,21,24,31
-Hyundai,Ioniq Electric,,,Front-Wheel Drive,Automatic (A1),150,136,122
 Porsche,911 Carrera GTS,6,3,Rear-Wheel Drive,Manual 7-spd,18,21,26
 Porsche,911 Carrera GTS,6,3,Rear-Wheel Drive,Automatic (AM-S7),20,23,26
 Porsche,911 Carrera GTS Cabriolet,6,3,Rear-Wheel Drive,Manual 7-spd,18,21,26
@@ -31332,12 +30024,10 @@ Porsche,Macan Turbo Kit,6,3.6,All-Wheel Drive,Automatic (AM-S7),17,19,23
 Mercedes-Benz,C350e,4,2,Rear-Wheel Drive,Automatic 7-spd,28,30,32
 Subaru,Sedan,4,1.8,Front-Wheel Drive,Manual 4-spd,27,30,33
 Toyota,Truck 4WD,4,2.4,4-Wheel or All-Wheel Drive,Manual 5-spd,16,18,20
-Tesla,Model X AWD - P100D,,,All-Wheel Drive,Automatic (A1),81,86,92
 MINI,Cooper Countryman All4,3,1.5,All-Wheel Drive,Manual 6-spd,22,26,32
 BMW,M760i xDrive,12,6.6,All-Wheel Drive,Automatic (S8),13,16,20
 Land Rover,Range Rover,6,3,4-Wheel Drive,Automatic (S8),17,19,23
 Land Rover,Range Rover Sport,6,3,4-Wheel Drive,Automatic (S8),17,19,23
-Ford,Focus Electric,,,Front-Wheel Drive,Automatic (A1),118,107,96
 Ford,C-MAX Energi Plug-In Hybrid,4,2,Front-Wheel Drive,Automatic (variable gear ratios),41,39,38
 Ford,GT,6,3.5,Rear-Wheel Drive,Automatic (AM7),11,14,18
 Toyota,Prius c,4,1.5,Front-Wheel Drive,Automatic (variable gear ratios),48,46,43
@@ -31357,22 +30047,13 @@ Chevrolet,Astro 2WD (cargo),4,2.5,Rear-Wheel Drive,Automatic 4-spd,17,19,22
 Land Rover,Range Rover Sport,6,3,4-Wheel Drive,Automatic (S8),22,24,28
 Volkswagen,Golf Alltrack,4,1.8,All-Wheel Drive,Manual 6-spd,22,26,32
 Volkswagen,Golf SportWagen 4motion,4,1.8,All-Wheel Drive,Manual 6-spd,22,26,32
-Tesla,Model S AWD - 60D,,,All-Wheel Drive,Automatic (A1),101,104,107
-Tesla,Model S AWD - 75D,,,All-Wheel Drive,Automatic (A1),102,103,105
-Tesla,Model S AWD - P100D,,,All-Wheel Drive,Automatic (A1),92,98,105
-Tesla,Model X AWD - 60D,,,All-Wheel Drive,Automatic (A1),91,93,94
-Tesla,Model X AWD - 75D,,,All-Wheel Drive,Automatic (A1),91,93,95
-Tesla,Model X AWD - 90D,,,All-Wheel Drive,Automatic (A1),90,92,94
-Tesla,Model X AWD - P90D,,,All-Wheel Drive,Automatic (A1),89,89,90
 Chevrolet,Astro 2WD (cargo),4,2.5,Rear-Wheel Drive,Manual 4-spd,18,20,23
-Tesla,Model X AWD - P100D,,,All-Wheel Drive,Automatic (A1),81,86,92
 Toyota,Prius Prime,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),55,54,53
 Chevrolet,Camaro,8,6.2,Rear-Wheel Drive,Automatic (S10),12,15,20
 Dodge,Challenger GT,6,3.6,All-Wheel Drive,Automatic 8-spd,18,21,27
 Jeep,New Compass 4WD,4,2.4,All-Wheel Drive,Automatic 9-spd,22,25,30
 Mercedes-Benz,AMG GLE43 4matic,6,3,4-Wheel Drive,Automatic 9-spd,17,20,23
 Mercedes-Benz,G550 4x4 (Special Off-Road Model),8,4,4-Wheel Drive,Automatic 7-spd,11,11,11
-Tesla,Model S AWD - P90D,,,All-Wheel Drive,Automatic (A1),92,95,100
 Subaru,Impreza 4-Door,4,2,All-Wheel Drive,Manual 5-spd,24,27,32
 Subaru,Impreza Sport 4-Door,4,2,All-Wheel Drive,Manual 5-spd,23,26,31
 Chevrolet,Astro 2WD (cargo),4,2.5,Rear-Wheel Drive,Manual 5-spd,19,21,24
@@ -31385,7 +30066,6 @@ BMW,540i,6,3,Rear-Wheel Drive,Automatic (S8),20,24,30
 BMW,540i xDrive,6,3,All-Wheel Drive,Automatic (S8),20,23,29
 Mitsubishi,Outlander Sport 2WD,4,2.4,Front-Wheel Drive,Automatic (AV-S6),23,25,28
 Mitsubishi,Outlander Sport 4WD,4,2.4,4-Wheel Drive,Automatic (AV-S6),22,24,27
-Volkswagen,e-Golf,,,Front-Wheel Drive,Automatic (A1),126,119,111
 Chevrolet,Astro 2WD (cargo),6,4.3,Rear-Wheel Drive,Automatic 4-spd,15,17,20
 Jeep,New Compass 2WD,4,2.4,Front-Wheel Drive,Automatic 6-spd,22,25,31
 Chevrolet,Equinox FWD,4,1.5,Front-Wheel Drive,Automatic 6-spd,26,28,32
@@ -31394,8 +30074,6 @@ Chevrolet,Cruze,4,1.6,Front-Wheel Drive,Automatic 9-spd,31,37,47
 Chevrolet,Cruze,4,1.6,Front-Wheel Drive,Manual 6-spd,30,37,52
 MINI,Cooper S Countryman,4,2,Front-Wheel Drive,Automatic (S8),23,27,32
 Nissan,NV200 NYC Taxi,4,2,Front-Wheel Drive,Automatic (variable gear ratios),23,24,26
-Tesla,Model S (60 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),98,99,101
-Tesla,Model S (75 kW-hr battery pack),,,Rear-Wheel Drive,Automatic (A1),97,98,100
 MINI,Cooper Countryman,3,1.5,Front-Wheel Drive,Automatic (S6),25,28,33
 Chevrolet,Astro 2WD (cargo),6,4.3,Rear-Wheel Drive,Manual 5-spd,15,18,22
 MINI,Cooper Countryman,3,1.5,Front-Wheel Drive,Manual 6-spd,24,28,33
@@ -31407,7 +30085,6 @@ Roush Performance,F150 Pickup 4WD,8,5,4-Wheel Drive,Automatic (S6),12,13,14
 Mazda,CX-5 2WD,4,2.5,Front-Wheel Drive,Automatic (S6),24,27,31
 Acura,MDX Hybrid AWD,6,3,All-Wheel Drive,Automatic (AM-S7),26,27,27
 Mazda,CX-5 4WD,4,2.5,4-Wheel Drive,Automatic (S6),23,26,29
-Tesla,Model S AWD - 90D,,,All-Wheel Drive,Automatic (A1),102,104,107
 Chevrolet,G10/20 Van 2WD,6,4.3,Rear-Wheel Drive,Automatic 3-spd,15,15,17
 Audi,A5 Cabriolet quattro,4,2,All-Wheel Drive,Automatic (AM-S7),24,27,34
 Audi,A5 quattro,4,2,All-Wheel Drive,Manual 6-spd,24,27,33
@@ -31432,7 +30109,6 @@ Mercedes-Benz,E400 4matic (station wagon),6,3,4-Wheel Drive,Automatic 9-spd,19,2
 Jeep,New Compass 2WD,4,2.4,Front-Wheel Drive,Manual 6-spd,23,26,32
 Chevrolet,G10/20 Van 2WD,6,4.3,Rear-Wheel Drive,Manual 3-spd,15,17,19
 Jeep,New Compass 4WD,4,2.4,All-Wheel Drive,Manual 6-spd,22,25,31
-BYD,e6,,,Front-Wheel Drive,Automatic (A1),73,72,71
 Bentley,Bentayga,12,6,All-Wheel Drive,Automatic (S8),12,15,19
 Porsche,Panamera,6,3,Rear-Wheel Drive,Automatic (AM-S8),21,24,28
 Porsche,Panamera 4,6,3,4-Wheel Drive,Automatic (AM-S8),21,23,27
@@ -31487,7 +30163,6 @@ BMW,X4 xDrive28i,4,2,All-Wheel Drive,Automatic (S8),20,23,28
 BMW,X4 M40i,6,3,All-Wheel Drive,Automatic (S8),18,21,25
 Chevrolet,Colorado ZR2 4WD,6,3.6,4-Wheel Drive,Automatic 8-spd,16,17,18
 Chevrolet,G10/20 Van 2WD,8,5.7,Rear-Wheel Drive,Automatic 4-spd,12,14,17
-Tesla,Model S AWD - 100D,,,All-Wheel Drive,Automatic (A1),101,102,102
 Subaru,WRX,4,2.5,All-Wheel Drive,Manual 6-spd,17,19,22
 MINI,JCW Countryman All4,4,2,All-Wheel Drive,Automatic (S8),22,25,30
 MINI,JCW Countryman All4,4,2,All-Wheel Drive,Manual 6-spd,20,24,29
@@ -32099,8 +30774,6 @@ Jeep,Grand Cherokee SRT 4WD,8,6.4,All-Wheel Drive,Automatic 8-spd,13,15,19
 Nissan,Armada 4WD,8,5.6,4-Wheel Drive,Automatic (S7),13,15,18
 Chevrolet,Astro 2WD (passenger),6,4.3,Rear-Wheel Drive,Manual 5-spd,15,17,21
 Chevrolet,Volt,4,1.5,Front-Wheel Drive,Automatic (variable gear ratios),43,42,42
-Honda,Clarity EV,,,Front-Wheel Drive,Automatic (A1),126,114,103
-smart,fortwo electric drive coupe,,,Rear-Wheel Drive,Automatic (A1),124,108,94
 Porsche,911 Carrera,6,3,Rear-Wheel Drive,Manual 7-spd,20,23,29
 Porsche,911 Carrera,6,3,Rear-Wheel Drive,Automatic (AM-S7),22,25,30
 Porsche,911 Carrera Cabriolet,6,3,Rear-Wheel Drive,Manual 7-spd,20,23,29
@@ -32244,7 +30917,6 @@ Jeep,Grand Cherokee 4WD,8,5.7,All-Wheel Drive,Automatic 8-spd,14,17,22
 Dodge,B150/B250 Wagon 2WD,8,5.2,Rear-Wheel Drive,Automatic 3-spd,11,12,13
 Toyota,Sequoia 4WD FFV,8,5.7,Part-time 4-Wheel Drive,Automatic (S6),13,14,17
 Toyota,Sequoia 4WD,8,5.7,Part-time 4-Wheel Drive,Automatic (S6),13,14,17
-Kia,Soul Electric,,,Front-Wheel Drive,Automatic (A1),124,108,93
 Mercedes-Benz,AMG C63 S Convertible,8,4,Rear-Wheel Drive,Automatic 7-spd,17,19,22
 Mercedes-Benz,AMG C63 Convertible,8,4,Rear-Wheel Drive,Automatic 7-spd,17,19,22
 Mercedes-Benz,AMG C63 S Coupe,8,4,Rear-Wheel Drive,Automatic 7-spd,17,19,23
@@ -32556,7 +31228,6 @@ Mitsubishi,Wagon,4,2.4,Rear-Wheel Drive,Automatic 4-spd,16,17,20
 Ford,F150 Pickup 4WD FFV,8,5,Part-time 4-Wheel Drive,Automatic (S10),16,18,22
 Ford,F150 5.0L 4WD FFV GVWR>7599 LBS,8,5,Part-time 4-Wheel Drive,Automatic (S10),15,17,19
 Ford,F150 4WD FFV BASE PAYLOAD LT,8,5,Part-time 4-Wheel Drive,Automatic (S10),16,17,20
-smart,fortwo electric drive convertible,,,Rear-Wheel Drive,Automatic (A1),112,102,91
 Ford,Focus FWD,4,2,Front-Wheel Drive,Automatic (AM6),26,31,38
 Ford,Focus FWD,4,2,Front-Wheel Drive,Automatic (AM-S6),24,28,34
 Ford,Focus FWD,4,2,Front-Wheel Drive,Manual 5-spd,25,28,34
@@ -32597,8 +31268,6 @@ Ford,Expedition 4WD,6,3.5,Part-time 4-Wheel Drive,Automatic (S10),17,19,22
 Ford,Expedition MAX 4WD,6,3.5,Part-time 4-Wheel Drive,Automatic (S10),16,18,21
 Lincoln,Navigator 4WD,6,3.5,Part-time 4-Wheel Drive,Automatic (S10),16,18,21
 Toyota,Van 4WD,4,2.2,4-Wheel or All-Wheel Drive,Manual 5-spd,18,19,20
-Ford,Focus Electric,,,Front-Wheel Drive,Automatic (A1),118,107,96
-Hyundai,Ioniq Electric,,,Front-Wheel Drive,Automatic (A1),150,136,122
 Ford,Mustang,4,2.3,Rear-Wheel Drive,Manual 6-spd,21,25,31
 Ford,Mustang Performance Package,4,2.3,Rear-Wheel Drive,Manual 6-spd,20,23,28
 Ford,Mustang Convertible,4,2.3,Rear-Wheel Drive,Manual 6-spd,20,23,28
@@ -32739,7 +31408,6 @@ Toyota,Tacoma 4WD Double Cab Off-Road,6,3.5,Part-time 4-Wheel Drive,Manual 6-spd
 Toyota,Tacoma 4WD,4,2.7,Part-time 4-Wheel Drive,Automatic (S6),19,20,22
 Cadillac,CT6 Plug-In,4,2,Rear-Wheel Drive,Automatic (variable gear ratios),23,25,29
 Hyundai,Ioniq Plug-in Hybrid,4,1.6,Front-Wheel Drive,Automatic (AM6),53,52,52
-Tesla,Model 3 Long Range,,,Rear-Wheel Drive,Automatic (A1),131,126,120
 Chevrolet,S10 Blazer 2WD,6,2.8,Rear-Wheel Drive,Manual 4-spd,15,17,20
 Mazda,MX-5,4,2,Rear-Wheel Drive,Manual 6-spd,26,29,33
 Mazda,MX-5,4,2,Rear-Wheel Drive,Automatic (S6),26,29,35
@@ -32756,9 +31424,6 @@ Jeep,Renegade 4WD,4,1.4,All-Wheel Drive,Manual 6-spd,24,26,31
 Mazda,CX-5 4WD,4,2.5,4-Wheel Drive,Automatic (S6),24,26,30
 Honda,Clarity Plug-in Hybrid,4,1.5,Front-Wheel Drive,Automatic (variable gear ratios),44,42,40
 Kia,Optima Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (AM6),38,40,43
-smart,fortwo electric drive coupe,,,Rear-Wheel Drive,Automatic (A1),124,108,94
-smart,fortwo electric drive convertible,,,Rear-Wheel Drive,Automatic (A1),112,102,91
-Chevrolet,Bolt EV,,,Front-Wheel Drive,Automatic (A1),128,119,110
 Acura,NSX Hybrid,6,3.5,All-Wheel Drive,Automatic (AM-S9),21,21,22
 Ford,GT,6,3.5,Rear-Wheel Drive,Automatic (AM7),11,14,18
 Ford,Fiesta FWD,4,1.6,Front-Wheel Drive,Automatic (AM-S6),27,31,37
@@ -32809,20 +31474,11 @@ Lexus,RX 350 AWD,6,3.5,All-Wheel Drive,Automatic (S8),19,22,26
 Lexus,RX 450h AWD,6,3.5,All-Wheel Drive,Automatic (AV-S6),31,30,28
 Dodge,Caravan/Grand Caravan/Ram Van 2WD,4,2.2,Front-Wheel Drive,Automatic 3-spd,17,18,20
 Mitsubishi,Outlander PHEV,4,2,All-Wheel Drive,Automatic (A1),25,25,26
-Tesla,Model X AWD - 100D,,,All-Wheel Drive,Automatic (A1),86,87,89
 Volkswagen,Golf,4,1.8,Front-Wheel Drive,Automatic (S6),24,28,33
 Volkswagen,Golf SportWagen,4,1.8,Front-Wheel Drive,Automatic (S6),24,28,33
 BMW,i3 (94Ah) with Range Extender,2,0.6,Rear-Wheel Drive,Automatic (A1),36,35,33
 BMW,i3s (94Ah) with Range Extender,2,0.6,Rear-Wheel Drive,Automatic (A1),36,35,33
-Tesla,Model 3 Long Range,,,Rear-Wheel Drive,Automatic (A1),136,130,123
-Tesla,Model S 75kWh,,,Rear-Wheel Drive,Automatic (A1),97,98,100
-Tesla,Model S 75D,,,All-Wheel Drive,Automatic (A1),102,103,105
-Tesla,Model S 100D,,,All-Wheel Drive,Automatic (A1),101,102,102
 Dodge,Caravan/Grand Caravan/Ram Van 2WD,4,2.2,Front-Wheel Drive,Automatic 3-spd,18,19,22
-Tesla,Model S P100D,,,All-Wheel Drive,Automatic (A1),92,98,105
-Tesla,Model X 75D,,,All-Wheel Drive,Automatic (A1),91,93,95
-Tesla,Model X 100D,,,All-Wheel Drive,Automatic (A1),86,87,89
-Tesla,Model X P100D,,,All-Wheel Drive,Automatic (A1),83,85,89
 Jaguar,XF (296 Hp),4,2,Rear-Wheel Drive,Automatic (S8),23,26,31
 Mazda,6,4,2.5,Front-Wheel Drive,Manual 6-spd,24,27,33
 Mazda,6,4,2.5,Front-Wheel Drive,Automatic (S6),26,29,35
@@ -32834,14 +31490,11 @@ Land Rover,Discovery Sport,4,2,All-Wheel Drive,Automatic (S9),21,22,25
 Land Rover,Discovery Sport (286 Hp),4,2,All-Wheel Drive,Automatic (S9),20,22,25
 Lexus,RX 350 L AWD,6,3.5,All-Wheel Drive,Automatic (S8),18,21,25
 Mercedes-Benz,C350e,4,2,Rear-Wheel Drive,Automatic 7-spd,28,30,32
-BMW,i3 (94Ah),,,Rear-Wheel Drive,Automatic (A1),129,118,106
-BMW,i3s (94Ah),,,Rear-Wheel Drive,Automatic (A1),126,112,99
 Volkswagen,Golf,4,1.8,Front-Wheel Drive,Manual 5-spd,25,29,34
 Volkswagen,Golf SportWagen,4,1.8,Front-Wheel Drive,Manual 5-spd,25,29,34
 Volkswagen,Golf SportWagen 4motion,4,1.8,All-Wheel Drive,Automatic (AM-S6),22,24,29
 Mercedes-Benz,Metris (Cargo Van  LWB),4,2,Rear-Wheel Drive,Automatic 7-spd,21,22,24
 Dodge,Caravan/Grand Caravan/Ram Van 2WD,4,2.2,Front-Wheel Drive,Manual 5-spd,19,22,26
-Nissan,Leaf,,,Front-Wheel Drive,Automatic (A1),125,112,100
 Jeep,Cherokee FWD,6,3.2,Front-Wheel Drive,Automatic 9-spd,20,23,29
 Jeep,Cherokee 4WD,6,3.2,All-Wheel Drive,Automatic 9-spd,19,22,27
 Jeep,Cherokee 4WD Active Drive II,6,3.2,4-Wheel Drive,Automatic 9-spd,18,21,26
@@ -32853,7 +31506,6 @@ Ram,1500 2WD,6,3,Rear-Wheel Drive,Automatic 8-spd,20,23,27
 Ram,1500 4WD,6,3,4-Wheel Drive,Automatic 8-spd,19,22,27
 Dodge,Caravan/Grand Caravan/Ram Van 2WD,4,2.5,Front-Wheel Drive,Automatic 3-spd,17,18,20
 Acura,MDX Hybrid AWD,6,3,All-Wheel Drive,Automatic (AM-S7),26,27,27
-Volkswagen,e-Golf,,,Front-Wheel Drive,Automatic (A1),126,119,111
 Chevrolet,Corvette,8,6.2,Rear-Wheel Drive,Manual 7-spd,16,19,25
 Chevrolet,Corvette,8,6.2,Rear-Wheel Drive,Automatic (S8),15,18,25
 Chevrolet,Corvette Z06,8,6.2,Rear-Wheel Drive,Automatic (S8),14,17,23
@@ -32863,7 +31515,6 @@ Kia,Sorento FWD,4,2.4,Front-Wheel Drive,Automatic (S6),22,25,29
 Toyota,Highlander Hybrid AWD,6,3.5,All-Wheel Drive,Automatic (AV-S6),29,28,27
 Toyota,Highlander Hybrid AWD LE Plus,6,3.5,All-Wheel Drive,Automatic (AV-S6),30,29,28
 Dodge,Caravan/Grand Caravan/Ram Van 2WD,4,2.5,Front-Wheel Drive,Manual 5-spd,17,20,24
-BYD,e6,,,Front-Wheel Drive,Automatic (A1),73,72,71
 Mercedes-Benz,GLC350e 4matic,4,2,4-Wheel Drive,Automatic 7-spd,24,25,27
 Toyota,Prius Prime,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),55,54,53
 Infiniti,QX50,4,2,Front-Wheel Drive,Automatic (AV-S8),24,27,31
@@ -32948,7 +31599,6 @@ Fiat,500,4,1.4,Front-Wheel Drive,Manual 5-spd,28,30,33
 Fiat,500 Abarth,4,1.4,Front-Wheel Drive,Automatic 6-spd,24,27,32
 Fiat,500 Abarth,4,1.4,Front-Wheel Drive,Manual 5-spd,28,30,33
 Porsche,Panamera 4S ST,6,2.9,4-Wheel Drive,Automatic (AM-S8),20,22,26
-Fiat,500e,,,Front-Wheel Drive,Automatic (A1),121,112,103
 GMC,S15 Jimmy 2WD,4,2.5,Rear-Wheel Drive,Automatic 3-spd,17,19,21
 Porsche,Panamera 4 e-Hybrid ST,6,2.9,All-Wheel Drive,Automatic (AM-S8),20,22,25
 Chevrolet,Corvette ZR1,8,6.2,Rear-Wheel Drive,Manual 7-spd,13,15,19
@@ -33045,7 +31695,6 @@ Mercedes-Benz,AMG GLC63 4matic Coupe,8,4,4-Wheel Drive,Automatic 9-spd,15,18,22
 Mercedes-Benz,AMG GLC63 S 4matic Coupe,8,4,4-Wheel Drive,Automatic 9-spd,15,18,22
 Jeep,Grand Cherokee 2WD,6,3,Rear-Wheel Drive,Automatic 8-spd,22,25,30
 Jeep,Grand Cherokee 4WD,6,3,All-Wheel Drive,Automatic 8-spd,21,24,28
-Honda,Clarity EV,,,Front-Wheel Drive,Automatic (A1),126,114,103
 Jaguar,F-Type Coupe,4,2,Rear-Wheel Drive,Automatic (S8),23,26,30
 Jaguar,F-Type Convertible,4,2,Rear-Wheel Drive,Automatic (S8),23,26,30
 Jaguar,XE,4,2,Rear-Wheel Drive,Automatic (S8),25,28,34
@@ -33422,9 +32071,6 @@ Ford,Transit Connect Wagon LWB FFV,4,2,Front-Wheel Drive,Automatic (S8),24,26,29
 Subaru,Forester AWD,4,2.5,All-Wheel Drive,Automatic (AV-S7),26,29,33
 Subaru,Outback AWD,4,2.5,All-Wheel Drive,Automatic (AV-S7),25,28,32
 Subaru,Outback AWD,6,3.6,All-Wheel Drive,Automatic (AV-S6),20,22,27
-Hyundai,Ioniq Electric,,,Front-Wheel Drive,Automatic (A1),150,136,122
-Tesla,Model 3 Long Range  AWD,,,All-Wheel Drive,Automatic (A1),120,116,112
-Tesla,Model 3 Long Range  AWD Performance,,,All-Wheel Drive,Automatic (A1),120,116,112
 Chevrolet,Colorado 2WD,4,2.5,Rear-Wheel Drive,Automatic 6-spd,20,22,26
 Chevrolet,Colorado 2WD,4,2.5,Rear-Wheel Drive,Manual 6-spd,20,22,26
 GMC,Canyon 2WD,4,2.5,Rear-Wheel Drive,Automatic 6-spd,20,22,26
@@ -33572,7 +32218,6 @@ Mitsubishi,Outlander 4WD,6,3,4-Wheel Drive,Automatic (S6),20,22,27
 BMW,X6 sDrive35i,6,3,Rear-Wheel Drive,Automatic (S8),18,20,24
 BMW,X6 xDrive35i,6,3,All-Wheel Drive,Automatic (S8),18,20,24
 Ford,Bronco 4WD,8,5,4-Wheel or All-Wheel Drive,Manual 4-spd,12,13,14
-Chevrolet,Bolt EV,,,Front-Wheel Drive,Automatic (A1),128,119,110
 Mazda,CX-5 2WD,4,2.2,Front-Wheel Drive,Automatic (S6),28,29,31
 Mazda,CX-5 4WD,4,2.2,4-Wheel Drive,Automatic (S6),27,28,30
 Lamborghini,Aventador Coupe,12,6.5,All-Wheel Drive,Automatic (AM-S7),9,11,15
@@ -33643,7 +32288,6 @@ Land Rover,Discovery,6,3,4-Wheel Drive,Automatic (S8),16,18,21
 Land Rover,Discovery,6,3,4-Wheel Drive,Automatic (S8),21,23,26
 Maserati,Levante S,6,3,All-Wheel Drive,Automatic 8-spd,15,17,21
 Maserati,Levante,6,3,All-Wheel Drive,Automatic 8-spd,15,17,21
-Hyundai,Kona Electric,,,Front-Wheel Drive,Automatic (A1),132,120,108
 Chevrolet,Cruze Premier Hatchback,4,1.4,Front-Wheel Drive,Automatic (S6),28,31,37
 Cadillac,Escalade 2WD,8,6.2,Rear-Wheel Drive,Automatic 10-spd,14,17,23
 Chevrolet,Suburban C1500 2WD,8,6.2,Rear-Wheel Drive,Automatic 10-spd,14,17,23
@@ -33846,8 +32490,6 @@ Toyota,Highlander AWD,6,3.5,All-Wheel Drive,Automatic (S8),20,22,26
 Toyota,Highlander AWD LE,6,3.5,All-Wheel Drive,Automatic (S8),20,23,27
 Toyota,Highlander Hybrid AWD,6,3.5,All-Wheel Drive,Automatic (AV-S6),29,28,27
 Toyota,Highlander Hybrid AWD LE Plus,6,3.5,All-Wheel Drive,Automatic (AV-S6),30,29,28
-Kia,Soul Electric,,,Front-Wheel Drive,Automatic (A1),124,108,93
-Volkswagen,e-Golf,,,Front-Wheel Drive,Automatic (A1),126,119,111
 Jeep,Cherokee/Wagoneer 4WD,6,4,4-Wheel or All-Wheel Drive,Manual 5-spd,16,18,21
 Jaguar,F-Type SVR AWD Coupe GEN2,8,5,All-Wheel Drive,Automatic (S8),16,18,24
 Jaguar,F-Type SVR AWD Convertible GEN2,8,5,All-Wheel Drive,Automatic (S8),16,18,24
@@ -33896,7 +32538,6 @@ Ford,Fusion Energi Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (variable gear
 Jeep,Wrangler 4WD,4,2.5,4-Wheel or All-Wheel Drive,Manual 5-spd,16,17,19
 Hyundai,Ioniq Plug-in Hybrid,4,1.6,Front-Wheel Drive,Automatic (AM6),53,52,52
 Kia,Optima Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (AM6),38,40,43
-Nissan,Leaf (40 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),124,112,99
 Ford,Fiesta FWD,4,1.6,Front-Wheel Drive,Automatic (AM-S6),27,31,37
 Ford,Fiesta FWD,4,1.6,Front-Wheel Drive,Manual 5-spd,27,30,35
 Mercedes-Benz,S560 Convertible,8,4,Front-Wheel Drive,Automatic 9-spd,17,20,26
@@ -34088,7 +32729,6 @@ Mercedes-Benz,AMG GLE63 S Coupe,8,5.5,4-Wheel Drive,Automatic 7-spd,14,15,18
 Mercedes-Benz,AMG GLE63,8,5.5,4-Wheel Drive,Automatic 7-spd,12,14,18
 Mercedes-Benz,AMG GLS63,8,5.5,4-Wheel Drive,Automatic 7-spd,13,15,18
 Mercedes-Benz,G550,8,4,4-Wheel Drive,Automatic 9-spd,13,14,17
-Jaguar,I-Pace,,,4-Wheel Drive,Automatic (A1),80,76,72
 Lamborghini,Huracan Spyder,10,5.2,All-Wheel Drive,Automatic (AM-S7),13,15,18
 Lamborghini,Huracan,10,5.2,All-Wheel Drive,Automatic (AM-S7),13,15,18
 Lamborghini,Huracan Spyder 2WD,10,5.2,Rear-Wheel Drive,Automatic (AM-S7),13,15,18
@@ -34165,14 +32805,10 @@ Hyundai,Sonata Hybrid SE,4,2,Front-Wheel Drive,Automatic (AM6),40,42,46
 Mercedes-Benz,AMG GLC63 4matic,8,4,4-Wheel Drive,Automatic 9-spd,16,18,22
 Mercedes-Benz,AMG GLC63 4matic Coupe,8,4,4-Wheel Drive,Automatic 9-spd,16,18,22
 Mercedes-Benz,AMG GLC63 S 4matic Coupe,8,4,4-Wheel Drive,Automatic 9-spd,16,18,22
-BMW,i3,,,Rear-Wheel Drive,Automatic (A1),124,113,102
-BMW,i3s,,,Rear-Wheel Drive,Automatic (A1),124,113,102
-Tesla,Model 3 Mid Range,,,Rear-Wheel Drive,Automatic (A1),128,123,117
 McLaren Automotive,570S Coupe,8,3.8,Rear-Wheel Drive,Automatic 7-spd,16,19,23
 Lincoln,MKT Hearse AWD,6,3.5,All-Wheel Drive,Automatic 6-spd,14,17,21
 Lincoln,MKT Limo AWD,6,3.5,All-Wheel Drive,Automatic 6-spd,14,16,21
 Chevrolet,S10 Cab Chassis 2WD,6,2.8,Rear-Wheel Drive,Automatic 4-spd,12,13,14
-Kia,Niro Electric,,,Front-Wheel Drive,Automatic (A1),123,112,102
 Mercedes-Benz,AMG GT S Coupe,8,4,Rear-Wheel Drive,Automatic (AM7),16,18,22
 Mercedes-Benz,AMG GT Coupe,8,4,Rear-Wheel Drive,Automatic (AM7),16,18,22
 Mercedes-Benz,AMG GT C Coupe,8,4,Rear-Wheel Drive,Automatic (AM7),15,17,21
@@ -34264,7 +32900,6 @@ GMC,S15 Cab Chassis 2WD,6,2.8,Rear-Wheel Drive,Manual 4-spd,13,13,14
 Mercedes-Benz,AMG GT 63 S 4matic Plus,8,4,4-Wheel Drive,Automatic 9-spd,15,17,20
 Nissan,Maxima,6,3.5,Front-Wheel Drive,Automatic (AV-S7),20,24,30
 Lincoln,Navigator 4WD,6,3.5,Part-time 4-Wheel Drive,Automatic (S10),16,18,21
-Fiat,500e,,,Front-Wheel Drive,Automatic (A1),121,112,103
 Hyundai,Sonata Plug-in Hybrid,4,2,Front-Wheel Drive,Automatic (AM6),37,39,42
 Audi,TT Roadster quattro,4,2,All-Wheel Drive,Automatic (AM-S7),23,26,31
 BMW,Z4 sDrive30i,4,2,Rear-Wheel Drive,Automatic (S8),25,28,32
@@ -34307,20 +32942,7 @@ Jeep,Renegade 4WD,4,2.4,All-Wheel Drive,Automatic 9-spd,21,24,29
 Land Rover,Range Rover SV Coupe,8,5,4-Wheel Drive,Automatic (S8),14,16,19
 Honda,Clarity Plug-in Hybrid,4,1.5,Front-Wheel Drive,Automatic (variable gear ratios),44,42,40
 Toyota,Prius Prime,4,1.8,Front-Wheel Drive,Automatic (variable gear ratios),55,54,53
-Honda,Clarity EV,,,Front-Wheel Drive,Automatic (A1),126,114,103
-smart,EQ fortwo (coupe),,,Rear-Wheel Drive,Automatic (A1),124,108,94
-smart,EQ fortwo (convertible),,,Rear-Wheel Drive,Automatic (A1),112,102,91
-Tesla,Model 3 Mid Range,,,Rear-Wheel Drive,Automatic (A1),128,123,117
-Tesla,Model 3 Long Range,,,Rear-Wheel Drive,Automatic (A1),136,130,123
 Bertone,X1/9,4,1.5,Rear-Wheel Drive,Manual 5-spd,20,22,26
-Tesla,Model 3 Long Range AWD,,,All-Wheel Drive,Automatic (A1),120,116,112
-Tesla,Model 3 Long Range AWD Performance,,,All-Wheel Drive,Automatic (A1),120,116,112
-Tesla,Model S 75D,,,All-Wheel Drive,Automatic (A1),102,103,105
-Tesla,Model S 100D,,,All-Wheel Drive,Automatic (A1),101,102,102
-Tesla,Model S P100D,,,All-Wheel Drive,Automatic (A1),92,98,105
-Tesla,Model X 75D,,,All-Wheel Drive,Automatic (A1),91,93,95
-Tesla,Model X 100D,,,All-Wheel Drive,Automatic (A1),86,87,89
-Tesla,Model X P100D,,,All-Wheel Drive,Automatic (A1),83,85,89
 Mercedes-Benz,AMG SLC43,6,3,Rear-Wheel Drive,Automatic 9-spd,20,23,29
 Audi,A3 quattro,4,2,All-Wheel Drive,Automatic (AM-S7),22,25,30
 Volvo,240 DL/GL/turbo,4,2.1,Rear-Wheel Drive,Automatic 4-spd,15,17,19
@@ -34363,7 +32985,6 @@ Kia,Sportage AWD,4,2,All-Wheel Drive,Automatic (S6),19,21,24
 Kia,Telluride AWD,6,3.8,All-Wheel Drive,Automatic (S8),19,21,24
 Mercedes-Benz,GLE350 4matic,4,2,4-Wheel Drive,Automatic 9-spd,19,22,26
 Mercedes-Benz,GLE450 4matic,6,3,4-Wheel Drive,Automatic 9-spd,19,21,24
-Kia,Soul Electric,,,Front-Wheel Drive,Automatic (A1),127,114,101
 Jaguar,F-Type Coupe,4,2,Rear-Wheel Drive,Automatic (S8),23,26,30
 Jaguar,F-Type Convertible,4,2,Rear-Wheel Drive,Automatic (S8),23,26,30
 Jaguar,XE,4,2,Rear-Wheel Drive,Automatic (S8),25,28,34
@@ -34406,8 +33027,6 @@ Volkswagen,Arteon,4,2,Front-Wheel Drive,Automatic (S8),22,25,31
 Volkswagen,Arteon 4motion,4,2,All-Wheel Drive,Automatic (S8),20,23,27
 Ram,1500 HFE 2WD,6,3.6,Rear-Wheel Drive,Automatic 8-spd,20,23,26
 Porsche,Cayenne Turbo,8,4,All-Wheel Drive,Automatic (S8),15,17,19
-Nissan,Leaf (62 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),118,108,97
-Nissan,Leaf SV/SL (62 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),114,104,94
 Jaguar,F-Type Coupe,6,3,Rear-Wheel Drive,Automatic (S8),20,23,28
 Jaguar,F-Type Convertible,6,3,Rear-Wheel Drive,Automatic (S8),20,23,28
 Nissan,300ZX,6,3,Rear-Wheel Drive,Manual 5-spd,15,18,23
@@ -34535,7 +33154,6 @@ Honda,Civic CRX HF,4,1.5,Front-Wheel Drive,Manual 5-spd,37,41,47
 Porsche,Panamera 4 ST,6,3,4-Wheel Drive,Automatic (AM-S8),19,22,26
 Porsche,Panamera 4S ST,6,2.9,4-Wheel Drive,Automatic (AM-S8),18,20,24
 Porsche,Macan S,6,3,All-Wheel Drive,Automatic (AM-S7),18,20,23
-Audi,e-tron,,,All-Wheel Drive,Automatic (A1),74,74,73
 Aston Martin,Vantage V8,8,4,Rear-Wheel Drive,Automatic (S8),18,20,24
 Audi,R8 AWD,10,5.2,All-Wheel Drive,Automatic (AM-S7),13,16,20
 Lamborghini,Huracan,10,5.2,All-Wheel Drive,Automatic (AM-S7),13,15,18
@@ -34556,13 +33174,7 @@ Lamborghini,Countach,12,5.2,Rear-Wheel Drive,Manual 5-spd,6,7,10
 Acura,RDX AWD,4,2,All-Wheel Drive,Automatic (S10),21,23,27
 Acura,RDX AWD A-SPEC,4,2,All-Wheel Drive,Automatic (S10),21,23,26
 Hyundai,Kona AWD,4,1.6,All-Wheel Drive,Automatic (AM7),26,27,29
-Jaguar,I-Pace,,,4-Wheel Drive,Automatic (A1),80,76,72
 Audi,Q3 quattro,4,2,All-Wheel Drive,Automatic (S8),19,22,27
-Tesla,Model 3 Standard Range,,,Rear-Wheel Drive,Automatic (A1),138,131,124
-Tesla,Model 3 Standard Range Plus,,,Rear-Wheel Drive,Automatic (A1),140,133,124
-Tesla,Model S Long Range,,,All-Wheel Drive,Automatic (A1),115,111,107
-Tesla,Model S Performance (19in Wheels),,,All-Wheel Drive,Automatic (A1),104,104,104
-Tesla,Model S Performance (21in Wheels),,,All-Wheel Drive,Automatic (A1),98,97,96
 Lotus,Esprit Turbo,4,2.2,Rear-Wheel Drive,Manual 5-spd,15,18,25
 Hyundai,Kona FWD,4,1.6,Front-Wheel Drive,Automatic (AM7),28,30,32
 Hyundai,Kona FWD,4,2,Front-Wheel Drive,Automatic (S6),27,30,33
@@ -34667,9 +33279,6 @@ Pontiac,Fiero,4,2.5,Rear-Wheel Drive,Manual 5-spd,21,25,32
 Volvo,XC90 FWD,4,2,Front-Wheel Drive,Automatic (S8),21,25,30
 Ford,Explorer AWD,6,3,Part-time 4-Wheel Drive,Automatic (S10),18,20,24
 Ford,Explorer FFV AWD,6,3.3,Part-time 4-Wheel Drive,Automatic (S10),16,19,23
-Tesla,Model S Standard Range,,,All-Wheel Drive,Automatic (A1),113,109,105
-Tesla,Model X Long Range,,,All-Wheel Drive,Automatic (A1),99,96,93
-Tesla,Model X Performance (22in Wheels),,,All-Wheel Drive,Automatic (A1),80,79,77
 Mercedes-Benz,AMG GT Coupe,8,4,Rear-Wheel Drive,Automatic (AM7),16,18,22
 Mercedes-Benz,AMG GT Roadster,8,4,Rear-Wheel Drive,Automatic (AM7),16,18,22
 Buick,Encore FWD,4,1.4,Front-Wheel Drive,Automatic (S6),25,27,30
@@ -35298,8 +33907,6 @@ Nissan,Pathfinder 4WD,6,3.5,4-Wheel Drive,Automatic (variable gear ratios),20,22
 Nissan,Pathfinder 4WD Platinum,6,3.5,4-Wheel Drive,Automatic (variable gear ratios),19,21,26
 BMW,X5 sDrive40i,6,3,Rear-Wheel Drive,Automatic (S8),21,23,26
 BMW,X6 sDrive40i,6,3,Rear-Wheel Drive,Automatic (S8),21,23,26
-BYD,e6,,,Front-Wheel Drive,Automatic (A1),73,72,71
-Hyundai,Kona Electric,,,Front-Wheel Drive,Automatic (A1),132,120,108
 Chevrolet,Camaro,8,5,Rear-Wheel Drive,Automatic 4-spd,15,18,23
 Mercedes-Benz,AMG GT R Coupe,8,4,Rear-Wheel Drive,Automatic (AM7),15,17,20
 Mercedes-Benz,AMG GT R Roadster,8,4,Rear-Wheel Drive,Automatic (AM7),15,17,20
@@ -35352,7 +33959,6 @@ Lexus,LS 500,6,3.4,Rear-Wheel Drive,Automatic (S10),19,23,30
 Lexus,LS 500 AWD,6,3.4,All-Wheel Drive,Automatic (S10),18,21,27
 Honda,Accord Hybrid,4,2,Front-Wheel Drive,Automatic (variable gear ratios),48,48,47
 Alfa Romeo,Stelvio AWD,6,2.9,All-Wheel Drive,Automatic 8-spd,17,19,23
-Volkswagen,e-Golf,,,Front-Wheel Drive,Automatic (A1),122,113,104
 STI,S209,4,2.5,All-Wheel Drive,Manual 6-spd,15,17,21
 Ford,Shelby GT500 Mustang,8,5.2,Rear-Wheel Drive,Automatic (AM7),12,14,18
 Chevrolet,Cavalier Convertible,6,2.8,Front-Wheel Drive,Manual 5-spd,18,21,27
@@ -35412,7 +34018,6 @@ Toyota,RAV4 AWD TRD OFFROAD,4,2.5,All-Wheel Drive,Automatic (S8),25,27,32
 Toyota,RAV4 AWD LE,4,2.5,All-Wheel Drive,Automatic (S8),27,30,34
 Chevrolet,Sprint,3,1,Front-Wheel Drive,Manual 5-spd,36,39,43
 Mercedes-Benz,AMG G63,8,4,4-Wheel Drive,Automatic 9-spd,13,14,15
-Chevrolet,Bolt EV,,,Front-Wheel Drive,Automatic (variable gear ratios),127,118,108
 Acura,NSX Hybrid,6,3.5,All-Wheel Drive,Automatic (AM-S9),21,21,22
 Mercedes-Benz,S560 Convertible,8,4,Rear-Wheel Drive,Automatic 9-spd,17,20,26
 Mercedes-Benz,AMG S63 4matic Plus Convertible,8,4,4-Wheel Drive,Automatic 9-spd,15,18,24
@@ -35503,24 +34108,7 @@ Nissan,Pulsar NX,4,1.6,Front-Wheel Drive,Automatic 3-spd,22,24,28
 Ford,Expedition MAX 4WD,6,3.5,Part-time 4-Wheel Drive,Automatic (S10),16,18,21
 Lincoln,Navigator 4WD,6,3.5,Part-time 4-Wheel Drive,Automatic (S10),16,18,21
 Mercedes-Benz,G550,8,4,4-Wheel Drive,Automatic 9-spd,13,14,17
-Hyundai,Ioniq Electric,,,Front-Wheel Drive,Automatic (A1),145,133,121
-Tesla,Model 3 Long Range,,,Rear-Wheel Drive,Automatic (A1),136,130,123
-Tesla,Model 3 Long Range AWD,,,All-Wheel Drive,Automatic (A1),124,121,116
-Tesla,Model 3 Mid Range,,,Rear-Wheel Drive,Automatic (A1),128,123,117
-Tesla,Model 3 Standard Range,,,Rear-Wheel Drive,Automatic (A1),138,131,124
-Tesla,Model 3 Standard Range Plus,,,Rear-Wheel Drive,Automatic (A1),148,141,132
-Tesla,Model 3 Long Range Performance AWD (18in),,,All-Wheel Drive,Automatic (A1),124,121,116
 Nissan,Pulsar NX,4,1.6,Front-Wheel Drive,Manual 5-spd,23,26,31
-Tesla,Model 3 Long Range Performance AWD (19in),,,All-Wheel Drive,Automatic (A1),119,116,112
-Tesla,Model 3 Long Range Performance AWD (20in),,,All-Wheel Drive,Automatic (A1),118,113,107
-Tesla,Model S Long Range,,,All-Wheel Drive,Automatic (A1),115,111,107
-Tesla,Model S Performance (19in Wheels),,,All-Wheel Drive,Automatic (A1),104,104,104
-Tesla,Model S Performance (21in Wheels),,,All-Wheel Drive,Automatic (A1),98,97,96
-Tesla,Model S Standard Range,,,All-Wheel Drive,Automatic (A1),113,109,105
-Tesla,Model X Long Range,,,All-Wheel Drive,Automatic (A1),99,96,93
-Tesla,Model X Performance (20in Wheels),,,All-Wheel Drive,Automatic (A1),90,90,89
-Tesla,Model X Performance (22in Wheels),,,All-Wheel Drive,Automatic (A1),80,79,77
-Tesla,Model X Standard Range,,,All-Wheel Drive,Automatic (A1),105,101,98
 Nissan,Pulsar NX,4,1.8,Front-Wheel Drive,Automatic 4-spd,18,21,26
 Hyundai,Ioniq Plug-in Hybrid,4,1.6,Front-Wheel Drive,Automatic (AM6),53,52,52
 Karma,Revero GT (21-inch wheels),3,1.5,Rear-Wheel Drive,Automatic (A1),27,26,25
@@ -35625,7 +34213,6 @@ Nissan,300ZX 2x2,6,3,Rear-Wheel Drive,Manual 5-spd,15,18,23
 Toyota,Highlander,6,3.5,Front-Wheel Drive,Automatic (S8),21,24,29
 Toyota,Highlander AWD,6,3.5,All-Wheel Drive,Automatic (S8),20,23,27
 Bentley,Bentayga,12,6,All-Wheel Drive,Automatic (S8),12,14,17
-Porsche,Taycan Turbo,,,All-Wheel Drive,Automatic (A2),68,69,71
 Ford,GT,6,3.5,Rear-Wheel Drive,Automatic (AM7),12,14,18
 Mercedes-Benz,SLC300,4,2,Rear-Wheel Drive,Automatic 9-spd,23,27,32
 Roush Performance,Stage 3 Mustang,8,5,Rear-Wheel Drive,Automatic (S10),12,14,18
@@ -35673,7 +34260,6 @@ Roush Performance,F150 Pickup 4WD,8,5,4-Wheel Drive,Automatic (S10),11,13,15
 Dodge,Grand Caravan,6,3.6,Front-Wheel Drive,Automatic 6-spd,17,20,25
 Mazda,CX-30 4WD,4,2.5,4-Wheel Drive,Automatic (S6),24,26,31
 Mazda,CX-30 4WD,4,2.5,4-Wheel Drive,Automatic (S6),25,27,32
-Porsche,Taycan Turbo S,,,All-Wheel Drive,Automatic (A2),67,68,68
 Kia,Seltos FWD,4,2,Front-Wheel Drive,Automatic (AV-S8),29,31,34
 Kia,Seltos AWD,4,1.6,All-Wheel Drive,Automatic (AM-S7),25,27,30
 Dodge,Colt,4,1.6,Front-Wheel Drive,Manual 5-spd,22,25,29
@@ -35725,7 +34311,6 @@ Cadillac,CT5,6,3,Rear-Wheel Drive,Automatic (S10),19,21,26
 Cadillac,CT5 V,6,3,Rear-Wheel Drive,Automatic (S10),18,21,26
 Nissan,Sentra,4,2,Front-Wheel Drive,Automatic (variable gear ratios),29,33,39
 Nissan,Sentra SR,4,2,Front-Wheel Drive,Automatic (variable gear ratios),28,32,37
-Tesla,Model Y Performance AWD,,,All-Wheel Drive,Automatic (A1),129,121,112
 Hyundai,Sonata Hybrid,4,2,Front-Wheel Drive,Automatic (AM-S6),45,47,51
 Hyundai,Sonata Hybrid Blue,4,2,Front-Wheel Drive,Automatic (AM-S6),50,52,54
 Toyota,Highlander Hybrid,4,2.5,Front-Wheel Drive,Automatic (AV-S6),36,36,35
@@ -35761,14 +34346,10 @@ Honda,CR-V AWD,4,2,All-Wheel Drive,Automatic (variable gear ratios),40,38,35
 Porsche,Macan GTS,6,2.9,All-Wheel Drive,Automatic (AM-S7),17,19,22
 Porsche,Macan Turbo,6,2.9,All-Wheel Drive,Automatic (AM-S7),17,19,22
 Audi,RS Q8,8,4,All-Wheel Drive,Automatic (S8),13,15,19
-MINI,Cooper SE Hardtop 2 door,,,Front-Wheel Drive,Automatic (A1),115,108,100
 Chevrolet,Trailblazer AWD,3,1.3,All-Wheel Drive,Automatic 9-spd,26,28,30
 Ford,Mustang,4,2.3,Rear-Wheel Drive,Manual 5-spd,22,24,27
 Toyota,Camry AWD LE/SE,4,2.5,All-Wheel Drive,Automatic (S8),25,29,34
 Toyota,Camry AWD XLE/XSE,4,2.5,All-Wheel Drive,Automatic (S8),25,28,34
-BMW,i3,,,Rear-Wheel Drive,Automatic (A1),124,113,102
-BMW,i3s,,,Rear-Wheel Drive,Automatic (A1),124,113,102
-Kia,Niro Electric,,,Front-Wheel Drive,Automatic (A1),123,112,102
 Genesis,G70 AWD,6,3.3,All-Wheel Drive,Automatic (S8),17,20,25
 Genesis,G70 RWD,6,3.3,Rear-Wheel Drive,Automatic (S8),17,20,26
 Ford,F150 Pickup 2WD,6,3,Rear-Wheel Drive,Automatic (S10),21,24,29
@@ -35820,9 +34401,6 @@ Audi,SQ7,8,4,All-Wheel Drive,Automatic (S8),15,17,21
 Audi,SQ8,8,4,All-Wheel Drive,Automatic (S8),15,17,21
 Honda,Civic,4,1.5,Front-Wheel Drive,Automatic 4-spd,24,27,30
 Bentley,Bentayga,6,3,All-Wheel Drive,Automatic (S8),17,19,21
-Nissan,Leaf (40 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),123,111,99
-Nissan,Leaf (62 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),118,108,97
-Nissan,Leaf SV/SL (62 kW-hr battery pack),,,Front-Wheel Drive,Automatic (A1),114,104,94
 Toyota,GR Supra,6,3,Rear-Wheel Drive,Automatic (S8),22,25,30
 MINI,Cooper S Hardtop 2 door,4,2,Front-Wheel Drive,Automatic (AM-S7),26,30,35
 MINI,Cooper S Hardtop 4 door,4,2,Front-Wheel Drive,Automatic (AM-S7),26,30,35
@@ -35852,7 +34430,6 @@ Toyota,Corolla,4,2,Front-Wheel Drive,Automatic (AV-S10),31,34,40
 Toyota,Corolla,4,2,Front-Wheel Drive,Manual 6-spd,29,32,36
 Toyota,Corolla XSE,4,2,Front-Wheel Drive,Automatic (AV-S10),31,34,38
 Honda,Civic,4,1.5,Front-Wheel Drive,Manual 5-spd,28,31,34
-Porsche,Taycan 4S Perf Battery Plus,,,All-Wheel Drive,Automatic (A2),68,69,71
 Lexus,LC 500h,6,3.5,Rear-Wheel Drive,Automatic (AV-S10),26,29,34
 Lexus,LC 500,8,5,Rear-Wheel Drive,Automatic (S10),16,19,25
 Hyundai,Kona FWD,4,1.6,Front-Wheel Drive,Automatic (AM7),28,30,32
