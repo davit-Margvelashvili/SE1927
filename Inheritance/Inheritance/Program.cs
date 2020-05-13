@@ -1,79 +1,72 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
+using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal abstract class Person
+    internal abstract class Logger
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string PrivateNumber { get; set; }
-
-        public virtual string GetInfo()
-        {
-            return $"{{FistName: {FirstName}, LastName: {LastName}, PrivateNumber: {PrivateNumber}}}";
-        }
-
-        public abstract void Talk();
+        public abstract void Log(string message);
     }
 
-    internal class Student : Person
+    internal interface ILogger
     {
-        public double GPA { get; set; }
-        public Subject Subject { get; set; }
+        void Log(string message);
+    }
 
-        public override void Talk()
+    internal class ConsoleLogger : ILogger
+    {
+        public void Log(string message)
         {
-            Console.WriteLine($"Hello, I am student {FirstName} {LastName}. I am studying {Subject.Name}");
-        }
-
-        public override string GetInfo()
-        {
-            return $"{{FistName: {FirstName}, LastName: {LastName}, PrivateNumber: {PrivateNumber}, GPA: {GPA} }}";
+            Console.WriteLine(message);
         }
     }
 
-    internal abstract class Employee : Person
+    internal class FileLogger : ILogger
     {
-        public decimal Salary { get; set; }
-    }
+        private readonly string _fileName;
 
-    internal class Lecturer : Employee    // Lecturer : Employee --- ლექტორი არის თანამშრომელი --- ამ მიმართებას ქვია მემკვიდრეობა
-    {
-        public Subject Subject { get; set; }  // ლექტორს აქვს საგანი --- ამ  მიმართებას ქვია კომპოზიცია
-
-        public override void Talk()
+        public FileLogger(string fileName)
         {
-            Console.WriteLine($"Hello, I am lecturer {FirstName} {LastName}. I am teaching {Subject.Name}. My salary is {Salary}");
+            _fileName = fileName;
+        }
+
+        public void Log(string message)
+        {
+            File.AppendAllLines(_fileName, new[] { message });
         }
     }
 
-    internal class Administration : Employee
+    internal class UniversalLogger : ILogger
     {
-        public string Position { get; set; }
+        private readonly FileLogger _fileLogger;
+        private readonly ConsoleLogger _consoleLogger;
 
-        public override void Talk()
+        public UniversalLogger(string fileName)
         {
-            Console.WriteLine($"Hello, my name is {FirstName} {LastName}. I am working on position {Position}. My salary is {Salary}");
+            _fileLogger = new FileLogger(fileName);
+            _consoleLogger = new ConsoleLogger();
         }
-    }
 
-    internal class Subject
-    {
-        public int Length { get; set; }
-        public string Name { get; set; }
-        public int Credit { get; set; }
+        public void Log(string message)
+        {
+            _consoleLogger.Log(message);
+            _fileLogger.Log(message);
+        }
     }
 
     internal class Program
     {
         private static void Main()
         {
+            ILogger logger = new UniversalLogger("UniversalLoggerLog.txt");
+
             Lecturer lecturer = new Lecturer
             {
                 FirstName = "Davit",
@@ -87,6 +80,8 @@ namespace Inheritance
                     Name = "C#"
                 }
             };
+
+            logger.Log("lecturer object created");
 
             Student student = new Student
             {
@@ -102,6 +97,8 @@ namespace Inheritance
                 }
             };
 
+            logger.Log("student object created");
+
             Administration administration = new Administration
             {
                 FirstName = "Salome",
@@ -111,35 +108,53 @@ namespace Inheritance
                 Position = "Yvelaferchiki"
             };
 
-            Greating(lecturer);
-            PresentYourself(lecturer);
+            logger.Log("administrator object created");
 
-            Console.WriteLine("\n-----------------------------------------------\n");
+            Greating(lecturer, logger);
+            PresentYourself(lecturer, logger);
 
-            Greating(student);
-            PresentYourself(student);
+            logger.Log("\n-----------------------------------------------\n");
 
-            Console.WriteLine("\n-----------------------------------------------\n");
+            Greating(student, logger);
+            PresentYourself(student, logger);
 
-            Greating(administration);
-            PresentYourself(administration);
+            logger.Log("\n-----------------------------------------------\n");
+
+            Greating(administration, logger);
+            PresentYourself(administration, logger);
+
+            // S.O.L.I.D
+
+            // Single Responsibility +
+
+            // Open-Close
+
+            // Liskov Substitution
+
+            // Interface Segregation
+
+            // Dependency Inversion +
+
+            // Dependency Inversion --- იყავი დამოკიდებული აბსტრაქტულ ტიპზე, არ იყო დამოკიდებული კონკრეტულ ტიპზე
+
+            //  Dependency Inversion გვაძლევს Dependency Injection-ის საშუალებას.
 
             Person person = student;
-            Console.WriteLine(person.GetInfo());
-            Console.WriteLine(student.GetInfo());
+            logger.Log(person.GetInfo());
+            logger.Log(student.GetInfo());
 
             Console.ReadLine();
         }
 
-        private static void Greating(Person person)
+        private static void Greating(Person person, ILogger logger)
         {
-            Console.WriteLine($"Hello, {person.FirstName} {person.LastName}");
+            logger.Log($"Hello, {person.FirstName} {person.LastName}");
         }
 
-        private static void PresentYourself(Person person)
+        private static void PresentYourself(Person person, ILogger logger)
         {
-            Console.WriteLine("Ladies and Gentlemen now listen to one of out member...");
-            person.Talk();
+            logger.Log("Ladies and Gentlemen now listen to one of out member...");
+            person.Talk(logger);
         }
     }
 }
