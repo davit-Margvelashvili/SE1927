@@ -88,30 +88,37 @@ namespace Generics
         {
             string[] data = File.ReadAllLines(@"..\..\vehicles.csv");
 
-            // დავალება: რაც აქ გავაკეთეთ მასივის გამოყენებით გააკეთეთ List-ის გამოყენებით!!!!
-
-            Vehicle[] vehicles = Array.ConvertAll(data, Vehicle.Parse);
-
-            Vehicle[] BMWs = Array.FindAll(vehicles, v => v.Make.Contains("BMW"));
-
-            Vehicle[] fords = Array.FindAll(vehicles, v => v.Make.Contains("Ford"));
-            Vehicle[] mercedes = Array.FindAll(vehicles, v => v.Make.Contains("Mercedes"));
-
-            // input-ში მოთავსებულია მანქანების შესახებ მონაცემები ტექსტების სახით თქვენი მიზანია ეს მონაცემები აქციოთ ობიექტებად რომელსაც
-            // დაამუშავებთ.
-
-            Array.Sort(vehicles, (x, y) => y.CombinedMpg.CompareTo(x.CombinedMpg));
-
-            Vehicle[] mostEfficient10 = new Vehicle[10];
-
-            Array.Copy(vehicles, mostEfficient10, mostEfficient10.Length);
-
             /*
              * 1. იპივეთ ყველა BMW
              * 2. დაალაგეთ მანქანები წვის მიხედვით
              * 3. იპოვეთ 10 ყველაზე ეკონომიური მანქანა
              *
              */
+
+            Vehicle[] vehiclesArray = Array.ConvertAll(data, Vehicle.Parse);
+
+            Vehicle[] BMWsArray = Array.FindAll(vehiclesArray, v => v.Make.Contains("BMW"));
+            Vehicle[] fordsArray = Array.FindAll(vehiclesArray, v => v.Make.Contains("Ford"));
+            Vehicle[] mercedesArray = Array.FindAll(vehiclesArray, v => v.Make.Contains("Mercedes"));
+
+            // input-ში მოთავსებულია მანქანების შესახებ მონაცემები ტექსტების სახით თქვენი მიზანია ეს მონაცემები აქციოთ ობიექტებად რომელსაც
+            // დაამუშავებთ.
+
+            Array.Sort(vehiclesArray, (x, y) => y.CombinedMpg.CompareTo(x.CombinedMpg));
+
+            Vehicle[] mostEfficient10 = new Vehicle[10];
+
+            Array.Copy(vehiclesArray, mostEfficient10, mostEfficient10.Length);
+
+            List<string> dataList = new List<string>(data);
+
+            List<Vehicle> vehiclesList = dataList.ConvertAll(Vehicle.Parse);
+
+            List<Vehicle> BMWsList = vehiclesList.FindAll(v => v.Make.Contains("BMW"));
+            List<Vehicle> fordsList = vehiclesList.FindAll(v => v.Make.Contains("Ford"));
+            List<Vehicle> mercedesList = vehiclesList.FindAll(v => v.Make.Contains("Mercedes"));
+
+            // დავალება: რაც აქ გავაკეთეთ მასივის გამოყენებით გააკეთეთ List-ის გამოყენებით!!!!
 
             Console.WriteLine();
 
