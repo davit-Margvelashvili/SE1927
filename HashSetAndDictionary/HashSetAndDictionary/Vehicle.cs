@@ -56,5 +56,19 @@ namespace HashSetAndDictionary
 
             return newVehicle;
         }
+
+        public static bool TryParse(string s, out Vehicle vehicle)
+        {
+            try
+            {
+                vehicle = Parse(s);
+                return true;
+            }
+            catch (Exception)
+            {
+                vehicle = default;
+                return false;
+            }
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 
@@ -35,16 +36,95 @@ namespace HashSetAndDictionary
     {
         private static void Main()
         {
+            // VehiclesHashSet();
+
+            // NumbersHashSetManipulation();
+
+            var numbersDictionary = new Dictionary<string, int>();
+
+            numbersDictionary.Add("four", 4);
+            //numbersDictionary.Add("four", 4); // ArgumentException ისვრის თუ Key მეორდება
+
+            numbersDictionary.TryAdd("four", 4); // თუ დაამატა აბრუნებს True-ს თუ ვერა - False-ს
+
+            numbersDictionary["four"] = 44;
+            numbersDictionary["ოთხი"] = 4;
+            numbersDictionary["ხუთი"] = 5;
+
+            int four = numbersDictionary["four"];  // ამოიღებს და მნიშნველობას
+            //int ten = numbersDictionary["ათი"]; // ვერ იპოვის და ისვრის KeyNotFoundException-ს
+
+            if (numbersDictionary.TryGetValue("four", out four))
+                Console.WriteLine(four);
+
+            if (numbersDictionary.TryGetValue("ათი", out int ten))
+                Console.WriteLine(ten);
+
+            foreach (var key in numbersDictionary.Keys)
+            {
+                Debug.Write($"{key}  ");
+            }
+
+            Debug.WriteLine("");
+
+            foreach (var value in numbersDictionary.Values)
+            {
+                Debug.Write($"{value}  ");
+            }
+
+            int num = 10;
+
+            if (Vehicle.TryParse("Subaru,Loyale,4,1.8,Front-Wheel Drive,Manual 5-spd,22,25,29", out var vehicle))
+                Console.WriteLine(vehicle.Make);
+
+            if (Vehicle.TryParse("Subaru,Loyale", out vehicle))
+                Console.WriteLine(vehicle.Make);
+
+            Increment(ref num);
+
+            // 0. დაწერეთ ლათინურად დაწერილი ქართული ტექსტის ქართულ სიმბოლოებზე გადაყვანის
+            //    პროგრამა
+
+            // 1. გაასწორეთ რომ არასწორი ბრძანების შემთხვევაში არ იქრეშებოდეს
+            // 2. დაუმატეთ ბრძანებები
+            while (true)
+            {
+                var commands = new Dictionary<string, Action>
+                {
+                    ["hello"] = () => Console.WriteLine("Hello, Sir..."),
+                    ["what time is it?"] = () => Console.WriteLine($"It's {DateTime.Now.TimeOfDay}"),
+                    ["good bye!"] = () => Console.WriteLine($"Bye, Bye..."),
+                };
+
+                var command = ReadLine("-> ");
+
+                var action = commands[command];
+
+                action();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static string ReadLine(string message)
+        {
+            Console.Write(message);
+            return Console.ReadLine();
+        }
+
+        private static void Increment(ref int number)
+        {
+            number++;
+        }
+
+        private static void VehiclesHashSet()
+        {
             var data = File.ReadAllLines(@"..\..\..\Vehicles.csv");
 
             var vehicles = Array.ConvertAll(data, Vehicle.Parse);
 
             var makes = new HashSet<Vehicle>(vehicles, new VehicleNameEqualityComparer());
             var makesAndModels = new HashSet<Vehicle>(vehicles, new VehicleMakeAndModelEqualityComparer());
-
-            // NumbersHashSetManipulation();
-
-            Console.ReadLine();
         }
 
         private static void NumbersHashSetManipulation()
