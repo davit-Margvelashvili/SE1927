@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Text;
+﻿using Shooter.Core.Abstractions;
 
-namespace Shooter.Core
+namespace Shooter.Core.Implementations
 {
-    public class Player : IPlayer
+    public class Player : IPlayer, IPilot, ITankDriver
     {
         public string Name { get; set; } = "Player";
         public double Health { get; private set; } = 100;
@@ -38,6 +37,32 @@ namespace Shooter.Core
                 Health = 0;
             else
                 Health -= damage;
+        }
+
+        void IPilot.Fly()
+        {
+            // Change Coordinates
+        }
+
+        void IPilot.ThrowBombs()
+        {
+            Money -= 10;
+        }
+
+        double ITankDriver.Shoot()
+        {
+            Money -= 15;
+            return 100;
+        }
+
+        void ITankDriver.Drive()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        double ITankDriver.ShootMissile()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

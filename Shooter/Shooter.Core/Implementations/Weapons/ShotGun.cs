@@ -1,4 +1,6 @@
-﻿namespace Shooter.Core
+﻿using Shooter.Core.Abstractions;
+
+namespace Shooter.Core.Implementations.Weapons
 {
     public class ShotGun : Weapon
     {

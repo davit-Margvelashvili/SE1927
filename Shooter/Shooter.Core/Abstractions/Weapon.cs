@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Shooter.Core
+namespace Shooter.Core.Abstractions
 {
     public abstract class Weapon
     {

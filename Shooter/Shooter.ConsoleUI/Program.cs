@@ -1,5 +1,9 @@
 ﻿using System;
 using Shooter.Core;
+using Shooter.Core.Abstractions;
+using Shooter.Core.Implementations;
+using Shooter.Core.Implementations.Transport;
+using Shooter.Core.Implementations.Weapons;
 
 namespace Shooter.ConsoleUI
 {
@@ -39,6 +43,11 @@ namespace Shooter.ConsoleUI
             //    უნდა გვქონდეს იარაღების არსენალი(კოლექცია) საიდანაც მოთამაშე იყიდის(აიღებს) იარაღს.
             //    თუ ფული არ ყოფნის იარაღი ვერ უნდა იყიდოს.
             //    როდესაც ერთი მოთამაშე მეორეზე გაიმარჯვებს უნდა მოემატოს ფული.
+
+            ITankDriver tankDriver = player2;
+
+            Tank t = new Tank();
+            Jumpjet jet = new Jumpjet();
 
             Console.ReadLine();
         }

@@ -1,4 +1,4 @@
-﻿namespace Shooter.Core
+﻿namespace Shooter.Core.Abstractions
 {
     public interface IPlayer
     {
