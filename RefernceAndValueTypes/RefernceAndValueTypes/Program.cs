@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Dynamic;
 
 namespace RefernceAndValueTypes
@@ -22,8 +24,9 @@ namespace RefernceAndValueTypes
 
         public override bool Equals(object obj)
         {
-            var other = (MoneyReference)obj;
-            return Amount == other.Amount && Currency == other.Currency;
+            if (obj is MoneyReference other)
+                return Amount == other.Amount && Currency == other.Currency;
+            return false;
         }
 
         public override int GetHashCode()
@@ -39,7 +42,7 @@ namespace RefernceAndValueTypes
 
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             MoneyValue moneyValue = new MoneyValue
             {
@@ -73,12 +76,52 @@ namespace RefernceAndValueTypes
 
             string moneyReferenceString = moneyReference.ToString();
 
-            Console.WriteLine(moneyReference);
+            //Console.WriteLine(moneyReference);
 
             bool valueTypesEqual = moneyValue.Equals(otherMoneyValue);
             bool referenceTypesEqual = moneyReference.Equals(otherMoneyReference);
             bool referenceEquals = object.ReferenceEquals(moneyReference, otherMoneyReference);
             referenceEquals = object.ReferenceEquals(moneyReference, moneyReferenceCopy);
+
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+            var moneyValues = new MoneyValue[10_000_000];
+            for (int i = 0; i < moneyValues.Length; i++)
+            {
+                moneyValues[i] = new MoneyValue();
+            }
+
+            //var moneyReferences = new MoneyReference[10_000_000];
+            //for (int i = 0; i < moneyReferences.Length; i++)
+            //{
+            //    moneyReferences[i] = new MoneyReference();
+            //}
+
+            stopwatch.Stop();
+            Console.WriteLine($"Milliseconds {stopwatch.Elapsed.TotalMilliseconds}");
+            Console.WriteLine($"Milliseconds {stopwatch.Elapsed.Ticks}");
+
+            Console.WriteLine(GC.CollectionCount(0));
+
+            //moneyValue = null;  // value ტიპზე null-ის მინიჭება არ შეიძლება
+            moneyReference = null;
+
+            object obj = moneyValue;
+            //obj = 10;
+
+            //MoneyValue val = (MoneyValue)obj; // ისვრის InvalidCastException-ს თუ არ გადადის
+            //Console.WriteLine(val.Amount);
+
+            var objAsMoneyValue = obj as MoneyReference;
+            if (objAsMoneyValue != null)
+            {
+                Console.WriteLine(objAsMoneyValue.Amount);
+            }
+
+            if (obj is MoneyValue value) // ყველაზე უსაფრთო გადაყვანა
+            {
+                Console.WriteLine(value.Amount);
+            }
 
             //ChangeValueTypeProperty(moneyValue);
             //ChangeReferenceTypeProperty(moneyReference);
