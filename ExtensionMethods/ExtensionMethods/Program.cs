@@ -2,10 +2,12 @@
 
 namespace ExtensionMethods
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            Console.WriteLine("Modified");
+
             Console.WriteLine("Hello World!");
         }
     }
