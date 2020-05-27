@@ -21,27 +21,32 @@ namespace ExtensionMethods
 
         public static IEnumerable<T> Where<T>(this IEnumerable<T> collection, Func<T, bool> predicate)
         {
-            var result = new List<T>();
             foreach (var item in collection)
             {
                 if (predicate(item))
                 {
-                    result.Add(item);
+                    yield return item;
                 }
             }
-
-            return result;
         }
 
         public static IEnumerable<TResult> Select<TSource, TResult>(this IEnumerable<TSource> source, Func<TSource, TResult> selector)
         {
-            var result = new List<TResult>();
+            if (source == null)
+                throw new ArgumentNullException(nameof(source));
+
+            if (selector == null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return SelectImpl(source, selector);
+        }
+
+        private static IEnumerable<TResult> SelectImpl<TSource, TResult>(IEnumerable<TSource> source, Func<TSource, TResult> selector)
+        {
             foreach (var item in source)
             {
-                result.Add(selector(item));
+                yield return selector(item);
             }
-
-            return result;
         }
 
         public static bool Any<T>(this IEnumerable<T> source, Func<T, bool> predicate)
