@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ExtensionMethods
 {
     internal class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             var numbers = new List<int> { 10, 20, 30, 50 };
             var expectedNumbers = new List<int> { 1, 2, 3, 5 };
