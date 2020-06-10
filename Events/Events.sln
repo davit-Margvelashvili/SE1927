@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ.Tests", "LINQ.Tests\LINQ.Tests.csproj", "{55CD399D-ADEF-42C6-80F7-1CAA58CD93BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csproj", "{6ADEC297-9C63-4AA5-AA35-10BB47A68EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55CD399D-ADEF-42C6-80F7-1CAA58CD93BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55CD399D-ADEF-42C6-80F7-1CAA58CD93BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55CD399D-ADEF-42C6-80F7-1CAA58CD93BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55CD399D-ADEF-42C6-80F7-1CAA58CD93BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADEC297-9C63-4AA5-AA35-10BB47A68EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADEC297-9C63-4AA5-AA35-10BB47A68EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADEC297-9C63-4AA5-AA35-10BB47A68EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADEC297-9C63-4AA5-AA35-10BB47A68EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {01DC266C-15C9-4591-B37E-E5B0119702C8}
+		SolutionGuid = {18345F82-1CC0-4FDA-8F2F-6D5F52D98DD2}
 	EndGlobalSection
 EndGlobal
