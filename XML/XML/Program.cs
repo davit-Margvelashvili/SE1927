@@ -40,7 +40,7 @@ namespace XML
                         new XAttribute("Highway", v.HighwayMpg)))));
 
             var xDoc = new XDocument(rootElementWithAttributes);
-            xDoc.Save(new FileStream("vehiclesWithAttributes.xml", FileMode.OpenOrCreate));
+            xDoc.Save(new FileStream(@"..\..\..\vehiclesWithAttributes.xml", FileMode.OpenOrCreate));
         }
 
         private static void CreateXDocWithElements(List<Vehicle> vehicles)
@@ -59,7 +59,7 @@ namespace XML
 
             var xDoc = new XDocument(rootElementWithElements);
 
-            xDoc.Save(new FileStream("vehiclesWithElements.xml", FileMode.OpenOrCreate));
+            xDoc.Save(new FileStream(@"..\..\..\vehiclesWithElements.xml", FileMode.OpenOrCreate));
         }
     }
 }
