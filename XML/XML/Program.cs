@@ -17,11 +17,36 @@ namespace XML
                  .Select(Vehicle.Parse)
                  .ToList();
 
-            CreateXDocWithElements(vehicles);
+            // CreateXDocWithElements(vehicles);
 
-            CreateXDocWithAttributes(vehicles);
+            // CreateXDocWithAttributes(vehicles);
+
+            var xDoc = XDocument.Load(new FileStream(@"..\..\..\vehiclesWithAttributes.xml", FileMode.Open));
+            var bmws = ReadXDoc(xDoc);
 
             Console.ReadLine();
+        }
+
+        private static List<Vehicle> ReadXDoc(XDocument xDoc)
+        {
+            return xDoc
+                .Root
+                .Descendants("Car")
+                .Where(e =>
+                    e.Attribute("Make").Value.Contains("BMW"))
+                .Select(e => new Vehicle
+                {
+                    Make = e.Attribute("Make").Value,
+                    Model = e.Attribute("Model").Value,
+                    Transmission = e.Attribute("Transmission").Value,
+                    Drive = e.Attribute("Drive").Value,
+                    Engine = e.Attribute("Engine").Value.ToFloat(),
+                    Cylinders = e.Attribute("Cylinders").Value.ToInt(),
+                    HighwayMpg = e.Element("Consumption").Attribute("Highway").Value.ToInt(),
+                    CityMpg = e.Element("Consumption").Attribute("City").Value.ToInt(),
+                    CombinedMpg = e.Element("Consumption").Attribute("Combined").Value.ToInt(),
+                })
+                .ToList();
         }
 
         private static void CreateXDocWithAttributes(List<Vehicle> vehicles)
@@ -61,5 +86,16 @@ namespace XML
 
             xDoc.Save(new FileStream(@"..\..\..\vehiclesWithElements.xml", FileMode.OpenOrCreate));
         }
+    }
+
+    internal static class PrimitiveExt
+    {
+        public static int ToInt(this string self) => int.Parse(self);
+
+        public static double ToDouble(this string self) => double.Parse(self);
+
+        public static float ToFloat(this string self) => float.Parse(self);
+
+        public static decimal ToDecimal(this string self) => decimal.Parse(self);
     }
 }
