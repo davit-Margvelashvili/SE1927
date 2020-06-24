@@ -1,47 +1,38 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Reflection;
+using System.Text;
 
 namespace XmlSerializer
 {
-    public class Student
-    {
-        [MaxLength(20)]
-        public string FirstName { get; set; }
-
-        [MaxLength(30)]
-        public string LastName { get; set; }
-
-        [Range(16, 60)]
-        public int Age { get; set; }
-    }
-
     internal class Program
     {
         private static void Main()
         {
-            var student = new Student
+            List<Employee> employees = new List<Employee>
             {
-                Age = 77,
-                FirstName = "Zura",
-                LastName = "Kusrashvili"
+                new Employee
+                {
+                    Id = 1,
+                    FirstName = "Gia",
+                    LastName = "Bagashvili",
+                    Email = "Gia@gmail.com",
+                    Gender = "Male",
+                    Account = new Account
+                    {
+                        Id = 1,
+                        Balance = 1024m,
+                        Currency = "GEL",
+                        Iban = "GB3129832183913289381283"
+                    }
+                },
+                new Employee {Id = 2, FirstName = "Jemal", LastName = "Bagashvili", Email = "Jemal@gmail.com", Gender = "Male"},
             };
 
-            var crazyStudent = new Student
-            {
-                Age = 20,
-                FirstName = "Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr.",
-                LastName = "Adolph Blaine Charles David Earl Frederick Gerald Hubert Irvin John Kenneth Lloyd Martin Nero Oliver Paul Quincy Randolph Sherman Thomas Uncas Victor William Xerxes Yancy Zeus "
-            };
-
-            var results = Validate(student);
-            ShowValidationResults(results);
-
-            var otherResult = Validate(crazyStudent);
-            ShowValidationResults(otherResult);
+            var element = XmlSerializer.Serialize(employees);
 
             Console.ReadLine();
         }
