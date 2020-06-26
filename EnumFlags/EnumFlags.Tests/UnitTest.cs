@@ -125,5 +125,11 @@ namespace EnumFlags.Tests
 
         public static string ToBinary(this int self) =>
             $"{Convert.ToString(self, 2).PadLeft(8, '0')}";
+
+        // Add
+
+        // Remove
+
+        // Toggle
     }
 }
