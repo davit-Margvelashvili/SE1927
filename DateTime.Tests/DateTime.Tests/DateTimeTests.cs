@@ -68,5 +68,24 @@ namespace DateTimeTests
         // უნდა ქოონდეს სამუსაო დღეების სია
         // რომლშიც მითითებული იქნება კვირის რომელ დღეს მუშაობენ და რომელი საათიდან რომელ საათამდე
         // თქვენი მიზანია მიმდინარე დროის მიხედვით გაარკვიოთ ამჟამად ღიაა თუ არა ეს ორგანიზაცია.
+
+        [Fact]
+        public void WorkingDayTest()
+        {
+            var organization = new Organization("ItStep", "Shankhai dr.",
+                new WorkingDay(DayOfWeek.Monday, new TimeSpan(10, 0, 0), new TimeSpan(22, 0, 0)),
+                new WorkingDay(DayOfWeek.Tuesday, new TimeSpan(10, 0, 0), new TimeSpan(22, 0, 0)),
+                new WorkingDay(DayOfWeek.Wednesday, new TimeSpan(10, 0, 0), new TimeSpan(22, 0, 0)),
+                new WorkingDay(DayOfWeek.Thursday, new TimeSpan(10, 0, 0), new TimeSpan(22, 0, 0)),
+                new WorkingDay(DayOfWeek.Friday, new TimeSpan(10, 0, 0), new TimeSpan(22, 0, 0)),
+                new WorkingDay(DayOfWeek.Saturday, new TimeSpan(12, 0, 0), new TimeSpan(18, 0, 0))
+            );
+
+            var time1 = DateTime.Parse("2020-6-29T21:39:00+04:00");
+            var time2 = DateTime.Parse("2020-6-29T22:01:00+04:00");
+
+            Assert.True(organization.IsOpenAt(time1));
+            Assert.False(organization.IsOpenAt(time2));
+        }
     }
 }
