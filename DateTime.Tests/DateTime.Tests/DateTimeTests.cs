@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Globalization;
 using Xunit;
 using Xunit.Abstractions;
@@ -63,5 +63,10 @@ namespace DateTimeTests
 
             Output.WriteLine($"{time.Hours}:{time.Minutes}:{time.Seconds}");
         }
+
+        // გააკეთეთ ორგანიზაციის კლასი რომელსაც ექნება სამუშაო განრიგი.
+        // უნდა ქოონდეს სამუსაო დღეების სია
+        // რომლშიც მითითებული იქნება კვირის რომელ დღეს მუშაობენ და რომელი საათიდან რომელ საათამდე
+        // თქვენი მიზანია მიმდინარე დროის მიხედვით გაარკვიოთ ამჟამად ღიაა თუ არა ეს ორგანიზაცია.
     }
 }
