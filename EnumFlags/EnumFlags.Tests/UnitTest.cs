@@ -116,6 +116,54 @@ namespace EnumFlags.Tests
 
             Assert.Equal(expected, shiftedLeft);
         }
+
+        [Fact]
+        public void AddEnumFlag()
+        {
+            var actual = AttackType.Fire.Add(AttackType.Melee);
+            var expected = AttackType.Fire | AttackType.Melee;
+
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void RemoveEnumFlag()
+        {
+            var actual = AttackType.Fire.Add(AttackType.Melee).Add(AttackType.Ice);
+
+            Assert.True(actual.HasFlag(AttackType.Fire));
+            Assert.True(actual.HasFlag(AttackType.Melee));
+            Assert.True(actual.HasFlag(AttackType.Ice));
+
+            actual = actual.Remove(AttackType.Melee);
+
+            Assert.Equal(AttackType.Fire | AttackType.Ice, actual);
+        }
+
+        [Fact]
+        public void RemoveEnumFlagWhenDoesNotHave()
+        {
+            var actual = AttackType.Fire.Add(AttackType.Melee);
+
+            Assert.True(actual.HasFlag(AttackType.Fire));
+            Assert.True(actual.HasFlag(AttackType.Melee));
+
+            actual = actual.Remove(AttackType.Ice);
+
+            Assert.Equal(AttackType.Fire | AttackType.Melee, actual);
+        }
+
+        [Fact]
+        public void ToggleEnumFlag()
+        {
+            var actual = AttackType.Fire.Toggle(AttackType.Ice);
+
+            Assert.True(actual.HasFlag(AttackType.Ice));
+
+            actual = actual.Toggle(AttackType.Ice);
+
+            Assert.False(actual.HasFlag(AttackType.Ice));
+        }
     }
 
     internal static class EnumExt
@@ -125,10 +173,6 @@ namespace EnumFlags.Tests
 
         public static string ToBinary(this int self) =>
             $"{Convert.ToString(self, 2).PadLeft(8, '0')}";
-
-        // Add
-
-        // Remove
 
         // Toggle
     }

@@ -5,7 +5,7 @@ using System.Text;
 namespace EnumFlags
 {
     [Flags]
-    public enum AttackType : byte
+    public enum AttackType
     {
         None = 0,
         Melee = 1, // 0000_0001
